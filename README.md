@@ -3458,7 +3458,7 @@ Validar la usabilidad y efectividad de la plataforma *EDUnova*, asegurando que l
 |-----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Link de video de entrevistas**                          | [Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113111_upc_edu_pe/ERNkA032CM9FiJ7MUAdyGXIBFGNkEVbN7aNAAdnzzkaTsw?e=SRS70s&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 
-A continuación se presentan los detalles clave de las entrevistas realizadas a los usuarios y MYPES del sector de belleza y cuidado personal.
+A continuación se presentan los detalles clave de las entrevistas realizadas a los estudiantes dispuestos a aprender en nuestra plataforma.
 
 | Entrevista 1: Estudiante que quiere aprender             |                                                                                                                                 |
 |----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
@@ -3477,14 +3477,14 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 
 
 
-| Entrevista 2: Usuario se servicios de belleza y cuidado |                                                                                                                                                      |
+| Entrevista 2: Estudiante que quiere aprender |                                                                                                                                                      |
 |---------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nombre Entrevistado                                     | Carlos Villa Cayetano                                                                                                                                |
 | Edad                                                    | 20 Años                                                                                                                                              |
 | Profesión                                               | Estudiante de contabilidad                                                                                                                           |
 | Departamento                                            | Lima, Perú                                                                                                                                           |
 | Minuto de inicio                                        | 12:15 min                                                                                                                                            |
-| Captura de la entrevista                                | <img src="resources/chapter-5/capturaECarlos.png">                                                                                                   |
+| Captura de la entrevista                                | <img src="assets/segmento 1-2.png">                                                                                                   |
 | Búsqueda de servicio                                    | Comenta no haber tenido inconvenientes, pero preferiría quelos filtros ocupen menos espacio en pantalla                                              |
 | Visualización de información del servicio               | Comenta que el dialog es muy grande y que preferiría una imagen más oportuna.                                                                        |
 | Reservar un servicio                                    | Aprecia los mensajes de confirmación pero agradecería visualizar el nombre y un logo distintivo de la compañia.                                      |
@@ -3492,14 +3492,14 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 | Historial y reseña                                      | Preferiría otro título para la sección y menciona que poder arrastrar la imagen hacia la sección de reviews facilitaría el proceso                   |
 | Navegación general                                      | Aprecia mucho la facilidad de uso de la toolbar, sin embargo comenta preferir un sidebar para mayor comodidad de navegación vertical                 |
 
-| Entrevista 3: Usuario de servicios de belleza y cuidado |                                                                                                                               |
+| Entrevista 3: Estudiante que quiere aprender |                                                                                                                               |
 |---------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | Nombre Entrevistado                                     | Aldo Vasquez                                                                                                  |
 | Edad                                                    | 20 Años                                                                                                                       |
 | Profesión                                               | Estudiante de Ingeniería Ambiental                                                                                                    |
 | Departamento                                            | Lima, Perú                                                                                                                    |
 | Minuto de inicio                                        | 18:14 min                                                                                                                     |
-| Captura de la entrevista                                |        <img src="resources/chapter-5/capturaEAldo.png">                                                                                                                          |
+| Captura de la entrevista                                |        <img src="assets/segmento 1-3.png">                                                                                                                          |
 | Búsqueda de servicio                                    | Encuentra el catálogo fácil de navegar y bien organizado, pero sugiere una barra de búsqueda más destacada y filtros específicos. |
 | Visualización de información del servicio               | Considera que la información es clara, pero le gustaría ver reseñas y calificaciones en cada servicio para decidir rápidamente. |
 | Reservar un servicio                                    | Comenta que es sencillo iniciar la reserva; sin embargo, el selector de horarios podría ser más intuitivo. |
@@ -3507,7 +3507,7 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 | Historial y reseña                                      | Encuentra el historial fácil de acceder, pero sugiere agregar opciones de filtro para organizar reservas pasadas por fecha o tipo de servicio. |
 | Navegación general                                      | Destaca la utilidad del toolbar, sin mayores sugerencias al respecto.                                                         |
 
-A continuación se presentan los detalles clave de las entrevistas realizadas a las MYPES y emprendedores del sector de belleza y cuidado personal.
+A continuación se presentan los detalles clave de las entrevistas realizadas a usuarios dispuestos a crear cursos en nuestra plataforma.
 
 | Entrevista 1: Creador de contenido|                                                                                                                         |
 |------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
@@ -3525,14 +3525,14 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 
 
 
-| Entrevista 2: Mypes o emprendedores |                                                                                                                         |
+| Entrevista 2: Creador de contenido |                                                                                                                         |
 |------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | **Nombre Entrevistado**            | Flavio Gallardo                                                                                                               |
 | **Edad**                           | 20 Años                                                                                                                |
 | **Profesión**                      | Dueño de centro de belleza independiente                                                                                           |
 | **Departamento**                   | Lima, Perú                                                                                                             |
 | **Minuto de inicio**               | 29:11 min                                                                                                              |
-| Captura de la entrevista           |      <img src="resources/chapter-5/capturaEFlavio.png">                                                                                                                      |
+| Captura de la entrevista           |      <img src="assets/segmento 2-2.png">                                                                                                                      |
 | **Visualización de Perfil**        | El perfil es claro, pero Flavio desearía que fuera más dinámico y visual para atraer mejor la atención de los clientes. |
 | **Manejo de servicios**            | La creación de servicios le resulta fácil, aunque le gustaría más opciones de personalización, como intervalos de tiempo predefinidos. |
 | **Gestión de reservas**            | Encuentra funcional la gestión de reservas, pero preferiría tener un calendario visual con todas las citas pendientes para facilitar el seguimiento. |
@@ -3540,14 +3540,14 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 | **Navegación general**             | La navegación es sencilla, aunque le gustaría que fuera más rápida y con menos pasos entre secciones. |
 
 
-| Entrevista 3: Mypes o emprendedores |                                                                                                                         |
+| Entrevista 3: Creador de contenido |                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | **Nombre Entrevistado**             | Juan Esteban                                                                                                              |
 | **Edad**                            | 20 Años                                                                                                                |
 | **Profesión**                       | Dueño de centro de belleza independiente                                                                                              |
 | **Departamento**                    | Lima, Perú                                                                                                         |
 | **Minuto de incio**                     | 31:41 min                                                                                                              |
-| Captura de la entrevista            |      <img src="resources/chapter-5/capturaEJuan.png">                                                                                                                      |
+| Captura de la entrevista            |      <img src="assets/segmento 2-3.png">                                                                                                                      |
 | **Visualización de Perfil**         | Considera que el perfil es claro y fácil de leer, aunque cree que añadir una breve descripción o imagen destacada junto a cada servicio lo haría más atractivo. |
 | **Manejo de servicios**             | Encuentra sencillo el proceso de crear servicios, pero preferiría poder hacer cambios rápidos desde la lista general, sin necesidad de editar cada servicio por separado. |
 | **Gestión de reservas**             | Comenta que la gestión de reservas es práctica, aunque le gustaría tener un tablero de control que muestre un resumen de las reservas activas. |
