@@ -190,10 +190,10 @@
       - [5.2.2.6.Services Documentation Evidence for Sprint Review.](#5226services-documentation-evidence-for-sprint-review)
       - [5.2.2.7.Software Deployment Evidence for Sprint Review.](#5227software-deployment-evidence-for-sprint-review)
       - [5.2.2.8.Team Collaboration Insights during Sprint.](#5228team-collaboration-insights-during-sprint)
-    - [5.2.3. Sprint 2](#523-sprint-2)
-      - [5.2.3.1.Sprint Planning 2.](#5231sprint-planning-2)
+    - [5.2.3. Sprint 3](#523-sprint-3)
+      - [5.2.3.1.Sprint Planning 2.](#5231sprint-planning-3)
       - [5.2.3.2. Aspect Leaders and Collaborators.](#5232-aspect-leaders-and-collaborators)
-      - [5.2.3.3.Sprint Backlog 2.](#5233sprint-backlog-2)
+      - [5.2.3.3.Sprint Backlog 2.](#5233sprint-backlog-3)
       - [5.2.3.4.Development Evidence for Sprint Review.](#5234development-evidence-for-sprint-review)
       - [5.2.3.5.Execution Evidence for Sprint Review.](#5235execution-evidence-for-sprint-review)
       - [5.2.3.6.Services Documentation Evidence for Sprint Review.](#5236services-documentation-evidence-for-sprint-review)
@@ -2883,14 +2883,14 @@ Durante este sprint, las tareas de diseño, implementación y documentación del
 ![image.png](./assets/CollaborationSprint2.png)
 
 
-### 5.2.3. Sprint 2
-#### 5.2.3.1.Sprint Planning 2.
+### 5.2.3. Sprint 3
+#### 5.2.3.1.Sprint Planning 3.
 Un sprint es un período breve y organizado en el que se ejecutan tareas específicas dentro de un proyecto, aplicando metodologías ágiles como Scrum. El Sprint #2, que comenzó el 6 de mayo de 2025, tiene como objetivo implementar la estructura funcional del frontend web de la plataforma Edunova, enfocándose en accesibilidad, diseño responsivo y experiencia del usuario. Se espera lograr una navegación fluida que pueda ser evaluada positivamente por usuarios y empresas aliadas.
 
 <table>
      <tr> 
         <th>  Sprint #  </th>
-        <th> Sprint 2 </th>
+        <th> Sprint 3 </th>
      </tr>
      <tr> 
         <td style="font-weight: bold;" colspan="7"> Sprint Planning Background</td>
