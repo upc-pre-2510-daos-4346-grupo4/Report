@@ -55,6 +55,9 @@
 |TB1| 25/04/2025| - Esteban alvarez|Realice el user persona para definir los perfiles de usuario que tenemos|
 |TB1| 25/04/2025| - Diego Acuña|Realice el Empathy map para mostrar las diferentes etapas de nuestros usuarios|
 |TB1| 25/04/2025| - Cristian Iparraguirre|Desarrolle el Web Applications UX/UI Design en conjunto a mi compañero Diego acuña para demostrar las diferentes interfaces de nuestro sistema|
+|TB2| 20/06/2025| - Tony Torres|Desarrolle el apartado de perfiles siguiendo lineamiento DDD|
+|TB2| 20/06/2025| - Tony Torres|Realice correciones y mejora continua en base a observaciones/feedbacks dados en entregas previas|
+|TB2| 20/06/2025| - Tony Torres|Realice modificaciones al presente documento luego de analizar la deficiencias que teniamos.|
 
 # Project Report Collaboration Insights
 
