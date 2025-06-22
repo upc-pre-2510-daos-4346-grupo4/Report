@@ -3286,44 +3286,48 @@ A continuación, se presenta una tabla con los endpoints documentados, organizad
 
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 
-- ¿Cómo desplegué la aplicación en Firebase?
+- ¿Cómo realicé el despliegue de la aplicación en Firebase?
 
-Para desplegar la aplicación en Firebase, primero construí el proyecto Angular desde el terminal del IDE con el siguiente comando:
+Para desplegar la aplicación, lo primero que hice fue compilar el proyecto Angular desde el terminal del IDE ejecutando:
+
 
 ```
 ng build
 ```
-Ingrese a la página de Firebase (https://firebase.google.com/) 
+Luego accedí al sitio web de Firebase: [https://firebase.google.com/](https://firebase.google.com/)  
+Inicié sesión haciendo clic en `sign in` (ubicado en la parte superior derecha) e ingresé con mi cuenta de Google.
 
-Hice click en `sign in` ubicado en la parte superior derecha de la pantalla. luego ingrese mis credenciales de Google para ingresar a Firebase.
+Para crear un nuevo proyecto en Firebase seguí estos pasos:
 
-Despues segui los siguientes pasos para crear un nuevo `Firebase projects`:
-- Click en `Go to console` ubicada en la parte superior derecha de la pantalla.
-- Click en `Add project` ubicada en la parte media de la pantalla.
-- Ingrese el nombre del proyecto: `daos-codigo-learning-center` y haga click en `Continue`.
-- Desmarque el check `Enable Google Analytics for this project` y haga click en `Create project`.
-- Espere mientras se crea el proyecto.
-- Le mostrará el mensaje `Your Firebase project is ready` y finalmente haga click `Continue`.
+- Ingresé a la consola con `Go to console`.
+- Seleccioné `Add project`.
+- Le asigné el nombre `daos-codigo-learning-center`.
+- Desactivé la opción `Enable Google Analytics for this project`.
+- Presioné `Create project` y esperé hasta que Firebase mostrara el mensaje `Your Firebase project is ready`.
+- Finalmente, hice clic en `Continue`.
 
-Y segui los siguientes pasos para crear el Hosting:
-- En el menu ubicado en la parte izquierda central de la pantalla, haga click en `Build` y luego haga click en `Hosting`.
-- Haga click en `Get started` ubicada en la parte central de la pantalla.
-- Ahi encontraras los siguientes pasos: Install Firebase CLI, Initialize your project y Deploy to Firebase Hosting.
-- Siga los pasos en el orden que indica.
+Después configuré el servicio de Hosting con los siguientes pasos:
 
+- En el menú lateral, seleccioné `Build` y luego `Hosting`.
+- Hice clic en `Get started`, donde se mostraron las etapas: instalación del CLI, inicialización del proyecto y despliegue.
+- Seguí las instrucciones en el orden indicado.
 
-Cargue el `Terminal` del IDE y ejecute la siguiente instrucción: 
+Desde el terminal, instalé las herramientas necesarias ejecutando:
 ```
 npm install -g firebase-tools
 ```
-Luego ejecute la siguiente instrucción: 
+
+A continuación, inicié sesión con:
 ```
 firebase login
 ```
 
-En el `Terminal` del IDE ejecute la siguiente instrucción: 
+Cuando el sistema preguntó si quería compartir estadísticas de uso, respondí `n`.  
+Luego, en el navegador, seleccioné mi cuenta de Google, autoricé los permisos y confirmé el mensaje `Firebase CLI Login Successful`.
+
+Después ejecuté la inicialización del proyecto con:
 ```
-firebase login
+firebase init
 ```
 
 A la pregunta `Allow Firebase to collect CLI and Emulator Suite usage and error reporting information? (Y/n)`, respondi: `n`.
@@ -3340,21 +3344,24 @@ En el `Terminal` del IDE ejecute la siguiente instrucción:
 firebase init
 ```
 
-Caragará el Firebase y respondi a las siguientes preguntas de la siguiente manera:
-- `Are you ready to proceed? (Y/n)`, responder: `Y`
-- `Which Firebase features do you want to set up for this directory? Press Space to select features, then Enter to confirm your choices.`, Seleccione: `Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys` con el `<space>` y presione `<enter>`.
-- `Please select an option:`, seleccione `Use an existing project`.
-- `Select a default Firebase project for this directory`: seleccione `daos-codigo-learning-center (daos-codigo-learning-center)`.
-- `What do you want to use as your public directory? (public)`, ingrese la siguiente dirección: `dist/daos-ws53-learning-center/browser`, ingrese el valor correcto. 
-- `Configure as a single-page app (rewrite all urls to /index.html)? (y/N)`, responda: `Y`.
-- `Set up automatic builds and deploys with GitHub? (y/N)`, responda: `N`.
-- `File dist/daos-ws53-learning-center/browser/index.html already exists. Overwrite? (y/N)`, responda: `n`.
+Durante el proceso de configuración, respondí lo siguiente:
 
-Para finalizar, en el `Terminal` del IDE ejecute la siguiente instrucción: 
+- `Are you ready to proceed?` → `Y`
+- Seleccioné: `Hosting: Configure files for Firebase Hosting...` con `space` y confirmé con `enter`.
+- Elegí: `Use an existing project`.
+- Seleccioné el proyecto: `daos-codigo-learning-center`.
+- Como carpeta pública ingresé: `dist/daos-ws53-learning-center/browser`
+- Confirmé que es una SPA con: `Y`
+- Rechacé la configuración automática con GitHub: `N`
+- Y cuando se me preguntó si deseaba sobrescribir el archivo `index.html`, respondí: `n`
+
+Para finalizar el proceso, ejecuté el despliegue con:
+
+
 ```
 firebase deploy
 ```
-La aplicación se desplego en:
+La aplicación quedó publicada correctamente en:
 ```
 http://edunova-frontend.web.app
 ```
