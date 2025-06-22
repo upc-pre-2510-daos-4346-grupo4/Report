@@ -3286,38 +3286,78 @@ A continuación, se presenta una tabla con los endpoints documentados, organizad
 
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 
-En la entrega correspondiente al segundo sprint, se realizaron despliegues individuales de las secciones de la aplicación web Frontend en Firebase, logrando que cada una sea completamente funcional e incluyendo algunas funcionalidades completas de usuario.
+- ¿Cómo desplegué la aplicación en Firebase?
 
-<table>
-     <tr> 
-        <th>  URL  </th>
-        <th> BC </th>
-     </tr>
-     <tr>
-      <td>https://edunova-frontend.web.app/publishing/courses</td>
-      <td>publishing/courses</td>
-     </tr>     
-</table>
+Para desplegar la aplicación en Firebase, primero construí el proyecto Angular desde el terminal del IDE con el siguiente comando:
 
-<h4>Landing Page</h4>
+```
+ng build
+```
+Ingrese a la página de Firebase (https://firebase.google.com/) 
 
-![Evidence](assets/sprint2L1.png)
-![Evidence](assets/sprint2L2.png)
-![Evidence](assets/sprint2L3.png)
-![Evidence](assets/sprint2L4.png)
-![Evidence](assets/sprint2L5.png)
-URL: https://upc-pre-2510-daos-4346-grupo4.github.io/LandingPage/
+Hice click en `sign in` ubicado en la parte superior derecha de la pantalla. luego ingrese mis credenciales de Google para ingresar a Firebase.
+
+Despues segui los siguientes pasos para crear un nuevo `Firebase projects`:
+- Click en `Go to console` ubicada en la parte superior derecha de la pantalla.
+- Click en `Add project` ubicada en la parte media de la pantalla.
+- Ingrese el nombre del proyecto: `daos-codigo-learning-center` y haga click en `Continue`.
+- Desmarque el check `Enable Google Analytics for this project` y haga click en `Create project`.
+- Espere mientras se crea el proyecto.
+- Le mostrará el mensaje `Your Firebase project is ready` y finalmente haga click `Continue`.
+
+Y segui los siguientes pasos para crear el Hosting:
+- En el menu ubicado en la parte izquierda central de la pantalla, haga click en `Build` y luego haga click en `Hosting`.
+- Haga click en `Get started` ubicada en la parte central de la pantalla.
+- Ahi encontraras los siguientes pasos: Install Firebase CLI, Initialize your project y Deploy to Firebase Hosting.
+- Siga los pasos en el orden que indica.
 
 
-<h4>Frontend</h4>
+Cargue el `Terminal` del IDE y ejecute la siguiente instrucción: 
+```
+npm install -g firebase-tools
+```
+Luego ejecute la siguiente instrucción: 
+```
+firebase login
+```
 
-Publicación de cursos para su venta
-![Evidence](assets/sprint2Course1.png)
-![Evidence](assets/sprint2course2.png)
-![Evidence](assets/sprint2Course4.png)
-![Evidence](assets/sprint2Course5.png)
+En el `Terminal` del IDE ejecute la siguiente instrucción: 
+```
+firebase login
+```
 
-URL: https://edunova-frontend.web.app/publishing/courses
+A la pregunta `Allow Firebase to collect CLI and Emulator Suite usage and error reporting information? (Y/n)`, respondi: `n`.
+
+Cargo el Navegador Web con las siguientes indicaciones: 
+- `Choose an account to continue to Firebase CLI`, seleccione la cuenta donde creo el proyecto.
+- `Sign in to Firebase CLI`, haga click en `Continue`.
+- `Firebase CLI wants to access your Google Account`, haga click en `Allow`.
+- Le aparecerá el mensaje: `Firebase CLI Login Successful`.
+- En el Terminal del IDE debe de aparecerle el siguiente mensaje: `Success! Logged in as ....`
+
+En el `Terminal` del IDE ejecute la siguiente instrucción: 
+```
+firebase init
+```
+
+Caragará el Firebase y respondi a las siguientes preguntas de la siguiente manera:
+- `Are you ready to proceed? (Y/n)`, responder: `Y`
+- `Which Firebase features do you want to set up for this directory? Press Space to select features, then Enter to confirm your choices.`, Seleccione: `Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys` con el `<space>` y presione `<enter>`.
+- `Please select an option:`, seleccione `Use an existing project`.
+- `Select a default Firebase project for this directory`: seleccione `daos-codigo-learning-center (daos-codigo-learning-center)`.
+- `What do you want to use as your public directory? (public)`, ingrese la siguiente dirección: `dist/daos-ws53-learning-center/browser`, ingrese el valor correcto. 
+- `Configure as a single-page app (rewrite all urls to /index.html)? (y/N)`, responda: `Y`.
+- `Set up automatic builds and deploys with GitHub? (y/N)`, responda: `N`.
+- `File dist/daos-ws53-learning-center/browser/index.html already exists. Overwrite? (y/N)`, responda: `n`.
+
+Para finalizar, en el `Terminal` del IDE ejecute la siguiente instrucción: 
+```
+firebase deploy
+```
+La aplicación se desplego en:
+```
+http://edunova-frontend.web.app
+```
 
 #### 5.2.3.8.Team Collaboration Insights during Sprint.
 Durante este sprint, las tareas de diseño, implementación y documentación del frontend fueron asignadas entre los miembros del equipo.
