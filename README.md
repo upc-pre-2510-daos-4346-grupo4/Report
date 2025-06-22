@@ -55,6 +55,9 @@
 |TB1| 25/04/2025| - Esteban alvarez|Realice el user persona para definir los perfiles de usuario que tenemos|
 |TB1| 25/04/2025| - Diego Acuña|Realice el Empathy map para mostrar las diferentes etapas de nuestros usuarios|
 |TB1| 25/04/2025| - Cristian Iparraguirre|Desarrolle el Web Applications UX/UI Design en conjunto a mi compañero Diego acuña para demostrar las diferentes interfaces de nuestro sistema|
+|TB2| 20/06/2025| - Tony Torres|Desarrolle el apartado de perfiles siguiendo lineamiento DDD|
+|TB2| 20/06/2025| - Tony Torres|Realice correciones y mejora continua en base a observaciones/feedbacks dados en entregas previas|
+|TB2| 20/06/2025| - Tony Torres|Realice modificaciones al presente documento luego de analizar la deficiencias que teniamos.|
 
 # Project Report Collaboration Insights
 
@@ -190,6 +193,29 @@
       - [5.2.2.6.Services Documentation Evidence for Sprint Review.](#5226services-documentation-evidence-for-sprint-review)
       - [5.2.2.7.Software Deployment Evidence for Sprint Review.](#5227software-deployment-evidence-for-sprint-review)
       - [5.2.2.8.Team Collaboration Insights during Sprint.](#5228team-collaboration-insights-during-sprint)
+    - [5.2.3. Sprint 3](#523-sprint-3)
+      - [5.2.3.1.Sprint Planning 3.](#5231sprint-planning-3)
+      - [5.2.3.2. Aspect Leaders and Collaborators.](#5232-aspect-leaders-and-collaborators)
+      - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
+      - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5.Execution Evidence for Sprint Review.](#5235execution-evidence-for-sprint-review)
+        - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7.Software Deployment Evidence for Sprint Review.](#5237software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8.Team Collaboration Insights during Sprint.](#5238team-collaboration-insights-during-sprint)
+    - [5.3. Validation Interviews](#53-validation-interviews)
+    - [5.3.1 Diseño de Entrevistas](#531-diseño-de-entrevistas)
+      - [*Objetivo de la Entrevista*](#objetivo-de-la-entrevista)
+      - [*Elementos de Validación*](#elementos-de-validación)
+      - [*User Flows a Validar*](#user-flows-a-validar)
+      - [*Formato de Registro de la Entrevista*](#formato-de-registro-de-la-entrevista)
+      - [*Preguntas para el Segmento Estudiantes*](#preguntas-para-el-segmento-estudiantes)
+      - [*Preguntas para el Segmento Docentes*](#preguntas-para-el-segmento-docentes)
+        - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+      - [*UX Heuristics \& Principles Evaluation*](#ux-heuristics--principles-evaluation)
+      - [*Escala de Severidad*](#escala-de-severidad)
+      - [*Tabla Resumen*](#tabla-resumen)
+    - [5.4. Video About-the-Product](#54-video-about-the-product)
   - [Conclusiones](#conclusiones)
   - [Recomendaciones](#recomendaciones)
   - [Bibliografía](#bibliografía)
@@ -198,8 +224,8 @@
 # Student Outcome
 | **Criterio Específico**                                           | **Acciones Realizadas** | **Conclusiones** |
 |-------------------------------------------------------------------|--------------------------|------------------|
-| **Comunica oralmente con efectividad a diferentes rangos de audiencia** | **Diego Acuña**<br>**TP:**<br>Al realizar el apartado de header, footer requerimos de constante comunicación oral con los demás integrantes del grupo para alinear funcionalidades y validar requerimientos, además de participar activamente en la resolución del documento.<br><br>**Tony Torres**<br>**TP:**<br>Por mi parte, realicé el apartado de perfil asegurando una comunicación continua con mi grupo para enfatizar y priorizar las características principales que debe tener este apartado tan importante de nuestro proyecto.<br><br>**Cristian Iparraguirre**<br>**TP:**<br>Cumplí con la competencia designada al completar mi apartado Seguir cursos, entablando comunicación activa entre mi grupo para coincidir en componentes y materiales usados para el desarrollo de este.<br><br>**Esteban Álvarez**<br>**TP:**<br>Gracias al desarrollo del apartado Búsqueda de filtro, he podido cumplir satisfactoriamente esta competencia del curso al coordinar con mis compañeros de grupo las funciones y requerimientos que requerimos para completar este apartado del proyecto.<br><br>**Jhon Guerrero**<br>**TP:**<br>Para esta entrega, me encargué de la corrección de errores y realización del apartado de interfaz principal manteniendo una comunicación continua con mis compañeros de equipo para coordinar funcionalidades y componentes utilizados cumpliendo de tal manera la competencia del curso. | En EDUnova priorizamos siempre la comunicación oralmente ya que al realizar un trabajo minimalista que aporte ayuda a pequeñas empresas es importante tener lineamientos y esquemas para funciones y/o futuras implementaciones claras para no generar conflictos entre los apartados que desarrolle el equipo de manera autónoma. |
-| **Comunica por escrito con efectividad a diferentes rangos de audiencia** | **Diego Acuña**<br>**TP:**<br>Para el cumplimiento de esta competencia, realicé diferentes revisiones y modificaciones a nuestra documentación técnica refiriéndonos tanto a nuestra interfaz inicial como los apartados de Header y Footer.<br><br>**Tony Torres**<br>**TP:**<br>Cumpliendo con la competencia, mantuve una comunicación escrita al realizar reportes sobre las funcionalidades del apartado perfil, aportando así significativamente a la elaboración de descripciones y requisitos.<br><br>**Cristian Iparraguirre**<br>**TP:**<br>Registré diferentes cambios y observaciones sobre el apartado Seguir Cursos mediante mensajes escritos describiendo así los componentes y materiales utilizados.<br><br>**Esteban Álvarez**<br>**TP:**<br>Coordinamos por escrito los diferentes requerimientos funcionales de los distintos módulos de los que dispone nuestra aplicación permitiéndome cumplir la competencia.<br><br>**Jhon Guerrero**<br>**TP:**<br>Debido a que completé las correcciones de pasadas entregas y me encargué del desarrollo de la interfaz inicial, registré los diferentes cambios y/o mejoras del proyecto de manera escrita para poder entregar un trabajo sólido, pulido y renovado cumpliendo así la competencia del curso. | Consideramos que la comunicación escrita fue clave para lograr nuestro proyecto, ya que es de vital importancia documentar los diferentes cambios y registros por los que pasa nuestro proyecto para garantizar sinergia entre funciones actuales y funciones futuras manteniendo un código y una documentación legible y profesional. |
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia** | **Diego Acuña**<br>**TP:**<br>Al realizar el apartado de header, footer requerimos de constante comunicación oral con los demás integrantes del grupo para alinear funcionalidades y validar requerimientos, además de participar activamente en la resolución del documento.<br><br>**Tony Torres**<br>**TP:**<br>Por mi parte, realicé el apartado de perfil asegurando una comunicación continua con mi grupo para enfatizar y priorizar las características principales que debe tener este apartado tan importante de nuestro proyecto.<br>**Tb2:**<br>Para la presenta entrega, consiedero que cumpli un rol oralmente con efectividad ya que nos enfocamos mucho en transmitir lo que hace nuestra pagina y en los diferentes puntos de mejora que tiene nuestro producto.<br><br>**Cristian Iparraguirre**<br>**TP:**<br>Cumplí con la competencia designada al completar mi apartado Seguir cursos, entablando comunicación activa entre mi grupo para coincidir en componentes y materiales usados para el desarrollo de este.<br><br>**Esteban Álvarez**<br>**TP:**<br>Gracias al desarrollo del apartado Búsqueda de filtro, he podido cumplir satisfactoriamente esta competencia del curso al coordinar con mis compañeros de grupo las funciones y requerimientos que requerimos para completar este apartado del proyecto.<br><br>**Jhon Guerrero**<br>**TP:**<br>Para esta entrega, me encargué de la corrección de errores y realización del apartado de interfaz principal manteniendo una comunicación continua con mis compañeros de equipo para coordinar funcionalidades y componentes utilizados cumpliendo de tal manera la competencia del curso. | En EDUnova priorizamos siempre la comunicación oralmente ya que al realizar un trabajo minimalista que aporte ayuda a pequeñas empresas es importante tener lineamientos y esquemas para funciones y/o futuras implementaciones claras para no generar conflictos entre los apartados que desarrolle el equipo de manera autónoma. |
+| **Comunica por escrito con efectividad a diferentes rangos de audiencia** | **Diego Acuña**<br>**TP:**<br>Para el cumplimiento de esta competencia, realicé diferentes revisiones y modificaciones a nuestra documentación técnica refiriéndonos tanto a nuestra interfaz inicial como los apartados de Header y Footer.<br><br>**Tony Torres**<br>**TP:**<br>Cumpliendo con la competencia, mantuve una comunicación escrita al realizar reportes sobre las funcionalidades del apartado perfil, aportando así significativamente a la elaboración de descripciones y requisitos.<br>**Tb2:**<br>En esta entrega cumplu satisfactoriamente los diferentes topicos impuestos inicialmente ya que realizamos un reporte detallado sobre las incidencias, mejoras, sugerencias y puntos fuertes que tiene nuestro producto frente a su compentencia. Enfatizando siempre en que hubo reflexion grupal sobre como abordar estas oportunidades de mejora.<br><br>**Cristian Iparraguirre**<br>**TP:**<br>Registré diferentes cambios y observaciones sobre el apartado Seguir Cursos mediante mensajes escritos describiendo así los componentes y materiales utilizados.<br><br>**Esteban Álvarez**<br>**TP:**<br>Coordinamos por escrito los diferentes requerimientos funcionales de los distintos módulos de los que dispone nuestra aplicación permitiéndome cumplir la competencia.<br><br>**Jhon Guerrero**<br>**TP:**<br>Debido a que completé las correcciones de pasadas entregas y me encargué del desarrollo de la interfaz inicial, registré los diferentes cambios y/o mejoras del proyecto de manera escrita para poder entregar un trabajo sólido, pulido y renovado cumpliendo así la competencia del curso. | Consideramos que la comunicación escrita fue clave para lograr nuestro proyecto, ya que es de vital importancia documentar los diferentes cambios y registros por los que pasa nuestro proyecto para garantizar sinergia entre funciones actuales y funciones futuras manteniendo un código y una documentación legible y profesional. |
 
 # Capítulo I: Introducción
 ## 1.1. Startup Profile.
@@ -2869,6 +2895,749 @@ Durante este sprint, las tareas de diseño, implementación y documentación del
 ![image.png](./assets/CollaborationSprint2.png)
 
 
+### 5.2.3. Sprint 3
+#### 5.2.3.1.Sprint Planning 3.
+Un sprint es un período breve y organizado en el que se ejecutan tareas específicas dentro de un proyecto, aplicando metodologías ágiles como Scrum. El Sprint #3, que comenzó el 14 de junio de 2025, tiene como objetivo añadir y reforzar cada bounded context del frontend web de la plataforma Edunova, enfocándose en accesibilidad, diseño responsivo y experiencia del usuario y concluyendo con su despligue final hasta la fecha, además, se conectara a un MockAPI simulando respuestas del backend. Se espera lograr una navegación fluida que pueda ser evaluada positivamente por usuarios y empresas aliadas.
+
+<table>
+     <tr> 
+        <th>  Sprint #  </th>
+        <th> Sprint 3 </th>
+     </tr>
+     <tr> 
+        <td style="font-weight: bold;" colspan="7"> Sprint Planning Background</td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Date </td>
+       <td> 06/05/2025 </td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Time </td>
+       <td> 18:00 horas (GMT-5) </td>
+     </tr>
+     <tr>
+       <td style="font-weight: bold;"> Location </td>
+       <td> Modalidad remota a través de Discord </td>
+     </tr>
+      <tr>
+        <td style="font-weight: bold;"> Prepared By </td>
+        <td> Acuña Tomas, Diego Rolin </td>
+     </tr>
+        <tr>
+        <td style="font-weight: bold;"> Attendees (to planning meeting) </td>
+        <td> 
+            <br>
+             Acuña Tomas, Diego Rolin
+            <br>
+             Alvarez Falen, Esteban Valentino
+            <br>
+             Iparraguirre Rueda, Cristian Luis
+            <br>
+             Torres Cortez, Tony Do Santos
+        </td>
+     </tr>
+     <tr>
+        <td style="font-weight: bold;"> Sprint 2 Review Summary </td>
+        <td> Se completó exitosamente la construcción de la landing page y frontend incluyendo navegación, login simulado y secciones informativas. El equipo logró desplegar el primer entregable en GitHub y firebase con acceso público. </td>
+     </tr>
+     <tr>
+        <td style="font-weight: bold;"> Sprint 2 Retrospective Summary </td>
+        <td> Se identificaron oportunidades de mejora en la distribución de tareas y estimación de tiempos. Se decidió reforzar la comunicación interna y adoptar criterios de diseño unificados para mejorar la cohesión visual. </td>
+     </tr>
+     <tr> 
+        <td style="font-weight: bold;" colspan="7"> Sprint Goal & User Stories</td>
+     </tr>
+       <tr>
+          <td style="font-weight: bold;"> Sprint 3 Goal</td>
+          <td> En este sprint, el objetivo es construir el frontend del módulo de estudio (bounded contexts Studying, Publishing y Presenting) con Angular 19.2.10, incluyendo componentes como tabs, paginator, dialog, cards dinámicas y menú contextual, además de integración de internacionalización y simulación de base de datos con `db.json`. </td>
+      </tr>
+       <tr>
+          <td style="font-weight: bold;"> Sprint 3 Velocity </td>
+          <td> 40 </td>
+      </tr>
+      <tr>
+          <td style="font-weight: bold;"> Sum of Story Points </td>
+          <td> 40 </td>
+      </tr>
+</table>
+
+#### 5.2.3.2. Aspect Leaders and Collaborators.
+
+Durante este tercer sprint, el equipo se enfocó en **consolidar el desarrollo completo del frontend**, abarcando todos los **bounded contexts** definidos en la arquitectura del sistema. Se realizó el **despliegue final del frontend**, ahora conectado a un **MockAPI** que simula el comportamiento del backend, lo cual permitió validar la integración de los flujos principales de la aplicación en un entorno más cercano al real.
+
+A la par, se avanzó en la planificación y desarrollo de la primera versión de los **web services**, sentando las bases del backend y coordinando su futura integración con el frontend.
+
+Los aspectos abordados en este sprint fueron organizados por bounded contexts y tareas transversales:
+
+- **Full Frontend Deployment**: Integración y despliegue de todos los módulos funcionales del frontend.
+- **MockAPI Integration**: Configuración de endpoints simulados para pruebas funcionales.
+- **Web Services Planning**: Estructura inicial y definición de endpoints reales para el backend.
+- **Refinamiento UI/UX**: Ajustes finales de diseño visual, responsividad y experiencia de usuario.
+- **Intercontext Sync**: Coordinación entre distintos módulos (perfil, login, cursos, progreso, etc.).
+- **Bug Fixes & Testing**: Corrección de errores y pruebas funcionales de los componentes desplegados.
+
+A continuación, se presenta la **Leadership and Collaboration Matrix (LACX)** del Sprint 3:
+
+| Team Member (Last Name, First Name)     | GitHub Username         | Full Frontend Deployment | MockAPI Integration | Web Services Planning | Refinamiento UI/UX | Intercontext Sync | Bug Fixes & Testing |
+|----------------------------------------|--------------------------|----------------------------|----------------------|-------------------------|---------------------|---------------------|------------------------|
+| Acuña Tomas, Diego Rolin               | ComidaRapida007         | L                          | L                    | L                       | L                   | L                   | L                      |
+| Alvarez Falen, Esteban Valentino       | EstebanAlvarez1402      | C                          | C                    | C                       | C                   | C                   | C                      |
+| Iparraguirre Rueda, Cristian Luis      | cristianipa7            | C                          | C                    | C                       | C                   | C                   | C                      |
+| Torres Cortez, Tony Do Santos          | TonyTorresC             | C                          | C                    | C                       | C                   | C                   | C                      |
+
+Esta matriz fue definida en conjunto durante la sesión de Sprint Planning y ha sido clave para mantener la trazabilidad de responsabilidades. Además, facilitó la integración de los distintos aspectos técnicos del sistema y promovió una colaboración ágil y efectiva entre los miembros del equipo.
+
+
+#### 5.2.3.3. Sprint Backlog 3
+
+Durante este tercer sprint, el equipo consolidó el desarrollo del **frontend completo de EDUnova**, logrando su **despliegue final** con todos los bounded contexts integrados y conectados a una **MockAPI** para simular las respuestas del backend. Esta implementación permitió probar de manera integral la experiencia de usuario y los principales flujos funcionales en un entorno realista.
+
+Además, se completó el diseño de los **dominios de negocio** (basados en DDD) y se iniciaron los trabajos del backend, sentando las bases para el desarrollo de los **servicios web** que permitirán la conexión con una base de datos real en los próximos sprints.
+
+Entre los avances clave, se destacan la mejora visual de la **landing page**, la creación del módulo de gestión de cursos para instructores, y la implementación de nuevas vistas como **Home**, **About** y **page-not-found**, así como el **perfil de usuario**, desde donde se pueden editar datos personales y gestionar certificados.
+
+Para el seguimiento y gestión de tareas se utilizó **Trello**, lo que facilitó una planificación colaborativa y organizada.
+
+![Trello](assets/trelloSprint3.png)
+
+<table style="width:100%; border-collapse: collapse;">
+   <tr>
+      <th colspan="4"> Sprint # </th>
+      <th colspan="7"> Sprint 3 </th>
+   </tr>
+   <tr>
+     <th colspan="4"> User Story </th>
+     <th colspan="7"> Work-Item / Task </th>
+   </tr>
+   <tr>
+     <th> Id </th>
+     <th colspan="3"> Title </th>
+     <th> Id </th>
+     <th> Title </th>
+     <th> Description </th>
+     <th> Estimation (Hours) </th>
+     <th> Assigned To </th>
+     <th> Status </th>
+   </tr>
+   <tr>
+     <td> US40 </td>
+     <td colspan="3"> Mejorar landing page </td>
+     <td> UT13 </td>
+     <td> Rediseño visual y responsivo </td>
+     <td> Optimizar la apariencia y adaptabilidad de la landing para distintos dispositivos. </td>
+     <td> 4 </td>
+     <td> Diego Acuña </td>
+     <td> Done </td>
+   </tr>
+   <tr>
+     <td> US41 </td>
+     <td colspan="3"> Gestionar mis cursos </td>
+     <td> UT14 </td>
+     <td> CRUD de cursos </td>
+     <td> Crear, editar y eliminar cursos: título, descripción, precio, idioma, dificultad. </td>
+     <td> 6 </td>
+     <td> Diego Acuña </td>
+     <td> Done </td>
+   </tr>
+   <tr>
+     <td> US42 </td>
+     <td colspan="3"> Administrar temario del curso </td>
+     <td> UT15 </td>
+     <td> Crear/editar/eliminar temas </td>
+     <td> Permitir gestionar la lista de temas de un curso. </td>
+     <td> 5 </td>
+     <td> Diego Acuña </td>
+     <td> Done </td>
+   </tr>
+   <tr>
+     <td> US43 </td>
+     <td colspan="3"> Añadir objetivos y recursos </td>
+     <td> UT16 </td>
+     <td> Objetivos y links de YouTube </td>
+     <td> Integrar objetivos del tema y recursos con videos incrustados desde YouTube. </td>
+     <td> 4 </td>
+     <td> Diego Acuña </td>
+     <td> Done </td>
+   </tr>
+   <tr>
+     <td> US44 </td>
+     <td colspan="3"> Simular backend con MockAPI </td>
+     <td> UT17 </td>
+     <td> Configuración de endpoints </td>
+     <td> Usar MockAPI como fuente de datos para simular comportamiento real. </td>
+     <td> 3 </td>
+     <td> Diego Acuña </td>
+     <td> Done </td>
+   </tr>
+   <tr>
+     <td> US45 </td>
+     <td colspan="3"> Conectar frontend a dominios reales </td>
+     <td> UT18 </td>
+     <td> Adaptación lógica de frontend </td>
+     <td> Conectar vistas a estructuras reales modeladas en DDD para futura integración backend. </td>
+     <td> 3 </td>
+     <td> Diego Acuña </td>
+     <td> Done </td>
+   </tr>
+   <tr>
+     <td> US46 </td>
+     <td colspan="3"> Preparar servicios web (versión inicial) </td>
+     <td> UT19 </td>
+     <td> Estructura base backend </td>
+     <td> Definición inicial de rutas, dominios y controladores REST para futura conexión. </td>
+     <td> 4 </td>
+     <td> Diego Acuña </td>
+     <td> In-Process </td>
+   </tr>
+   <tr>
+     <td> US47 </td>
+     <td colspan="3"> Ver y editar perfil personal </td>
+     <td> UT20 </td>
+     <td> CRUD datos personales </td>
+     <td> Permitir al usuario actualizar su nombre, correo, contraseña y descripción. </td>
+     <td> 3 </td>
+     <td> Tony Torres </td>
+     <td> Done </td>
+   </tr>
+   <tr>
+     <td> US48 </td>
+     <td colspan="3"> Gestionar certificados del perfil </td>
+     <td> UT21 </td>
+     <td> CRUD de certificados </td>
+     <td> Visualizar, agregar, editar y eliminar certificados asociados al perfil del usuario. </td>
+     <td> 4 </td>
+     <td> Tony Torres </td>
+     <td> Done </td>
+   </tr>
+   <tr>
+     <td> US49 </td>
+     <td colspan="3"> Página Home informativa </td>
+     <td> UT22 </td>
+     <td> Mensaje de bienvenida y objetivos </td>
+     <td> Explicar brevemente el propósito de EDUnova y qué problemática busca solucionar. </td>
+     <td> 2 </td>
+     <td> Cristian Iparraguirre </td>
+     <td> Done </td>
+   </tr>
+   <tr>
+     <td> US50 </td>
+     <td colspan="3"> Página About de la startup </td>
+     <td> UT23 </td>
+     <td> Visión, misión y equipo </td>
+     <td> Describir la startup SofTeam, su propósito, visión, misión y valores. </td>
+     <td> 2 </td>
+     <td> Diego Acuña </td>
+     <td> Done </td>
+   </tr>
+   <tr>
+     <td> US51 </td>
+     <td colspan="3"> Manejo de rutas inválidas </td>
+     <td> UT24 </td>
+     <td> Página de error 404 </td>
+     <td> Implementar `page-not-found` y redirigir automáticamente al Home. </td>
+     <td> 2 </td>
+     <td> Diego Acuña </td>
+     <td> Done </td>
+   </tr>
+   <tr>
+  <td> US52 </td>
+  <td colspan="3"> Mostrar certificados en una tabla </td>
+  <td> UT25 </td>
+  <td> Tabla de certificados con acciones </td>
+  <td> Implementar tabla que liste los certificados del usuario con opciones para editar y eliminar. </td>
+  <td> 3 </td>
+  <td> Tony Torres </td>
+  <td> Done </td>
+</tr>
+<tr>
+  <td> US53 </td>
+  <td colspan="3"> Mejorar diseño de edición de perfil </td>
+  <td> UT26 </td>
+  <td> Formulario en card visual </td>
+  <td> Encapsular el formulario de edición del perfil en una card con buen espaciado y presentación. </td>
+  <td> 2 </td>
+  <td> Esteban Alvarez </td>
+  <td> Done </td>
+</tr>
+<tr>
+  <td> US54 </td>
+  <td colspan="3"> Adaptar vista de publicación a móviles </td>
+  <td> UT27 </td>
+  <td> Hacer mat-accordion responsive </td>
+  <td> Ajustar estilos internos de los contenidos del `mat-accordion` para asegurar visualización en pantallas pequeñas. </td>
+  <td> 3 </td>
+  <td> Diego Acuña </td>
+  <td> Done </td>
+</tr>
+</table>
+
+
+
+
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+En esta sección se detallan los commits realizados en la rama `develop` del repositorio del frontend durante el Sprint 3. Estos reflejan los avances técnicos clave como la implementación de dominios, mejoras visuales, corrección de errores y documentación del proyecto.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|----------------|---------------------|---------------------|
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | 36078db | Solucioné errores | Corrección de errores funcionales generales en vistas. | 21/06/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | 1be38b4 | Solucioné errores del toolbar | Ajustes de estilo y funcionalidad en el toolbar. | 21/06/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | ce9247d | Solucioné errores del toolbar | Refinamientos visuales y comportamiento del menú superior. | 21/06/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | b542ba1 | Actualicé errores de services | Ajustes en el consumo de servicios simulados. | 21/06/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | 41a56af | El domain Publishing está listo en cuanto a estilos y visual | El módulo de publicación ahora es completamente funcional y responsive. | 21/06/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | 4cc81c3 | El domain Publishing ya tiene estilos | Aplicación de estilos y estructura responsive para publishing. | 21/06/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | f4a7371 | Resolví algunos errores | Correcciones generales de funcionamiento en distintos módulos. | 21/06/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | aa6faaf | Agregué el domain Presenting | Se añadió la estructura y vista para el bounded context de presentación de cursos. | 21/06/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | ca15fcd | Agregué el domain Studying | Estructura completa y funcional de cursos en progreso y completados. | 21/06/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | 2cdbb62 | Nueva versión de publishing | Reestructuración de componentes y mejoras internas. | 21/06/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | 51ab11f | Arreglé el product backlog | Corrección final del documento de backlog para reflejar las historias trabajadas. | 22/06/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | 02a7d7d | Arreglé el product backlog | Ajustes de estructura y redacción del backlog. | 22/06/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | b7ce49b | Completé el sprint backlog | Se añadió la tabla final con todas las user stories y tareas del Sprint 3. | 22/06/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | 79a7a71 | Agregué Aspect Leaders and Collaborators del sprint 3 | Registro de responsables y colaboradores por aspecto técnico en el Sprint 3. | 22/06/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | 40aa58f | Update README.md | Actualización de información general del proyecto en el README. | 22/06/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | dbfa93a | Update README.md | Ajustes menores en formato y redacción del README. | 22/06/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | 571dd06 | Update README.md | Inclusión de nuevas secciones informativas en el README. | 22/06/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | 99af2f8 | summary | Commit de resumen previo a la entrega del Sprint 3. | 22/06/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | 34d4a06 | Update README.md | Actualización de colaboradores y tecnologías usadas. | 22/06/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | d2320e9 | Update README.md | Últimos cambios previos al cierre del Sprint. | 22/06/2025 |
+
+
+
+#### 5.2.3.5.Execution Evidence for Sprint Review.
+Durante el sprint 3, se corrigieron los bounded context y se agregaron nuevos en el frontend
+
+Home:
+![Evidence](assets/Home.png)
+
+About:
+![Evidence](assets/About.png)
+
+Publishing:
+![Evidence](assets/Publishing1.png)
+![Evidence](assets/Publishing2.png)
+![Evidence](assets/Publishing3.png)
+![Evidence](assets/Publishing4.png)
+![Evidence](assets/Publishing5.png)
+![Evidence](assets/Publishing6.png)
+
+Profile:
+![Evidence](assets/profile1.png)
+![Evidence](assets/profile2.png)
+
+Studying:
+![Evidence](assets/Studying.png)
+
+
+##### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Durante este sprint se documentaron completamente los **Web Services** correspondientes a los siguientes **bounded contexts** del sistema:
+
+- Courses
+- Topics
+- Objectives
+- Resources
+- Users
+- Profiles
+- Certificates
+- LearningProgress
+
+A continuación, se presenta una tabla con los endpoints documentados, organizados por recurso y acción:
+
+| Recurso           | Acción                         | Verbo HTTP | Endpoint                                        | Parámetros                            | Ejemplo de Response |
+|-------------------|--------------------------------|------------|-------------------------------------------------|---------------------------------------|---------------------|
+| Courses           | Obtener todos                  | GET        | /api/v1/courses                                 | —                                     | ✅                  |
+| Courses           | Obtener por ID                 | GET        | /api/v1/courses/{courseId}                      | courseId: string                      | ✅                  |
+| Courses           | Crear                          | POST       | /api/v1/courses                                 | body: objeto course                   | ✅                  |
+| Courses           | Actualizar                     | PUT        | /api/v1/courses/{courseId}                      | courseId: string, body: course        | ✅                  |
+| Courses           | Eliminar                       | DELETE     | /api/v1/courses/{courseId}                      | courseId: string                      | ✅                  |
+| Topics            | Obtener todos                  | GET        | /api/v1/topics                                  | —                                     | ✅                  |
+| Topics            | Obtener por ID                 | GET        | /api/v1/topics/{topicId}                        | topicId: string                       | ✅                  |
+| Topics            | Crear                          | POST       | /api/v1/topics                                  | body: objeto topic                    | ✅                  |
+| Topics            | Actualizar                     | PUT        | /api/v1/topics/{topicId}                        | topicId: string, body: topic          | ✅                  |
+| Topics            | Eliminar                       | DELETE     | /api/v1/topics/{topicId}                        | topicId: string                       | ✅                  |
+| Objectives        | Obtener todos                  | GET        | /api/v1/objectives                              | —                                     | ✅                  |
+| Objectives        | Obtener por ID                 | GET        | /api/v1/objectives/{objectiveId}                | objectiveId: string                   | ✅                  |
+| Objectives        | Crear                          | POST       | /api/v1/objectives                              | body: objeto objective                | ✅                  |
+| Objectives        | Actualizar                     | PUT        | /api/v1/objectives/{objectiveId}                | objectiveId: string, body: obj        | ✅                  |
+| Objectives        | Eliminar                       | DELETE     | /api/v1/objectives/{objectiveId}                | objectiveId: string                   | ✅                  |
+| Resources         | Obtener todos                  | GET        | /api/v1/resources                               | —                                     | ✅                  |
+| Resources         | Obtener por ID                 | GET        | /api/v1/resources/{resourceId}                  | resourceId: string                    | ✅                  |
+| Resources         | Crear                          | POST       | /api/v1/resources                               | body: objeto resource                 | ✅                  |
+| Resources         | Actualizar                     | PUT        | /api/v1/resources/{resourceId}                  | resourceId: string, body: resource    | ✅                  |
+| Resources         | Eliminar                       | DELETE     | /api/v1/resources/{resourceId}                  | resourceId: string                    | ✅                  |
+| Users             | Obtener todos                  | GET        | /api/v1/users                                   | —                                     | ✅                  |
+| Users             | Obtener por ID                 | GET        | /api/v1/users/{userId}                          | userId: string                        | ✅                  |
+| Users             | Crear cuenta                   | POST       | /api/v1/users                                   | body: objeto user                     | ✅                  |
+| Users             | Actualizar                     | PUT        | /api/v1/users/{userId}                          | userId: string, body: user            | ✅                  |
+| Users             | Eliminar                       | DELETE     | /api/v1/users/{userId}                          | userId: string                        | ✅                  |
+| Profiles          | Obtener todos                  | GET        | /api/v1/profiles                                | —                                     | ✅                  |
+| Profiles          | Obtener por ID                 | GET        | /api/v1/profiles/{profileId}                    | profileId: string                     | ✅                  |
+| Profiles          | Crear perfil                   | POST       | /api/v1/profiles                                | body: objeto profile                  | ✅                  |
+| Profiles          | Actualizar                     | PUT        | /api/v1/profiles/{profileId}                    | profileId: string, body: profile      | ✅                  |
+| Profiles          | Eliminar                       | DELETE     | /api/v1/profiles/{profileId}                    | profileId: string                     | ✅                  |
+| Certificates      | Obtener todos                  | GET        | /api/v1/certificates                            | —                                     | ✅                  |
+| Certificates      | Obtener por ID                 | GET        | /api/v1/certificates/{certificateId}            | certificateId: string                 | ✅                  |
+| Certificates      | Crear                          | POST       | /api/v1/certificates                            | body: objeto certificate              | ✅                  |
+| Certificates      | Actualizar                     | PUT        | /api/v1/certificates/{certificateId}            | certificateId: string, body: cert     | ✅                  |
+| Certificates      | Eliminar                       | DELETE     | /api/v1/certificates/{certificateId}            | certificateId: string                 | ✅                  |
+| LearningProgress  | Obtener todos                  | GET        | /api/v1/learning-progress                       | —                                     | ✅                  |
+| LearningProgress  | Obtener por ID                 | GET        | /api/v1/learning-progress/{progressId}          | progressId: string                    | ✅                  |
+| LearningProgress  | Crear                          | POST       | /api/v1/learning-progress                       | body: objeto progress                 | ✅                  |
+| LearningProgress  | Actualizar                     | PUT        | /api/v1/learning-progress/{progressId}          | progressId: string, body: progress    | ✅                  |
+| LearningProgress  | Eliminar                       | DELETE     | /api/v1/learning-progress/{progressId}          | progressId: string                    | ✅                  |
+
+
+#### 5.2.3.7.Software Deployment Evidence for Sprint Review.
+
+- ¿Cómo realicé el despliegue de la aplicación en Firebase?
+
+Para desplegar la aplicación, lo primero que hice fue compilar el proyecto Angular desde el terminal del IDE ejecutando:
+
+
+```
+ng build
+```
+Luego accedí al sitio web de Firebase: [https://firebase.google.com/](https://firebase.google.com/)  
+Inicié sesión haciendo clic en `sign in` (ubicado en la parte superior derecha) e ingresé con mi cuenta de Google.
+
+Para crear un nuevo proyecto en Firebase seguí estos pasos:
+
+- Ingresé a la consola con `Go to console`.
+- Seleccioné `Add project`.
+- Le asigné el nombre `daos-codigo-learning-center`.
+- Desactivé la opción `Enable Google Analytics for this project`.
+- Presioné `Create project` y esperé hasta que Firebase mostrara el mensaje `Your Firebase project is ready`.
+- Finalmente, hice clic en `Continue`.
+
+Después configuré el servicio de Hosting con los siguientes pasos:
+
+- En el menú lateral, seleccioné `Build` y luego `Hosting`.
+- Hice clic en `Get started`, donde se mostraron las etapas: instalación del CLI, inicialización del proyecto y despliegue.
+- Seguí las instrucciones en el orden indicado.
+
+Desde el terminal, instalé las herramientas necesarias ejecutando:
+```
+npm install -g firebase-tools
+```
+
+A continuación, inicié sesión con:
+```
+firebase login
+```
+
+Cuando el sistema preguntó si quería compartir estadísticas de uso, respondí `n`.  
+Luego, en el navegador, seleccioné mi cuenta de Google, autoricé los permisos y confirmé el mensaje `Firebase CLI Login Successful`.
+
+Después ejecuté la inicialización del proyecto con:
+```
+firebase init
+```
+
+A la pregunta `Allow Firebase to collect CLI and Emulator Suite usage and error reporting information? (Y/n)`, respondi: `n`.
+
+Cargo el Navegador Web con las siguientes indicaciones: 
+- `Choose an account to continue to Firebase CLI`, seleccione la cuenta donde creo el proyecto.
+- `Sign in to Firebase CLI`, haga click en `Continue`.
+- `Firebase CLI wants to access your Google Account`, haga click en `Allow`.
+- Le aparecerá el mensaje: `Firebase CLI Login Successful`.
+- En el Terminal del IDE debe de aparecerle el siguiente mensaje: `Success! Logged in as ....`
+
+En el `Terminal` del IDE ejecute la siguiente instrucción: 
+```
+firebase init
+```
+
+Durante el proceso de configuración, respondí lo siguiente:
+
+- `Are you ready to proceed?` → `Y`
+- Seleccioné: `Hosting: Configure files for Firebase Hosting...` con `space` y confirmé con `enter`.
+- Elegí: `Use an existing project`.
+- Seleccioné el proyecto: `daos-codigo-learning-center`.
+- Como carpeta pública ingresé: `dist/daos-ws53-learning-center/browser`
+- Confirmé que es una SPA con: `Y`
+- Rechacé la configuración automática con GitHub: `N`
+- Y cuando se me preguntó si deseaba sobrescribir el archivo `index.html`, respondí: `n`
+
+Para finalizar el proceso, ejecuté el despliegue con:
+
+
+```
+firebase deploy
+```
+La aplicación quedó publicada correctamente en:
+```
+http://edunova-frontend.web.app
+```
+
+#### 5.2.3.8.Team Collaboration Insights during Sprint.
+Durante este sprint, las tareas de diseño, implementación y documentación del frontend fueron asignadas entre los miembros del equipo.
+
+![image.png](./assets/CollaborationSprint2.png)
+
+### 5.3. Validation Interviews
+En esta sección se presentan los detalles de las entrevistas de validación realizadas.
+
+### 5.3.1 Diseño de Entrevistas
+
+Para el diseño de entrevistas se consideraron los siguientes aspectos:
+
+#### *Objetivo de la Entrevista*
+
+Validar la usabilidad y efectividad de la plataforma *EDUnova*, asegurando que los flujos de usuario (user flows) sean intuitivos y satisfactorios para estudiantes y docentes.
+
+#### *Elementos de Validación*
+- *Plataforma EDUnova*: Los usuarios interactuarán con la plataforma para evaluar la claridad de la interfaz, las funcionalidades de inscripción, la visualización de cursos y los mecanismos de retroalimentación.
+- *Interacción con los Cursos*: Los usuarios participarán en actividades específicas, como la inscripción en cursos, visualización de material didáctico y la revisión de calificaciones.
+
+#### *User Flows a Validar*
+
+*Para el Segmento Estudiantes:*
+1. *Navegación del Catálogo de Cursos: Evaluar la facilidad para encontrar y explorar los cursos disponibles en **EDUnova*.
+2. *Proceso de Inscripción en Cursos*: Evaluar la facilidad para inscribirse en un curso, seleccionar horarios y materias adicionales.
+3. *Visualización de Progreso y Resultados*: Evaluar cómo los estudiantes pueden visualizar su avance y calificaciones de manera clara y eficiente.
+
+*Para el Segmento Docentes:*
+1. *Visualización del Perfil del Docente*: Evaluar cómo los docentes gestionan su perfil, incluyendo sus cursos y horarios.
+2. *Creación de Materiales Educativos*: Evaluar la facilidad para que los docentes suban y gestionen materiales didácticos, como presentaciones, documentos y videos.
+3. *Gestión de Inscripciones y Evaluaciones*: Evaluar la capacidad de los docentes para gestionar las inscripciones de los estudiantes y realizar evaluaciones en línea.
+4. *Recepción de Feedback de Estudiantes*: Evaluar cómo los docentes reciben y gestionan las valoraciones y comentarios de los estudiantes.
+
+#### *Formato de Registro de la Entrevista*
+1. *Datos del Entrevistado*:
+   - Nombre y apellidos
+   - Edad
+   - Carrera
+   - Dispositivo utilizado (smartphone, tablet, laptop)
+
+#### *Preguntas para el Segmento Estudiantes*
+
+*Catálogo de Cursos*
+- ¿Fue fácil encontrar los cursos que te interesaban en *EDUnova*?
+- ¿Cómo describirías la organización del catálogo de cursos?
+- ¿Hubo alguna dificultad al buscar un curso o materia en específico?
+- ¿Qué mejorarías en la navegación del catálogo de cursos?
+
+*Inscripción en Cursos*
+- ¿Cómo calificarías el proceso de inscripción en un curso?
+- ¿Hubo alguna parte del proceso que te resultó confusa o difícil de seguir?
+- ¿El sistema brindó suficientes opciones para personalizar tu inscripción (como horarios o materiales adicionales)?
+- ¿Qué cambios propondrías para facilitar el proceso de inscripción?
+
+*Visualización de Progreso y Resultados*
+- ¿Cómo fue tu experiencia al visualizar tus calificaciones y avances en los cursos?
+- ¿La interfaz te mostró toda la información relevante sobre tus resultados y progresos?
+- ¿Te resultó sencillo acceder a los materiales complementarios y la retroalimentación de los docentes?
+
+*Feedback y Reseñas*
+- ¿Tuviste la oportunidad de dejar feedback sobre los cursos que tomaste? ¿Fue fácil hacerlo?
+- ¿El sistema te proporcionó suficiente información sobre los comentarios de los demás estudiantes?
+- ¿Cómo mejorarías la experiencia de dar feedback o reseñas en los cursos?
+
+#### *Preguntas para el Segmento Docentes*
+
+*Visualización del Perfil del Docente*
+- ¿Fue fácil acceder y gestionar tu perfil como docente en *EDUnova*?
+- ¿Pudiste ver y organizar tus cursos, horarios y estudiantes de manera eficiente?
+- ¿Hay alguna funcionalidad que cambiarías para mejorar la visualización del perfil?
+
+*Creación de Materiales Educativos*
+- ¿El proceso para subir y organizar materiales educativos fue claro y eficiente?
+- ¿Pudiste cargar diferentes tipos de contenido (videos, documentos, presentaciones) sin problemas?
+- ¿Qué mejorarías en la gestión de materiales educativos para facilitar su carga y distribución?
+
+*Gestión de Inscripciones y Evaluaciones*
+- ¿Cómo calificarías la facilidad para gestionar las inscripciones de los estudiantes en tus cursos?
+- ¿El sistema de evaluación te permitió crear y calificar exámenes o tareas fácilmente?
+- ¿Recibiste suficientes opciones de personalización para el seguimiento de estudiantes y sus calificaciones?
+
+*Recepción de Feedback de Estudiantes*
+- ¿El sistema te proporcionó una manera clara y organizada de recibir los comentarios y evaluaciones de los estudiantes?
+- ¿Pudiste responder fácilmente a las reseñas y comentarios de los estudiantes?
+- ¿Qué aspectos del sistema de feedback mejorarías para facilitar la interacción entre estudiantes y docentes?
+
+##### 5.3.2. Registro de Entrevistas
+
+|                                                           |                                                                                                                                                                                                                                                                                                                                 |
+|-----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Link de video de entrevistas**                          | [Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221436_upc_edu_pe/ET5rKz7muXpIgpD9dp2ECEUB9vWUsqo8SiQH_yijULO2XQ?e=al6xai&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+
+A continuación se presentan los detalles clave de las entrevistas realizadas a los estudiantes dispuestos a aprender en nuestra plataforma.
+
+| Entrevista 1: Estudiante que quiere aprender             |                                                                                                                                 |
+|----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
+| Nombre Entrevistado                                      | Luis Alejo Cardenas                                                                                                             |
+| Edad                                                     | 22 Años                                                                                                                         |
+| Profesión                                                | Estudiante de Ingeniería de Software                                                                                            |
+| Departamento                                             | Lima, Perú                                                                                                                      |
+| Minuto de inicio                                         | 00:00 min                                                                                                                       |
+| Captura de la entrevista                                 |     <img src="assets/segmento 1-1.jpg">                                                                                                                            |
+| Búsqueda de curso                                        | Es una pagina bastante fácil de entender, muestra imagenes e informacion precisas y optimas para el cliente.                    |
+| Visualización de información del curso                   | Opina que la pagina esta bien redactada respecto a la descripcion de los distintas funciones que tiene la pagina.               |
+| Personalización y adaptación a tus necesidades educativas| Le parece que tomamos un enfoque básico que ayuda al usuario a realizar sus actividades sin muchas complicaciones               |
+| Motivación y conexión emociona                           | Los términos usados no le supusieron ninguna problema.                                                                          |
+| Valor percibido y disposición a pagar                    | Comenta que es una pagina con buen potencial y que siempre seria una opción sino fuera primaria como un mejor reforzamiento.    |
+| Navegación general                                       | La toolbar le le ayudo bastante a navegar con facilidad por la página.                                                          |
+
+
+| Entrevista 2: Estudiante que quiere aprender             |                                                                                                                                 |
+|----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
+| Nombre Entrevistado                                      | Ferdinand Quejada Gabriel                                                                                                             |
+| Edad                                                     | 19 Años                                                                                                                         |
+| Profesión                                                | Estudiante de Economia                                                                                            |
+| Departamento                                             | Lima, Perú                                                                                                                      |
+| Minuto de inicio                                         | 08:15 min                                                                                                                       |
+| Captura de la entrevista                                 |     <img src="assets/segmento 1-2.jpg">                                                                                                                            |
+| Búsqueda de curso                                        | La página es sencilla y fácil de navegar; la información está bien organizada.                    |
+| Visualización de información del curso                   | Opina que la pagina esta perfectamente estruturada y facil de entender la informacion que presenta.               |
+| Personalización y adaptación a tus necesidades educativas| Ve que es una herramienta facil que facilita al estudiante a encontrar mas informacion respecto a cursos que se le complican.               |
+| Motivación y conexión emociona                           | Le gusto ver una lista que presenta la pagina respecto a los cursos disponibles.                                                                          |
+| Valor percibido y disposición a pagar                    | Comenta que es una pagina bien intuitiva, facil al usuario de entender de primera, con algunas complicaciones al momento de logearse, pero ante lo demas facil de entender.    |
+| Navegación general                                       | Le gusto que haya una navegacion facil, accesible y entendible para el usuario.                                                          |
+
+| Entrevista 3: Estudiante que quiere aprender |                                                                                                       |
+|---------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Nombre Entrevistado                                     | Renzo Nino Tomas Dueñas                                                                                                                              |
+| Edad                                                    | 24 Años                                                                                                                                              |
+| Profesión                                               | Estudiante de ingenieria civil                                                                                                                           |
+| Departamento                                            | Lima, Perú                                                                                                                                           |
+| Minuto de inicio                                        | 6:38 min                                                                                                                                            |
+| Captura de la entrevista                                | <img src="assets/entrevistaRenzo.png">                                                                                                   |
+| Búsqueda de curso                                    | Comenta que le gusto navegar y se le hizo facil entender y encontrar un curso de su agrado.                                              |
+| Visualización de información del curso               | Opina que es intuitiva el uso de la aplicacion, por lo que puede ver la informacion del curso rapidamente.                                                                       |
+| Personalización y adaptación a tus necesidades educativas	                                   | Considera que la aplicacion tiene las herramientas necesarias para que muchas personas puedan publicar sus cursos, en otras palabras tendra mas opciones para comprar.                                    |
+| Motivación y conexión emociona	               | Comenta que nuestras expresiones no son dificiles de entender y que se siente comodo leyendo la informacion de ofrecemos. |
+| Valor percibido y disposición a pagar	                                      | Comenta que le agradaria comprar cursos, cuando la pagina este disponible al publico.                   |
+| Navegación general                                      | Aprecia mucho la existencia del toolbar y del sidebar, pues con estos componentes pudes navegar sin problema sin importar el tamaño de la pantalla.                 |
+
+A continuación se presentan los detalles clave de las entrevistas realizadas a usuarios dispuestos a crear cursos en nuestra plataforma.
+
+| Entrevista 1: Creador de contenido|                                                                                                                         |
+|------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| **Nombre Entrevistado**            | Veronica Cortez                                                                                                            |
+| **Edad**                           | 44 Años                                                                                                                |
+| **Profesión**                      | Coordinadora                                                                                          |
+| **Departamento**                   | Lima, Perú                                                                                                             |
+| **Minuto de inicio**               | 29:11 min                                                                                                              |
+| Captura de la entrevista           |      <img src="assets/segmento 2-1.jpg">                                                                                                                      |
+| **Interacción con la landing page**   | A primera vista, una pagina bien lograda que me da informacion rápida y justa. |
+| **Interfaz y flujo de trabajo:**      | Me gusta la manera en que se muestran las secciones de la pagina, es bastante fácil de entender y manipular. |
+| **Creación de contenido educativo**   | Encuentra primordial el que la creación de su contenido sea tan flexible como se le permita. |
+| **Seguimiento y relación con los estudiantes** | Le agrada la opción de poder interactuar con su público ya que es un plus extra que forma un mejor docente al momento de impartir aulas|
+| **Navegación general**             | La navegación es sencilla y le gusta la rapidez de respuesta que tiene la pagina ya que el tiempo es muy importante al momento de dar clases|
+
+
+
+| Entrevista 2: Creador de contenido |                                                                                                                         |
+|------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| **Nombre Entrevistado**            | Sebastian Valentino Silva Tirado                                                                                        |
+| **Edad**                           | 21 Años                                                                                                                 |
+| **Profesión**                      | Ingeniero de Software                                                                                                   |
+| **Departamento**                   | Lima, Perú                                                                                                              |
+| **Minuto de inicio**               | 30:56 min                                                                                                               |
+| Captura de la entrevista           | <img src="assets/entrevistaSebastian.png">                                                                                     |
+| **Impresión general**              | Considera que la página tiene un diseño profesional y bien estructurado.                                               |
+| **Confianza y disposición de pago**| Le gustó la experiencia y mencionó que estaría dispuesto a pagar por publicar sus propios cursos en la plataforma.     |
+| **Interfaz y navegación**          | La navegación le pareció clara, rápida y sin fricciones. Le agradó la forma en que se organizan los módulos.           |
+| **Valor diferencial**              | Resaltó que el enfoque visual y profesional es un buen atractivo para creadores que quieren proyectar seriedad.        |
+| **Interacción con el sistema**     | Comentó que el sistema es intuitivo y que la curva de aprendizaje para nuevos usuarios es baja.                        |
+
+
+
+| Entrevista 3: Creador de contenido |                                                                                                                         |
+|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| **Nombre Entrevistado**             | Juan Esteban                                                                                                              |
+| **Edad**                            | 20 Años                                                                                                                |
+| **Profesión**                       | Dueño de centro de belleza independiente                                                                                              |
+| **Departamento**                    | Lima, Perú                                                                                                         |
+| **Minuto de incio**                     | 31:41 min                                                                                                              |
+| Captura de la entrevista            |      <img src="assets/segmento 2-3.png">                                                                                                                      |
+| **Visualización de Perfil**         | Considera que el perfil es claro y fácil de leer, aunque cree que añadir una breve descripción o imagen destacada junto a cada servicio lo haría más atractivo. |
+| **Manejo de servicios**             | Encuentra sencillo el proceso de crear servicios, pero preferiría poder hacer cambios rápidos desde la lista general, sin necesidad de editar cada servicio por separado. |
+| **Gestión de reservas**             | Comenta que la gestión de reservas es práctica, aunque le gustaría tener un tablero de control que muestre un resumen de las reservas activas. |
+| **Recepción de reviews**            | Le gusta la opción de recibir reseñas, pero sugiere incluir una opción de organización por fecha o relevancia para facilitar la visualización. |
+| **Navegación general**              | Menciona que la navegación es intuitiva, pero sugiere que un tablero con funciones clave reduciría la necesidad de tantos pasos entre secciones. |
+
+
+### 5.3.3. Evaluaciones según heurísticas
+En esta sección se presentan las evaluaciones de usabilidad de la plataforma *EDUnova*, basadas en heurísticas y principios de diseño. El objetivo es identificar posibles problemas de usabilidad y proponer soluciones que mejoren la experiencia de los usuarios.
+
+#### *UX Heuristics & Principles Evaluation*
+*Usabilidad – Diseño Inclusivo – Arquitectura de la Información*
+
+*Información del Proyecto*
+- *Carrera:* Ingeniería de Software
+- *Curso:* Aplicaciones Web
+- *Auditor:* EDUnova
+- *Cliente:* EDUnova
+- *Sitio o App a Evaluar:* EDUnova
+
+*Tareas a Evaluar*
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+*Para el Segmento Estudiantes:*
+1. *Navegación del Catálogo de Cursos:* Evaluar la facilidad para encontrar y explorar los cursos disponibles.
+2. *Proceso de Inscripción en Cursos:* Evaluar la facilidad para inscribirse en un curso, seleccionar horarios y materias adicionales.
+3. *Visualización de Progreso y Resultados:* Evaluar cómo los estudiantes pueden visualizar su avance y calificaciones de manera clara y eficiente.
+
+*Para el Segmento Docentes:*
+1. *Visualización del Perfil del Docente:* Evaluar cómo los docentes gestionan su perfil, incluyendo sus cursos y horarios.
+2. *Creación de Materiales Educativos:* Evaluar la facilidad para que los docentes suban y gestionen materiales didácticos, como presentaciones y documentos.
+3. *Gestión de Inscripciones y Evaluaciones:* Evaluar la capacidad de los docentes para gestionar las inscripciones de los estudiantes y realizar evaluaciones en línea.
+4. *Recepción de Feedback de Estudiantes:* Evaluar cómo los docentes reciben y gestionan las valoraciones y comentarios de los estudiantes.
+
+#### *Escala de Severidad*
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+|-------|-------------|
+| 1     | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2     | Problema menor: puede ocurrir con más frecuencia o es más difícil de superar para el usuario. Debería tener una prioridad baja para resolverse en la próxima versión. |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Debería tener alta prioridad para corregirse. |
+| 4     | Problema muy grave: error que impide al usuario continuar utilizando la herramienta. Debe corregirse antes del lanzamiento. |
+
+#### *Tabla Resumen*
+La tabla de resumen muestra los problemas identificados, su nivel de severidad y el principio heurístico o diseño violado.
+
+| #  | Problema                                                              | Escala de severidad | Heurística/Principio violado             | Tarea evaluada                                  |
+|----|-----------------------------------------------------------------------|--------------------|-----------------------------------------|-------------------------------------------------|
+| 1  | Navegación lenta y con muchos pasos entre secciones                  | 3                  | Visibilidad y control                   | Navegación del Catálogo de Cursos               |
+| 2  | Falta de opciones de personalización en la creación de cursos         | 2                  | Flexibilidad y eficiencia en el uso     | Creación de Materiales Educativos               |
+| 3  | Filtros ocupan demasiado espacio en la pantalla de búsqueda           | 2                  | Diseño estético y minimalista           | Navegación del Catálogo de Cursos               |
+| 4  | Diálogos grandes con demasiada información no priorizada             | 2                  | Diseño estético, visibilidad de información | Visualización del Perfil del Docente            |
+| 5  | Confusión en el mensaje "ver más" al seleccionar una evaluación      | 3                  | Consistencia y claridad en el feedback  | Recepción de Feedback de Estudiantes            |
+| 6  | Falta de confirmaciones en las acciones dentro del historial de calificaciones | 2                  | Prevención de errores, ayuda a usuarios | Visualización de Progreso y Resultados         |
+| 7  | No se puede responder a comentarios de estudiantes desde el perfil del curso | 3                  | Flexibilidad y eficiencia en la comunicación | Recepción de Feedback de Estudiantes            |
+
+*Descripción de Problemas*
+
+*Problema #1: Navegación lenta y con muchos pasos entre secciones*
+- *Tarea Evaluada:* Navegación del Catálogo de Cursos
+- *Recomendación:* Optimizar el flujo de navegación reduciendo la cantidad de clics necesarios entre las secciones clave. Implementar menús más rápidos y opciones de acceso directo.
+
+*Problema #2: Falta de opciones de personalización en la creación de cursos*
+- *Tarea Evaluada:* Creación de Materiales Educativos
+- *Recomendación:* Agregar más opciones de personalización, como la posibilidad de crear lecciones modulares y agregar materiales de diferentes tipos.
+
+*Problema #3: Filtros ocupan demasiado espacio en la pantalla de búsqueda*
+- *Tarea Evaluada:* Navegación del Catálogo de Cursos
+- *Recomendación:* Reducir el tamaño de los filtros o permitir que se colapsen para maximizar el espacio disponible en la pantalla.
+
+*Problema #4: Diálogos grandes con demasiada información no priorizada*
+- *Tarea Evaluada:* Visualización del Perfil del Docente
+- *Recomendación:* Simplificar los diálogos, mostrando solo la información esencial y permitiendo la expansión para detalles adicionales.
+
+*Problema #5: Confusión en el mensaje "ver más" al seleccionar una evaluación*
+- *Tarea Evaluada:* Recepción de Feedback de Estudiantes
+- *Recomendación:* Aclarar el mensaje "ver más" para que los estudiantes comprendan mejor cómo pueden ver y evaluar el contenido.
+
+### 5.4. Video About-the-Product
+| **Sección**                          | **Descripción**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|--------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Resumen del Video**                | Se muestra una descripción general del modelo de negocio y las principales características del mismo, por otro lado, se muestra un recorrido por la aplicación y las acciones que se pueden realizar en la misma.                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Pauta de Secuencias de Contenido** | **00:00:00**: Introducción <br> **00:00:05**: Landing Page <br> **00:00:15**: Perfil del usuario <br> **00:00:25**: Crear cursos <br> **00:00:34**: Bandeja de cursos comprados o creados <br> **00:00:42**: About <br> **00:00:47**: Testimonios                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Cuadro de Video Representativo**   | <img src="assets/About-the-Product.png" alt="Descripción de la imagen" width="300" height="200">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **URL del Video**                    | **Microsoft Stream**: [Link de acceso](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113111_upc_edu_pe/EfIjq39RJD1BqIGqNZfovpQBEOfBnZk-HSxZZ3LGXQYULQ?e=Yv26fu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) <br/> **Youtube**:[Link de acceso](https://youtu.be/ScQnf9z0pm0) |
+
 ## Conclusiones
 1. **Viabilidad del Proyecto**
    - A lo largo del proceso de investigación y desarrollo, se validó la viabilidad técnica y comercial de la startup EDUnova. La solución propuesta aborda una necesidad real en el mercado educativo, especialmente dirigida a usuarios universitarios que buscan aprender, repasar o ampliar sus conocimientos.
@@ -2900,6 +3669,9 @@ Durante este sprint, las tareas de diseño, implementación y documentación del
 
 5. **Mejorar la Gestión de Equipos**
    - A medida que el equipo se expanda, es fundamental establecer canales de comunicación más efectivos y herramientas de gestión que garanticen que todos los miembros estén alineados con los objetivos y tareas del proyecto. Adoptar metodologías ágiles de manera más rigurosa puede ayudar a aumentar la productividad y fomentar una mejor colaboración.
+
+   Link About The Team : [Link](https://youtu.be/n-hlsXPNLg0) 
+
 
 ## Bibliografía
 - *III Informe Bienal sobre la Realidad Universitaria en el Perú.* (s. f.). Informes y Publicaciones - Superintendencia Nacional de Educación Superior Universitaria - Plataforma del Estado Peruano. https://www.gob.pe/institucion/sunedu/informes-publicaciones/2824150-iii-informe-bienal-sobre-la-realidad-universitaria-en-el-peru
