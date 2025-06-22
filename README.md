@@ -199,7 +199,11 @@
       - [5.2.3.6.Services Documentation Evidence for Sprint Review.](#5236services-documentation-evidence-for-sprint-review)
       - [5.2.3.7.Software Deployment Evidence for Sprint Review.](#5237software-deployment-evidence-for-sprint-review)
       - [5.2.3.8.Team Collaboration Insights during Sprint.](#5238team-collaboration-insights-during-sprint)
-      
+   - [5.3. Validation Interviews](#53-validation-interviews)
+    - [5.3.1 Diseño de Entrevistas](#531-diseño-de-entrevistas)
+      - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+    - [5.3.3. Evaluaciones según heurísticas.](#533-evaluaciones-según-heurísticas)
+  - [5.4. Video About-the-Product](#54-video-about-the-product)
   - [Conclusiones](#conclusiones)
   - [Recomendaciones](#recomendaciones)
   - [Bibliografía](#bibliografía)
@@ -3207,6 +3211,275 @@ Durante este sprint, las tareas de diseño, implementación y documentación del
 
 ![image.png](./assets/CollaborationSprint2.png)
 
+### 5.3. Validation Interviews
+En esta sección se presentan los detalles de las entrevistas de validación realizadas.
+
+#### 5.3.1 Diseño de Entrevistas
+
+Para el diseño de entrevistas se consideraron los siguientes aspectos:
+
+**Objetivo de la Entrevista**
+
+Validar la usabilidad y efectividad de la landing page y la aplicación para cada uno de los segmentos de usuarios, asegurando que los flujos de usuario (user flows) sean intuitivos y satisfactorios.
+**Elementos de Validación**
+- **Landing Page**: Los usuarios interactuarán con la landing page para evaluar la claridad del mensaje, las llamadas a la acción (CTA), la navegación y el diseño.
+- **Aplicación**: Se guiará a los usuarios a través de flujos principales, como la reserva de servicios de belleza, la gestión de servicios y el sistema de feedback.
+**User Flows a Validar**
+
+**Para el Segmento Cliente**
+1. **Navegación del Catálogo de Servicios**: Facilidad para encontrar y explorar servicios (manicure, pedicure, tratamientos faciales, etc.).
+2. **Proceso de Reserva**: Facilidad para reservar un servicio, seleccionar una hora y elegir un profesional.
+3. **Recepción de Servicios**: Evaluar la confirmación de la reserva, notificaciones y feedback post-servicio.
+   
+**Para el Segmento Empresa**
+1. **Visualización del Perfil de la Empresa**: Cómo la empresa visualiza su propio perfil.
+2. **Creación de Servicio**: Facilidad para crear y personalizar nuevos servicios.
+3. **Gestión de Reservas**: Capacidad para gestionar reservas de clientes, incluyendo la visualización y modificación de citas.
+4. **Recepción de Reviews y Feedback de Clientes**: Cómo las empresas reciben y gestionan reseñas de los clientes.
+
+**Formato de Registro de la Entrevista**
+1. **Datos del Entrevistado**:
+   - Nombre y apellidos
+   - Edad
+   - Distrito de residencia
+   - Dispositivo utilizado (smartphone, tablet, laptop)
+
+**Preguntas para el Segmento Cliente**
+**Catálogo de Servicios**
+- ¿Fue fácil encontrar lo que buscabas en el catálogo?
+- ¿Cómo describirías la información presentada sobre los servicios?
+- ¿Algún momento te sentiste perdido al explorar el catálogo?
+- ¿Pudiste comparar fácilmente diferentes servicios? ¿Cómo mejorarías este proceso?
+**Creación de Reserva de Cita**
+- ¿Qué tan sencillo fue comenzar a reservar una cita?
+- Describe el flujo para crear una reserva. ¿Algún paso generó dudas?
+- ¿El sistema brindó suficiente retroalimentación al completar la reserva?
+- ¿Hubo obstáculos al elegir la fecha o el servicio adecuado?
+**Visualización de Historial**
+- Describe tu experiencia al buscar el historial de reservas. ¿Fue intuitivo?
+- ¿Pudiste encontrar la información fácilmente?
+- ¿Hay algo en el historial que cambiarías para mejorar la gestión de reservas pasadas?
+**Reviews**
+- Describe el proceso para dejar una review. ¿Fue sencillo?
+- ¿Recibiste suficiente guía para incluir tu review?
+- ¿Te resultó útil valorar tanto el servicio como al proveedor?
+**Preguntas para el Segmento Empresa**
+**Visualización de Servicios**
+- ¿Fue clara la visualización de los servicios de tu empresa en el perfil?
+- ¿Cómo fue la funcionalidad para actualizar o modificar los servicios?
+**Creación de Servicio**
+- Describe el proceso para crear un nuevo servicio. ¿Fue claro desde el principio?
+- ¿Qué tan intuitivo fue definir los detalles del servicio (nombre, precio, disponibilidad)?
+- ¿Recibiste suficiente orientación durante la creación del servicio?
+**Gestión de Servicios y Reservas**
+- ¿En qué medida el sistema te permite gestionar eficientemente los servicios?
+- ¿Qué desafíos enfrentaste al actualizar la información de la empresa y servicios?
+- ¿Qué aspectos del sistema valoras más en comparación con otras plataformas que usas?
+##### 5.3.2. Registro de Entrevistas
+
+|                                                           |                                                                                                                                                                                                                                                                                                                                 |
+|-----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Link de video de entrevistas**                          | [Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231c784_upc_edu_pe/EZobZ_vc-odKqyNts3pm6-YB-y7Rh6rshCD6IpC3dRGyWA?e=d24NZ8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+
+A continuación se presentan los detalles clave de las entrevistas realizadas a los usuarios y MYPES del sector de belleza y cuidado personal.
+
+| Entrevista 1: Estudiante que quiere aprender             |                                                                                                                                 |
+|----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
+| Nombre Entrevistado                                      | Luis Alejo Cardenas                                                                                                             |
+| Edad                                                     | 22 Años                                                                                                                         |
+| Profesión                                                | Estudiante de Ingeniería de Software                                                                                            |
+| Departamento                                             | Lima, Perú                                                                                                                      |
+| Minuto de inicio                                         | 00:00 min                                                                                                                       |
+| Captura de la entrevista                                 |     <img src="resources/chapter-5/capturaEKarol.png">                                                                                                                            |
+| Búsqueda de curso                                        | Es una pagina bastante fácil de entender, muestra imagenes e informacion precisas y optimas para el cliente.                    |
+| Visualización de información del curso                   | Opina que la pagina esta bien redactada respecto a la descripcion de los distintas funciones que tiene la pagina.               |
+| Personalización y adaptación a tus necesidades educativas| Le parece que tomamos un enfoque básico que ayuda al usuario a realizar sus actividades sin muchas complicaciones               |
+| Motivación y conexión emociona                           | Los términos usados no le supusieron ninguna problema.                                                                          |
+| Valor percibido y disposición a pagar                    | Comenta que es una pagina con buen potencial y que siempre seria una opción sino fuera primaria como un mejor reforzamiento.    |
+| Navegación general                                       | La toolbar le le ayudo bastante a navegar con facilidad por la página.                                                          |
+
+
+
+| Entrevista 2: Usuario se servicios de belleza y cuidado |                                                                                                                                                      |
+|---------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Nombre Entrevistado                                     | Carlos Villa Cayetano                                                                                                                                |
+| Edad                                                    | 20 Años                                                                                                                                              |
+| Profesión                                               | Estudiante de contabilidad                                                                                                                           |
+| Departamento                                            | Lima, Perú                                                                                                                                           |
+| Minuto de inicio                                        | 12:15 min                                                                                                                                            |
+| Captura de la entrevista                                | <img src="resources/chapter-5/capturaECarlos.png">                                                                                                   |
+| Búsqueda de servicio                                    | Comenta no haber tenido inconvenientes, pero preferiría quelos filtros ocupen menos espacio en pantalla                                              |
+| Visualización de información del servicio               | Comenta que el dialog es muy grande y que preferiría una imagen más oportuna.                                                                        |
+| Reservar un servicio                                    | Aprecia los mensajes de confirmación pero agradecería visualizar el nombre y un logo distintivo de la compañia.                                      |
+| Confirmación y agenda de citas pendientes               | Comenta no tener inconvenientes en la visualización de su agenda y menciona que el poder elminarla sin restricción alguna podría no ser conveniente. |
+| Historial y reseña                                      | Preferiría otro título para la sección y menciona que poder arrastrar la imagen hacia la sección de reviews facilitaría el proceso                   |
+| Navegación general                                      | Aprecia mucho la facilidad de uso de la toolbar, sin embargo comenta preferir un sidebar para mayor comodidad de navegación vertical                 |
+
+| Entrevista 3: Usuario de servicios de belleza y cuidado |                                                                                                                               |
+|---------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| Nombre Entrevistado                                     | Aldo Vasquez                                                                                                  |
+| Edad                                                    | 20 Años                                                                                                                       |
+| Profesión                                               | Estudiante de Ingeniería Ambiental                                                                                                    |
+| Departamento                                            | Lima, Perú                                                                                                                    |
+| Minuto de inicio                                        | 18:14 min                                                                                                                     |
+| Captura de la entrevista                                |        <img src="resources/chapter-5/capturaEAldo.png">                                                                                                                          |
+| Búsqueda de servicio                                    | Encuentra el catálogo fácil de navegar y bien organizado, pero sugiere una barra de búsqueda más destacada y filtros específicos. |
+| Visualización de información del servicio               | Considera que la información es clara, pero le gustaría ver reseñas y calificaciones en cada servicio para decidir rápidamente. |
+| Reservar un servicio                                    | Comenta que es sencillo iniciar la reserva; sin embargo, el selector de horarios podría ser más intuitivo. |
+| Confirmación y agenda de citas pendientes               | Valora la retroalimentación del sistema, especialmente la confirmación inmediata y los recordatorios previos a cada cita.       |
+| Historial y reseña                                      | Encuentra el historial fácil de acceder, pero sugiere agregar opciones de filtro para organizar reservas pasadas por fecha o tipo de servicio. |
+| Navegación general                                      | Destaca la utilidad del toolbar, sin mayores sugerencias al respecto.                                                         |
+
+A continuación se presentan los detalles clave de las entrevistas realizadas a las MYPES y emprendedores del sector de belleza y cuidado personal.
+
+| Entrevista 1: Creador de contenido|                                                                                                                         |
+|------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| **Nombre Entrevistado**            | Veronica Cortez                                                                                                            |
+| **Edad**                           | 44 Años                                                                                                                |
+| **Profesión**                      | Coordinadora                                                                                          |
+| **Departamento**                   | Lima, Perú                                                                                                             |
+| **Minuto de inicio**               | 29:11 min                                                                                                              |
+| Captura de la entrevista           |      <img src="resources/chapter-5/capturaEFlavio.png">                                                                                                                      |
+| **Interacción con la landing page**   | A primera vista, una pagina bien lograda que me da informacion rápida y justa. |
+| **Interfaz y flujo de trabajo:**      | Me gusta la manera en que se muestran las secciones de la pagina, es bastante fácil de entender y manipular. |
+| **Creación de contenido educativo**   | Encuentra primordial el que la creación de su contenido sea tan flexible como se le permita. |
+| **Seguimiento y relación con los estudiantes** | Le agrada la opción de poder interactuar con su público ya que es un plus extra que forma un mejor docente al momento de impartir aulas|
+| **Navegación general**             | La navegación es sencilla y le gusta la rapidez de respuesta que tiene la pagina ya que el tiempo es muy importante al momento de dar clases|
+
+
+
+| Entrevista 2: Mypes o emprendedores |                                                                                                                         |
+|------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| **Nombre Entrevistado**            | Flavio Gallardo                                                                                                               |
+| **Edad**                           | 20 Años                                                                                                                |
+| **Profesión**                      | Dueño de centro de belleza independiente                                                                                           |
+| **Departamento**                   | Lima, Perú                                                                                                             |
+| **Minuto de inicio**               | 29:11 min                                                                                                              |
+| Captura de la entrevista           |      <img src="resources/chapter-5/capturaEFlavio.png">                                                                                                                      |
+| **Visualización de Perfil**        | El perfil es claro, pero Flavio desearía que fuera más dinámico y visual para atraer mejor la atención de los clientes. |
+| **Manejo de servicios**            | La creación de servicios le resulta fácil, aunque le gustaría más opciones de personalización, como intervalos de tiempo predefinidos. |
+| **Gestión de reservas**            | Encuentra funcional la gestión de reservas, pero preferiría tener un calendario visual con todas las citas pendientes para facilitar el seguimiento. |
+| **Recepción de reviews**           | Le agrada la opción de recibir reseñas, pero preferiría que solo algunas fueran visibles y que pudiera responder a ellas para interactuar con sus clientes. |
+| **Navegación general**             | La navegación es sencilla, aunque le gustaría que fuera más rápida y con menos pasos entre secciones. |
+
+
+| Entrevista 3: Mypes o emprendedores |                                                                                                                         |
+|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| **Nombre Entrevistado**             | Juan Esteban                                                                                                              |
+| **Edad**                            | 20 Años                                                                                                                |
+| **Profesión**                       | Dueño de centro de belleza independiente                                                                                              |
+| **Departamento**                    | Lima, Perú                                                                                                         |
+| **Minuto de incio**                     | 31:41 min                                                                                                              |
+| Captura de la entrevista            |      <img src="resources/chapter-5/capturaEJuan.png">                                                                                                                      |
+| **Visualización de Perfil**         | Considera que el perfil es claro y fácil de leer, aunque cree que añadir una breve descripción o imagen destacada junto a cada servicio lo haría más atractivo. |
+| **Manejo de servicios**             | Encuentra sencillo el proceso de crear servicios, pero preferiría poder hacer cambios rápidos desde la lista general, sin necesidad de editar cada servicio por separado. |
+| **Gestión de reservas**             | Comenta que la gestión de reservas es práctica, aunque le gustaría tener un tablero de control que muestre un resumen de las reservas activas. |
+| **Recepción de reviews**            | Le gusta la opción de recibir reseñas, pero sugiere incluir una opción de organización por fecha o relevancia para facilitar la visualización. |
+| **Navegación general**              | Menciona que la navegación es intuitiva, pero sugiere que un tablero con funciones clave reduciría la necesidad de tantos pasos entre secciones. |
+
+
+#### 5.3.3. Evaluaciones según heurísticas.
+En esta sección se presentan las evaluaciones de usabilidad de la landing page y la aplicación web de servicios de belleza y cuidado personal, basadas en heurísticas y principios de diseño.
+
+**UX Heuristics & Principles Evaluation**
+**Usability – Inclusive Design – Information Architecture**
+
+**Información del Proyecto**
+- **Carrera:** Ingeniería de Software
+- **Curso:** Aplicaciones Web
+- **Auditor:** NRG3
+- **Cliente:** NRG3
+- **Site o App a Evaluar:** Bliss
+
+**Tareas a Evaluar**
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+**Para el Segmento Cliente:**
+1. **Navegación del Catálogo de Servicios:** Evaluar la facilidad para encontrar y explorar servicios como manicure, pedicure y tratamientos faciales.
+2. **Proceso de Reserva:** Evaluar la facilidad para reservar un servicio, seleccionar un horario y elegir un profesional.
+3. **Recepción de Servicios:** Evaluar la confirmación de la reserva, notificaciones y feedback post-servicio.
+
+**Para el Segmento Empresa:**
+1. **Visualización del Perfil de la Empresa:** Evaluar cómo la empresa visualiza su propio perfil.
+2. **Creación de Servicio:** Evaluar la facilidad para crear y personalizar nuevos servicios.
+3. **Gestión de Reservas:** Evaluar la capacidad para gestionar reservas de clientes, incluyendo la visualización y modificación de citas.
+4. **Recepción de Reviews y Feedback de Clientes:** Evaluar cómo las empresas reciben y gestionan reseñas de los clientes.
+
+**Escala de Severidad**
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+|-------|-------------|
+| 1     | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2     | Problema menor: puede ocurrir con más frecuencia o es más difícil de superar para el usuario. Debería tener una prioridad baja para resolverse en la próxima versión. |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Debería tener alta prioridad para corregirse. |
+| 4     | Problema muy grave: error que impide al usuario continuar utilizando la herramienta. Debe corregirse antes del lanzamiento. |
+
+**Tabla Resumen**
+La tabla de resumen muestra los problemas identificados, su nivel de severidad y el principio heurístico o diseño violado.
+
+
+| #  | Problema                                                              | Escala de severidad | Heurística/Principio violado             | Tarea evaluada                                  |
+|----|-----------------------------------------------------------------------|--------------------|-----------------------------------------|-------------------------------------------------|
+| 1  | Navegación lenta y con muchos pasos entre secciones                   | 3                  | Eficiencia y satisfacción del usuario   | Navegación del Catálogo de Servicios            |
+| 2  | Falta de opciones de personalización en creación de servicios         | 2                  | Flexibilidad y eficiencia en el uso     | Creación de Servicio                            |
+| 3  | Filtros ocupan demasiado espacio en la pantalla de búsqueda           | 2                  | Diseño estético y minimalista           | Navegación del Catálogo de Servicios            |
+| 4  | Diálogos grandes con demasiada información no priorizada              | 2                  | Diseño estético, visibilidad de información | Visualización del Perfil de la Empresa          |
+| 5  | Confusión en el mensaje "ver más" al seleccionar un review            | 3                  | Consistencia y claridad en el feedback  | Recepción de Reviews y Feedback de Clientes     |
+| 6  | Falta de confirmaciones en las acciones dentro del historial de reseñas| 2                  | Prevención de errores, ayuda a usuarios | Recepción de Reviews y Feedback de Clientes     |
+| 7  | No se puede responder a reseñas desde el perfil del servicio           | 3                  | Flexibilidad y eficiencia en la comunicación | Recepción de Reviews y Feedback de Clientes  |
+
+**Descripción de Problemas**
+
+**Problema #1: Navegación lenta y con muchos pasos entre secciones**
+- **Tarea Evaluada:** Navegación del Catálogo de Servicios
+- **Recomendación:** Optimizar el flujo de navegación reduciendo la cantidad de clics necesarios entre las secciones clave. Implementar menús más rápidos y opciones de acceso directo.
+
+**Problema #2: Falta de opciones de personalización en la creación de servicios**
+- **Tarea Evaluada:** Creación de Servicio
+- **Recomendación:** Agregar más opciones de personalización, como intervalos de tiempo predeterminados y tipos de servicios preconfigurados para mejorar la flexibilidad.
+
+**Problema #3: Filtros ocupan demasiado espacio en la pantalla de búsqueda**
+- **Tarea Evaluada:** Navegación del Catálogo de Servicios
+- **Recomendación:** Reducir el tamaño de los filtros o permitir que se colapsen para maximizar el espacio disponible en la pantalla.
+
+**Problema #4: Diálogos grandes con demasiada información no priorizada**
+- **Tarea Evaluada:** Visualización del Perfil de la Empresa
+- **Recomendación:** Simplificar los diálogos, mostrando solo la información esencial y permitiendo la expansión para detalles adicionales.
+
+**Problema #5: Confusión en el mensaje "ver más" al seleccionar un review**
+- **Tarea Evaluada:** Recepción de Reviews y Feedback de Clientes
+- **Recomendación:** Clarificar el mensaje "ver más" en la sección de reseñas, indicando claramente lo que se va a expandir o mostrar adicionalmente.
+
+**Problema #6: Falta de confirmaciones en acciones dentro del historial de reseñas**
+- **Tarea Evaluada:** Recepción de Reviews y Feedback de Clientes
+- **Recomendación:** Incluir mensajes de confirmación en cada acción del historial, como la publicación de una reseña o la modificación de una cita.
+
+**Problema #7: No se puede responder a reseñas desde el perfil del servicio**
+- **Tarea Evaluada:** Recepción de Reviews y Feedback de Clientes
+- **Recomendación:** Implementar una funcionalidad que permita a las empresas responder a reseñas directamente desde su perfil para facilitar la comunicación con los clientes.
+
+**User Flows a Validar**
+
+**Para el Segmento Cliente:**
+1. **Navegación del Catálogo de Servicios:** Evaluar la facilidad para encontrar y explorar servicios como manicure, pedicure y tratamientos faciales.
+2. **Proceso de Reserva:** Evaluar la facilidad para reservar un servicio, seleccionar un horario y elegir un profesional.
+3. **Recepción de Servicios:** Evaluar la confirmación de la reserva, notificaciones y feedback post-servicio.
+
+**Para el Segmento Empresa:**
+1. **Visualización del Perfil de la Empresa:** Evaluar cómo la empresa visualiza su propio perfil.
+2. **Creación de Servicio:** Evaluar la facilidad para crear y personalizar nuevos servicios.
+3. **Gestión de Reservas:** Evaluar la capacidad para gestionar reservas, visualizar y modificar citas de clientes.
+4. **Recepción de Reviews y Feedback de Clientes:** Evaluar cómo las empresas reciben y gestionan reseñas de los clientes.
+
+
+### 5.4. Video About-the-Product
+| **Sección**                          | **Descripción**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|--------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Resumen del Video**                | Se muestra una descripción general del modelo de negocio de Bliss y las principales características del mismo, por otro lado, se muestra un recorrido por la aplicación y las acciones que se pueden realizar en la misma.                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Pauta de Secuencias de Contenido** | **00:00:00**: Introducción <br> **00:00:10**: Features <br> **00:01:08**: Recorrido del cliente <br> **00:03:45**: Recorrido de la compañía <br> **00:06:32**: Cierre y conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Cuadro de Video Representativo**   | <img src="resources/chapter-5/About-the-product-cap.png" alt="Descripción de la imagen" width="300" height="200">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **URL del Video**                    | **Microsoft Stream**: [Link de acceso](https://upcedupe-my.sharepoint.com/personal/u20231c784_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20231c784%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202402%2Dsi730%2DWS53%2DNRG3%2Dabout%2Dthe%2Dproduct%2Dsprint%2D3%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E170084ee%2Dfa15%2D40d0%2Db55e%2D67646b89c958) <br/> **Youtube**:[Link de acceso](https://www.youtube.com/watch?v=hLEgim73rcs&ab_channel=ElviaMarcela) |
 
 ## Conclusiones
 1. **Viabilidad del Proyecto**
