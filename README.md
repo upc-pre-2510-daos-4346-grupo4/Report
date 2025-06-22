@@ -3201,17 +3201,33 @@ En esta sección se detallan los commits realizados en la rama `develop` del rep
 
 
 #### 5.2.3.5.Execution Evidence for Sprint Review.
-Durante el sprint 2, se alcanzó un progreso parcial en el desarrollo e implementación del front-end. Se construyeron varias secciones esenciales que permiten al usuario interactuar con las funciones principales del sistema. A continuación, se muestran algunas evidencias del trabajo realizado:
+Durante el sprint 3, se corrigieron los bounded context y se agregaron nuevos en el frontend
 
-![Evidence](assets/sprint2Course1.png)
-![Evidence](assets/sprint2course2.png)
-![Evidence](assets/sprint2Course4.png)
-![Evidence](assets/sprint2Course5.png)
+Home:
+![Evidence](assets/Home.png)
+
+About:
+![Evidence](assets/About.png)
+
+Publishing:
+![Evidence](assets/Publishing1.png)
+![Evidence](assets/Publishing2.png)
+![Evidence](assets/Publishing3.png)
+![Evidence](assets/Publishing4.png)
+![Evidence](assets/Publishing5.png)
+![Evidence](assets/Publishing6.png)
+
+Profile:
+![Evidence](assets/profile1.png)
+![Evidence](assets/profile2.png)
+
+Studying:
+![Evidence](assets/Studying.png)
 
 
 #### 5.2.3.6.Services Documentation Evidence for Sprint Review.
 
-En el sprint 2 se planificó exclusivamente continuar con el desarrollo pendiente de la landing page y del front-end. Para evitar restricciones al momento de probar las funcionalidades, se decidió utilizar JSON Server. Al principio se empleó una versión local, pero luego de conocer My JSON Server, se optó por esta alternativa, ya que permite interactuar con la base de datos desde una aplicación web frontend ya desplegada. Enlace a My JSON Server:
+En el sprint 3 se planificó exclusivamente continuar con el desarrollo pendiente de la landing page y del front-end. Para evitar restricciones al momento de probar las funcionalidades, se decidió utilizar JSON Server. Al principio se empleó una versión local, pero luego de conocer My JSON Server, se optó por esta alternativa, ya que permite interactuar con la base de datos desde una aplicación web frontend ya desplegada. Enlace a My JSON Server:
 https://my-json-server.typicode.com/ComidaRapida007/db-server
 
 
