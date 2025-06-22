@@ -2894,7 +2894,7 @@ Durante este sprint, las tareas de diseño, implementación y documentación del
 
 ### 5.2.3. Sprint 3
 #### 5.2.3.1.Sprint Planning 3.
-Un sprint es un período breve y organizado en el que se ejecutan tareas específicas dentro de un proyecto, aplicando metodologías ágiles como Scrum. El Sprint #2, que comenzó el 6 de mayo de 2025, tiene como objetivo implementar la estructura funcional del frontend web de la plataforma Edunova, enfocándose en accesibilidad, diseño responsivo y experiencia del usuario. Se espera lograr una navegación fluida que pueda ser evaluada positivamente por usuarios y empresas aliadas.
+Un sprint es un período breve y organizado en el que se ejecutan tareas específicas dentro de un proyecto, aplicando metodologías ágiles como Scrum. El Sprint #3, que comenzó el 14 de junio de 2025, tiene como objetivo añadir y reforzar cada bounded context del frontend web de la plataforma Edunova, enfocándose en accesibilidad, diseño responsivo y experiencia del usuario y concluyendo con su despligue final hasta la fecha, además, se conectara a un MockAPI simulando respuestas del backend. Se espera lograr una navegación fluida que pueda ser evaluada positivamente por usuarios y empresas aliadas.
 
 <table>
      <tr> 
@@ -2934,22 +2934,22 @@ Un sprint es un período breve y organizado en el que se ejecutan tareas especí
         </td>
      </tr>
      <tr>
-        <td style="font-weight: bold;"> Sprint 1 Review Summary </td>
-        <td> Se completó exitosamente la construcción de la landing page, incluyendo navegación, login simulado y secciones informativas. El equipo logró desplegar el primer entregable en GitHub con acceso público. </td>
+        <td style="font-weight: bold;"> Sprint 2 Review Summary </td>
+        <td> Se completó exitosamente la construcción de la landing page y frontend incluyendo navegación, login simulado y secciones informativas. El equipo logró desplegar el primer entregable en GitHub y firebase con acceso público. </td>
      </tr>
      <tr>
-        <td style="font-weight: bold;"> Sprint 1 Retrospective Summary </td>
+        <td style="font-weight: bold;"> Sprint 2 Retrospective Summary </td>
         <td> Se identificaron oportunidades de mejora en la distribución de tareas y estimación de tiempos. Se decidió reforzar la comunicación interna y adoptar criterios de diseño unificados para mejorar la cohesión visual. </td>
      </tr>
      <tr> 
         <td style="font-weight: bold;" colspan="7"> Sprint Goal & User Stories</td>
      </tr>
        <tr>
-          <td style="font-weight: bold;"> Sprint 2 Goal</td>
-          <td> En este sprint, el objetivo es construir el frontend del módulo de estudio (bounded context Studying) con Angular 19.2.10, incluyendo componentes como tabs, paginator, dialog, cards dinámicas y menú contextual, además de integración de internacionalización y simulación de base de datos con `db.json`. </td>
+          <td style="font-weight: bold;"> Sprint 3 Goal</td>
+          <td> En este sprint, el objetivo es construir el frontend del módulo de estudio (bounded contexts Studying, Publishing y Presenting) con Angular 19.2.10, incluyendo componentes como tabs, paginator, dialog, cards dinámicas y menú contextual, además de integración de internacionalización y simulación de base de datos con `db.json`. </td>
       </tr>
        <tr>
-          <td style="font-weight: bold;"> Sprint 2 Velocity </td>
+          <td style="font-weight: bold;"> Sprint 3 Velocity </td>
           <td> 40 </td>
       </tr>
       <tr>
