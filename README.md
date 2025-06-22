@@ -193,16 +193,25 @@
     - [5.2.3. Sprint 3](#523-sprint-3)
       - [5.2.3.1.Sprint Planning 3.](#5231sprint-planning-3)
       - [5.2.3.2. Aspect Leaders and Collaborators.](#5232-aspect-leaders-and-collaborators)
-      - [5.2.3.3.Sprint Backlog 3.](#5233sprint-backlog-3)
+      - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
       - [5.2.3.4.Development Evidence for Sprint Review.](#5234development-evidence-for-sprint-review)
       - [5.2.3.5.Execution Evidence for Sprint Review.](#5235execution-evidence-for-sprint-review)
       - [5.2.3.6.Services Documentation Evidence for Sprint Review.](#5236services-documentation-evidence-for-sprint-review)
       - [5.2.3.7.Software Deployment Evidence for Sprint Review.](#5237software-deployment-evidence-for-sprint-review)
       - [5.2.3.8.Team Collaboration Insights during Sprint.](#5238team-collaboration-insights-during-sprint)
     - [5.3. Validation Interviews](#53-validation-interviews)
-      - [5.3.1 Diseño de Entrevistas](#531-diseño-de-entrevistas)
+    - [5.3.1 Diseño de Entrevistas](#531-diseño-de-entrevistas)
+      - [*Objetivo de la Entrevista*](#objetivo-de-la-entrevista)
+      - [*Elementos de Validación*](#elementos-de-validación)
+      - [*User Flows a Validar*](#user-flows-a-validar)
+      - [*Formato de Registro de la Entrevista*](#formato-de-registro-de-la-entrevista)
+      - [*Preguntas para el Segmento Estudiantes*](#preguntas-para-el-segmento-estudiantes)
+      - [*Preguntas para el Segmento Docentes*](#preguntas-para-el-segmento-docentes)
         - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
-      - [5.3.3. Evaluaciones según heurísticas.](#533-evaluaciones-según-heurísticas)
+    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+      - [*UX Heuristics \& Principles Evaluation*](#ux-heuristics--principles-evaluation)
+      - [*Escala de Severidad*](#escala-de-severidad)
+      - [*Tabla Resumen*](#tabla-resumen)
     - [5.4. Video About-the-Product](#54-video-about-the-product)
   - [Conclusiones](#conclusiones)
   - [Recomendaciones](#recomendaciones)
@@ -2976,15 +2985,22 @@ A continuación, se presenta la **Leadership and Collaboration Matrix (LACX)** d
 Esta matriz fue definida en conjunto durante la sesión de Sprint Planning y ha sido clave para mantener la trazabilidad de responsabilidades. Además, facilitó la integración de los distintos aspectos técnicos del sistema y promovió una colaboración ágil y efectiva entre los miembros del equipo.
 
 
-#### 5.2.3.3.Sprint Backlog 3.
-En este segundo sprint, el equipo centró sus esfuerzos en implementar el frontend web de la aplicación EDUnova, abarcando tanto el diseño visual como la funcionalidad básica de interacción con los datos. Se priorizó la experiencia del usuario, integrando componentes de Angular Material, internacionalización (i18n) y navegación fluida. Para la organización de tareas y seguimiento del progreso se utilizó **Trello**, lo que permitió distribuir el trabajo de manera equitativa y colaborativa entre los integrantes del equipo.
+#### 5.2.3.3. Sprint Backlog 3
 
-![Trello](assets/trelloSprint2.png)
+Durante este tercer sprint, el equipo consolidó el desarrollo del **frontend completo de EDUnova**, logrando su **despliegue final** con todos los bounded contexts integrados y conectados a una **MockAPI** para simular las respuestas del backend. Esta implementación permitió probar de manera integral la experiencia de usuario y los principales flujos funcionales en un entorno realista.
 
-<table style="width:100%; height:auto; border-collapse: collapse;">
+Además, se completó el diseño de los **dominios de negocio** (basados en DDD) y se iniciaron los trabajos del backend, sentando las bases para el desarrollo de los **servicios web** que permitirán la conexión con una base de datos real en los próximos sprints.
+
+Entre los avances clave, se destacan la mejora visual de la **landing page**, la creación del módulo de gestión de cursos para instructores, y la implementación de nuevas vistas como **Home**, **About** y **page-not-found**, así como el **perfil de usuario**, desde donde se pueden editar datos personales y gestionar certificados.
+
+Para el seguimiento y gestión de tareas se utilizó **Trello**, lo que facilitó una planificación colaborativa y organizada.
+
+![Trello](assets/trelloSprint3.png)
+
+<table style="width:100%; border-collapse: collapse;">
    <tr>
       <th colspan="4"> Sprint # </th>
-      <th colspan="7"> Sprint 2 </th>
+      <th colspan="7"> Sprint 3 </th>
    </tr>
    <tr>
      <th colspan="4"> User Story </th>
@@ -2998,129 +3014,162 @@ En este segundo sprint, el equipo centró sus esfuerzos en implementar el fronte
      <th> Description </th>
      <th> Estimation (Hours) </th>
      <th> Assigned To </th>
-     <th> Status (To-do / In-Process / To-Review / Done) </th>
+     <th> Status </th>
    </tr>
    <tr>
-     <td> US12 </td>
-     <td colspan="3"> Acceder a mis cursos comprados </td>
-     <td> UT01 </td>
-     <td> Crear componente StudyingComponent </td>
-     <td> Generar la vista de cronograma en la que se listan los cursos comprados por el usuario. </td>
-     <td> 6 </td>
-     <td> Diego Acuña </td>
-     <td> Done </td>
-   </tr>
-   <tr>
-     <td> US15 </td>
-     <td colspan="3"> Marcar progreso </td>
-     <td> UT02 </td>
-     <td> Implementar lógica para marcar temas completados </td>
-     <td> Guardar en el fake backend los temas completados por el usuario para el seguimiento de su progreso. </td>
+     <td> US40 </td>
+     <td colspan="3"> Mejorar landing page </td>
+     <td> UT13 </td>
+     <td> Rediseño visual y responsivo </td>
+     <td> Optimizar la apariencia y adaptabilidad de la landing para distintos dispositivos. </td>
      <td> 4 </td>
      <td> Diego Acuña </td>
      <td> Done </td>
    </tr>
    <tr>
-     <td> US10 </td>
-     <td colspan="3"> Ver descripción del curso </td>
-     <td> UT03 </td>
-     <td> Mostrar resumen del curso en cada tarjeta </td>
-     <td> Agregar en las tarjetas de cursos el nombre, instructor y una breve descripción accesible. </td>
-     <td> 2 </td>
-     <td> Diego Acuña </td>
+     <td> US41 </td>
+     <td colspan="3"> Gestionar mis cursos </td>
+     <td> UT14 </td>
+     <td> CRUD de cursos </td>
+     <td> Crear, editar y eliminar cursos: título, descripción, precio, idioma, dificultad. </td>
+     <td> 6 </td>
+     <td> Cristian Iparraguirre </td>
      <td> Done </td>
    </tr>
    <tr>
-     <td> US31 </td>
-     <td colspan="3"> Usar buscador con sugerencias </td>
-     <td> UT04 </td>
-     <td> Preparar la infraestructura para futuras sugerencias en buscador </td>
-     <td> Dejar preparada la estructura para integrar funcionalidades futuras como el buscador predictivo. </td>
-     <td> 2 </td>
-     <td> Esteban Alvarez </td>
-     <td> To-Do </td>
+     <td> US42 </td>
+     <td colspan="3"> Administrar temario del curso </td>
+     <td> UT15 </td>
+     <td> Crear/editar/eliminar temas </td>
+     <td> Permitir gestionar la lista de temas de un curso. </td>
+     <td> 5 </td>
+     <td> Tony Torres </td>
+     <td> Done </td>
    </tr>
    <tr>
-     <td> US23 </td>
-     <td colspan="3"> Recibir notificaciones importantes </td>
-     <td> UT05 </td>
-     <td> Configuración inicial de sistema de notificaciones </td>
-     <td> Planificación del modelo y mecanismo para envío de notificaciones en futuras vistas. </td>
+     <td> US43 </td>
+     <td colspan="3"> Añadir objetivos y recursos </td>
+     <td> UT16 </td>
+     <td> Objetivos y links de YouTube </td>
+     <td> Integrar objetivos del tema y recursos con videos incrustados desde YouTube. </td>
+     <td> 4 </td>
+     <td> Esteban Alvarez </td>
+     <td> Done </td>
+   </tr>
+   <tr>
+     <td> US44 </td>
+     <td colspan="3"> Simular backend con MockAPI </td>
+     <td> UT17 </td>
+     <td> Configuración de endpoints </td>
+     <td> Usar MockAPI como fuente de datos para simular comportamiento real. </td>
      <td> 3 </td>
      <td> Cristian Iparraguirre </td>
+     <td> Done </td>
+   </tr>
+   <tr>
+     <td> US45 </td>
+     <td colspan="3"> Conectar frontend a dominios reales </td>
+     <td> UT18 </td>
+     <td> Adaptación lógica de frontend </td>
+     <td> Conectar vistas a estructuras reales modeladas en DDD para futura integración backend. </td>
+     <td> 3 </td>
+     <td> Tony Torres </td>
+     <td> Done </td>
+   </tr>
+   <tr>
+     <td> US46 </td>
+     <td colspan="3"> Preparar servicios web (versión inicial) </td>
+     <td> UT19 </td>
+     <td> Estructura base backend </td>
+     <td> Definición inicial de rutas, dominios y controladores REST para futura conexión. </td>
+     <td> 4 </td>
+     <td> Esteban Alvarez </td>
      <td> In-Process </td>
    </tr>
    <tr>
-     <td> US21 </td>
-     <td colspan="3"> Editar perfil personal </td>
-     <td> UT06 </td>
-     <td> Vinculación de usuario con perfil visible </td>
-     <td> Ajustar datos de usuario autenticado para visibilizar perfil desde el frontend. </td>
+     <td> US47 </td>
+     <td colspan="3"> Ver y editar perfil personal </td>
+     <td> UT20 </td>
+     <td> CRUD datos personales </td>
+     <td> Permitir al usuario actualizar su nombre, correo, contraseña y descripción. </td>
+     <td> 3 </td>
+     <td> Diego Acuña </td>
+     <td> Done </td>
+   </tr>
+   <tr>
+     <td> US48 </td>
+     <td colspan="3"> Gestionar certificados del perfil </td>
+     <td> UT21 </td>
+     <td> CRUD de certificados </td>
+     <td> Visualizar, agregar, editar y eliminar certificados asociados al perfil del usuario. </td>
      <td> 4 </td>
      <td> Tony Torres </td>
      <td> Done </td>
    </tr>
    <tr>
-     <td> US18 </td>
-     <td colspan="3"> Navegación entre tabs </td>
-     <td> UT07 </td>
-     <td> Implementar tabs de cursos en progreso y completados </td>
-     <td> Añadir navegación por tabs en el cronograma para visualizar el estado del curso. </td>
+     <td> US49 </td>
+     <td colspan="3"> Página Home informativa </td>
+     <td> UT22 </td>
+     <td> Mensaje de bienvenida y objetivos </td>
+     <td> Explicar brevemente el propósito de EDUnova y qué problemática busca solucionar. </td>
+     <td> 2 </td>
+     <td> Cristian Iparraguirre </td>
+     <td> Done </td>
+   </tr>
+   <tr>
+     <td> US50 </td>
+     <td colspan="3"> Página About de la startup </td>
+     <td> UT23 </td>
+     <td> Visión, misión y equipo </td>
+     <td> Describir la startup SofTeam, su propósito, visión, misión y valores. </td>
      <td> 2 </td>
      <td> Esteban Alvarez </td>
      <td> Done </td>
    </tr>
    <tr>
-     <td> US20 </td>
-     <td colspan="3"> Ver temas por curso </td>
-     <td> UT08 </td>
-     <td> Implementar menú desplegable de semanas </td>
-     <td> Agregar menú con listado de temas por curso, mostrando su título y posición. </td>
-     <td> 3 </td>
-     <td> Cristian Iparraguirre </td>
-     <td> Done </td>
-   </tr>
-   <tr>
-     <td> US25 </td>
-     <td colspan="3"> Ver detalle del tema </td>
-     <td> UT09 </td>
-     <td> Mostrar información completa de tema en diálogo </td>
-     <td> Diseñar un diálogo para desplegar información detallada del tema seleccionado. </td>
-     <td> 3 </td>
-     <td> Tony Torres </td>
-     <td> Done </td>
-   </tr>
-   <tr>
-     <td> US27 </td>
-     <td colspan="3"> Internacionalización </td>
-     <td> UT10 </td>
-     <td> Agregar soporte i18n en vista Studying </td>
-     <td> Traducir el contenido visible de la vista Studying utilizando ngx-translate. </td>
+     <td> US51 </td>
+     <td colspan="3"> Manejo de rutas inválidas </td>
+     <td> UT24 </td>
+     <td> Página de error 404 </td>
+     <td> Implementar `page-not-found` y redirigir automáticamente al Home. </td>
      <td> 2 </td>
      <td> Diego Acuña </td>
      <td> Done </td>
    </tr>
    <tr>
-     <td> US33 </td>
-     <td colspan="3"> Diseño responsive </td>
-     <td> UT11 </td>
-     <td> Ajuste de diseño para dispositivos móviles </td>
-     <td> Adaptar la vista para asegurar su usabilidad en pantallas pequeñas. </td>
-     <td> 3 </td>
-     <td> Tony Torres </td>
-     <td> Done </td>
-   </tr>
-   <tr>
-     <td> US22 </td>
-     <td colspan="3"> Paginación de cursos </td>
-     <td> UT12 </td>
-     <td> Implementar componente paginator </td>
-     <td> Utilizar MatPaginator para manejar la paginación de los cursos mostrados. </td>
-     <td> 2 </td>
-     <td> Cristian Iparraguirre </td>
-     <td> Done </td>
-   </tr>
+  <td> US52 </td>
+  <td colspan="3"> Mostrar certificados en una tabla </td>
+  <td> UT25 </td>
+  <td> Tabla de certificados con acciones </td>
+  <td> Implementar tabla que liste los certificados del usuario con opciones para editar y eliminar. </td>
+  <td> 3 </td>
+  <td> Tony Torres </td>
+  <td> Done </td>
+</tr>
+<tr>
+  <td> US53 </td>
+  <td colspan="3"> Mejorar diseño de edición de perfil </td>
+  <td> UT26 </td>
+  <td> Formulario en card visual </td>
+  <td> Encapsular el formulario de edición del perfil en una card con buen espaciado y presentación. </td>
+  <td> 2 </td>
+  <td> Diego Acuña </td>
+  <td> Done </td>
+</tr>
+<tr>
+  <td> US54 </td>
+  <td colspan="3"> Adaptar vista de publicación a móviles </td>
+  <td> UT27 </td>
+  <td> Hacer mat-accordion responsive </td>
+  <td> Ajustar estilos internos de los contenidos del `mat-accordion` para asegurar visualización en pantallas pequeñas. </td>
+  <td> 3 </td>
+  <td> Esteban Alvarez </td>
+  <td> Done </td>
+</tr>
 </table>
+
+
+
 
 #### 5.2.3.4.Development Evidence for Sprint Review.
 
@@ -3218,67 +3267,84 @@ Durante este sprint, las tareas de diseño, implementación y documentación del
 ### 5.3. Validation Interviews
 En esta sección se presentan los detalles de las entrevistas de validación realizadas.
 
-#### 5.3.1 Diseño de Entrevistas
+### 5.3.1 Diseño de Entrevistas
 
 Para el diseño de entrevistas se consideraron los siguientes aspectos:
 
-**Objetivo de la Entrevista**
+#### *Objetivo de la Entrevista*
 
-Validar la usabilidad y efectividad de la landing page y la aplicación para cada uno de los segmentos de usuarios, asegurando que los flujos de usuario (user flows) sean intuitivos y satisfactorios.
-**Elementos de Validación**
-- **Landing Page**: Los usuarios interactuarán con la landing page para evaluar la claridad del mensaje, las llamadas a la acción (CTA), la navegación y el diseño.
-- **Aplicación**: Se guiará a los usuarios a través de flujos principales, como la reserva de servicios de belleza, la gestión de servicios y el sistema de feedback.
-**User Flows a Validar**
+Validar la usabilidad y efectividad de la plataforma *EDUnova*, asegurando que los flujos de usuario (user flows) sean intuitivos y satisfactorios para estudiantes y docentes.
 
-**Para el Segmento Cliente**
-1. **Navegación del Catálogo de Servicios**: Facilidad para encontrar y explorar servicios (manicure, pedicure, tratamientos faciales, etc.).
-2. **Proceso de Reserva**: Facilidad para reservar un servicio, seleccionar una hora y elegir un profesional.
-3. **Recepción de Servicios**: Evaluar la confirmación de la reserva, notificaciones y feedback post-servicio.
-   
-**Para el Segmento Empresa**
-1. **Visualización del Perfil de la Empresa**: Cómo la empresa visualiza su propio perfil.
-2. **Creación de Servicio**: Facilidad para crear y personalizar nuevos servicios.
-3. **Gestión de Reservas**: Capacidad para gestionar reservas de clientes, incluyendo la visualización y modificación de citas.
-4. **Recepción de Reviews y Feedback de Clientes**: Cómo las empresas reciben y gestionan reseñas de los clientes.
+#### *Elementos de Validación*
+- *Plataforma EDUnova*: Los usuarios interactuarán con la plataforma para evaluar la claridad de la interfaz, las funcionalidades de inscripción, la visualización de cursos y los mecanismos de retroalimentación.
+- *Interacción con los Cursos*: Los usuarios participarán en actividades específicas, como la inscripción en cursos, visualización de material didáctico y la revisión de calificaciones.
 
-**Formato de Registro de la Entrevista**
-1. **Datos del Entrevistado**:
+#### *User Flows a Validar*
+
+*Para el Segmento Estudiantes:*
+1. *Navegación del Catálogo de Cursos: Evaluar la facilidad para encontrar y explorar los cursos disponibles en **EDUnova*.
+2. *Proceso de Inscripción en Cursos*: Evaluar la facilidad para inscribirse en un curso, seleccionar horarios y materias adicionales.
+3. *Visualización de Progreso y Resultados*: Evaluar cómo los estudiantes pueden visualizar su avance y calificaciones de manera clara y eficiente.
+
+*Para el Segmento Docentes:*
+1. *Visualización del Perfil del Docente*: Evaluar cómo los docentes gestionan su perfil, incluyendo sus cursos y horarios.
+2. *Creación de Materiales Educativos*: Evaluar la facilidad para que los docentes suban y gestionen materiales didácticos, como presentaciones, documentos y videos.
+3. *Gestión de Inscripciones y Evaluaciones*: Evaluar la capacidad de los docentes para gestionar las inscripciones de los estudiantes y realizar evaluaciones en línea.
+4. *Recepción de Feedback de Estudiantes*: Evaluar cómo los docentes reciben y gestionan las valoraciones y comentarios de los estudiantes.
+
+#### *Formato de Registro de la Entrevista*
+1. *Datos del Entrevistado*:
    - Nombre y apellidos
    - Edad
-   - Distrito de residencia
+   - Carrera
    - Dispositivo utilizado (smartphone, tablet, laptop)
 
-**Preguntas para el Segmento Cliente**
-**Catálogo de Servicios**
-- ¿Fue fácil encontrar lo que buscabas en el catálogo?
-- ¿Cómo describirías la información presentada sobre los servicios?
-- ¿Algún momento te sentiste perdido al explorar el catálogo?
-- ¿Pudiste comparar fácilmente diferentes servicios? ¿Cómo mejorarías este proceso?
-**Creación de Reserva de Cita**
-- ¿Qué tan sencillo fue comenzar a reservar una cita?
-- Describe el flujo para crear una reserva. ¿Algún paso generó dudas?
-- ¿El sistema brindó suficiente retroalimentación al completar la reserva?
-- ¿Hubo obstáculos al elegir la fecha o el servicio adecuado?
-**Visualización de Historial**
-- Describe tu experiencia al buscar el historial de reservas. ¿Fue intuitivo?
-- ¿Pudiste encontrar la información fácilmente?
-- ¿Hay algo en el historial que cambiarías para mejorar la gestión de reservas pasadas?
-**Reviews**
-- Describe el proceso para dejar una review. ¿Fue sencillo?
-- ¿Recibiste suficiente guía para incluir tu review?
-- ¿Te resultó útil valorar tanto el servicio como al proveedor?
-**Preguntas para el Segmento Empresa**
-**Visualización de Servicios**
-- ¿Fue clara la visualización de los servicios de tu empresa en el perfil?
-- ¿Cómo fue la funcionalidad para actualizar o modificar los servicios?
-**Creación de Servicio**
-- Describe el proceso para crear un nuevo servicio. ¿Fue claro desde el principio?
-- ¿Qué tan intuitivo fue definir los detalles del servicio (nombre, precio, disponibilidad)?
-- ¿Recibiste suficiente orientación durante la creación del servicio?
-**Gestión de Servicios y Reservas**
-- ¿En qué medida el sistema te permite gestionar eficientemente los servicios?
-- ¿Qué desafíos enfrentaste al actualizar la información de la empresa y servicios?
-- ¿Qué aspectos del sistema valoras más en comparación con otras plataformas que usas?
+#### *Preguntas para el Segmento Estudiantes*
+
+*Catálogo de Cursos*
+- ¿Fue fácil encontrar los cursos que te interesaban en *EDUnova*?
+- ¿Cómo describirías la organización del catálogo de cursos?
+- ¿Hubo alguna dificultad al buscar un curso o materia en específico?
+- ¿Qué mejorarías en la navegación del catálogo de cursos?
+
+*Inscripción en Cursos*
+- ¿Cómo calificarías el proceso de inscripción en un curso?
+- ¿Hubo alguna parte del proceso que te resultó confusa o difícil de seguir?
+- ¿El sistema brindó suficientes opciones para personalizar tu inscripción (como horarios o materiales adicionales)?
+- ¿Qué cambios propondrías para facilitar el proceso de inscripción?
+
+*Visualización de Progreso y Resultados*
+- ¿Cómo fue tu experiencia al visualizar tus calificaciones y avances en los cursos?
+- ¿La interfaz te mostró toda la información relevante sobre tus resultados y progresos?
+- ¿Te resultó sencillo acceder a los materiales complementarios y la retroalimentación de los docentes?
+
+*Feedback y Reseñas*
+- ¿Tuviste la oportunidad de dejar feedback sobre los cursos que tomaste? ¿Fue fácil hacerlo?
+- ¿El sistema te proporcionó suficiente información sobre los comentarios de los demás estudiantes?
+- ¿Cómo mejorarías la experiencia de dar feedback o reseñas en los cursos?
+
+#### *Preguntas para el Segmento Docentes*
+
+*Visualización del Perfil del Docente*
+- ¿Fue fácil acceder y gestionar tu perfil como docente en *EDUnova*?
+- ¿Pudiste ver y organizar tus cursos, horarios y estudiantes de manera eficiente?
+- ¿Hay alguna funcionalidad que cambiarías para mejorar la visualización del perfil?
+
+*Creación de Materiales Educativos*
+- ¿El proceso para subir y organizar materiales educativos fue claro y eficiente?
+- ¿Pudiste cargar diferentes tipos de contenido (videos, documentos, presentaciones) sin problemas?
+- ¿Qué mejorarías en la gestión de materiales educativos para facilitar su carga y distribución?
+
+*Gestión de Inscripciones y Evaluaciones*
+- ¿Cómo calificarías la facilidad para gestionar las inscripciones de los estudiantes en tus cursos?
+- ¿El sistema de evaluación te permitió crear y calificar exámenes o tareas fácilmente?
+- ¿Recibiste suficientes opciones de personalización para el seguimiento de estudiantes y sus calificaciones?
+
+*Recepción de Feedback de Estudiantes*
+- ¿El sistema te proporcionó una manera clara y organizada de recibir los comentarios y evaluaciones de los estudiantes?
+- ¿Pudiste responder fácilmente a las reseñas y comentarios de los estudiantes?
+- ¿Qué aspectos del sistema de feedback mejorarías para facilitar la interacción entre estudiantes y docentes?
+
 ##### 5.3.2. Registro de Entrevistas
 
 |                                                           |                                                                                                                                                                                                                                                                                                                                 |
@@ -3382,34 +3448,34 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 | **Navegación general**              | Menciona que la navegación es intuitiva, pero sugiere que un tablero con funciones clave reduciría la necesidad de tantos pasos entre secciones. |
 
 
-#### 5.3.3. Evaluaciones según heurísticas.
-En esta sección se presentan las evaluaciones de usabilidad de la landing page y la aplicación web de servicios de belleza y cuidado personal, basadas en heurísticas y principios de diseño.
+### 5.3.3. Evaluaciones según heurísticas
+En esta sección se presentan las evaluaciones de usabilidad de la plataforma *EDUnova*, basadas en heurísticas y principios de diseño. El objetivo es identificar posibles problemas de usabilidad y proponer soluciones que mejoren la experiencia de los usuarios.
 
-**UX Heuristics & Principles Evaluation**
-**Usability – Inclusive Design – Information Architecture**
+#### *UX Heuristics & Principles Evaluation*
+*Usabilidad – Diseño Inclusivo – Arquitectura de la Información*
 
-**Información del Proyecto**
-- **Carrera:** Ingeniería de Software
-- **Curso:** Aplicaciones Web
-- **Auditor:** NRG3
-- **Cliente:** NRG3
-- **Site o App a Evaluar:** Bliss
+*Información del Proyecto*
+- *Carrera:* Ingeniería de Software
+- *Curso:* Aplicaciones Web
+- *Auditor:* EDUnova
+- *Cliente:* EDUnova
+- *Sitio o App a Evaluar:* EDUnova
 
-**Tareas a Evaluar**
+*Tareas a Evaluar*
 El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
 
-**Para el Segmento Cliente:**
-1. **Navegación del Catálogo de Servicios:** Evaluar la facilidad para encontrar y explorar servicios como manicure, pedicure y tratamientos faciales.
-2. **Proceso de Reserva:** Evaluar la facilidad para reservar un servicio, seleccionar un horario y elegir un profesional.
-3. **Recepción de Servicios:** Evaluar la confirmación de la reserva, notificaciones y feedback post-servicio.
+*Para el Segmento Estudiantes:*
+1. *Navegación del Catálogo de Cursos:* Evaluar la facilidad para encontrar y explorar los cursos disponibles.
+2. *Proceso de Inscripción en Cursos:* Evaluar la facilidad para inscribirse en un curso, seleccionar horarios y materias adicionales.
+3. *Visualización de Progreso y Resultados:* Evaluar cómo los estudiantes pueden visualizar su avance y calificaciones de manera clara y eficiente.
 
-**Para el Segmento Empresa:**
-1. **Visualización del Perfil de la Empresa:** Evaluar cómo la empresa visualiza su propio perfil.
-2. **Creación de Servicio:** Evaluar la facilidad para crear y personalizar nuevos servicios.
-3. **Gestión de Reservas:** Evaluar la capacidad para gestionar reservas de clientes, incluyendo la visualización y modificación de citas.
-4. **Recepción de Reviews y Feedback de Clientes:** Evaluar cómo las empresas reciben y gestionan reseñas de los clientes.
+*Para el Segmento Docentes:*
+1. *Visualización del Perfil del Docente:* Evaluar cómo los docentes gestionan su perfil, incluyendo sus cursos y horarios.
+2. *Creación de Materiales Educativos:* Evaluar la facilidad para que los docentes suban y gestionen materiales didácticos, como presentaciones y documentos.
+3. *Gestión de Inscripciones y Evaluaciones:* Evaluar la capacidad de los docentes para gestionar las inscripciones de los estudiantes y realizar evaluaciones en línea.
+4. *Recepción de Feedback de Estudiantes:* Evaluar cómo los docentes reciben y gestionan las valoraciones y comentarios de los estudiantes.
 
-**Escala de Severidad**
+#### *Escala de Severidad*
 Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 | Nivel | Descripción |
@@ -3419,63 +3485,40 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 | 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Debería tener alta prioridad para corregirse. |
 | 4     | Problema muy grave: error que impide al usuario continuar utilizando la herramienta. Debe corregirse antes del lanzamiento. |
 
-**Tabla Resumen**
+#### *Tabla Resumen*
 La tabla de resumen muestra los problemas identificados, su nivel de severidad y el principio heurístico o diseño violado.
-
 
 | #  | Problema                                                              | Escala de severidad | Heurística/Principio violado             | Tarea evaluada                                  |
 |----|-----------------------------------------------------------------------|--------------------|-----------------------------------------|-------------------------------------------------|
-| 1  | Navegación lenta y con muchos pasos entre secciones                   | 3                  | Eficiencia y satisfacción del usuario   | Navegación del Catálogo de Servicios            |
-| 2  | Falta de opciones de personalización en creación de servicios         | 2                  | Flexibilidad y eficiencia en el uso     | Creación de Servicio                            |
-| 3  | Filtros ocupan demasiado espacio en la pantalla de búsqueda           | 2                  | Diseño estético y minimalista           | Navegación del Catálogo de Servicios            |
-| 4  | Diálogos grandes con demasiada información no priorizada              | 2                  | Diseño estético, visibilidad de información | Visualización del Perfil de la Empresa          |
-| 5  | Confusión en el mensaje "ver más" al seleccionar un review            | 3                  | Consistencia y claridad en el feedback  | Recepción de Reviews y Feedback de Clientes     |
-| 6  | Falta de confirmaciones en las acciones dentro del historial de reseñas| 2                  | Prevención de errores, ayuda a usuarios | Recepción de Reviews y Feedback de Clientes     |
-| 7  | No se puede responder a reseñas desde el perfil del servicio           | 3                  | Flexibilidad y eficiencia en la comunicación | Recepción de Reviews y Feedback de Clientes  |
+| 1  | Navegación lenta y con muchos pasos entre secciones                  | 3                  | Visibilidad y control                   | Navegación del Catálogo de Cursos               |
+| 2  | Falta de opciones de personalización en la creación de cursos         | 2                  | Flexibilidad y eficiencia en el uso     | Creación de Materiales Educativos               |
+| 3  | Filtros ocupan demasiado espacio en la pantalla de búsqueda           | 2                  | Diseño estético y minimalista           | Navegación del Catálogo de Cursos               |
+| 4  | Diálogos grandes con demasiada información no priorizada             | 2                  | Diseño estético, visibilidad de información | Visualización del Perfil del Docente            |
+| 5  | Confusión en el mensaje "ver más" al seleccionar una evaluación      | 3                  | Consistencia y claridad en el feedback  | Recepción de Feedback de Estudiantes            |
+| 6  | Falta de confirmaciones en las acciones dentro del historial de calificaciones | 2                  | Prevención de errores, ayuda a usuarios | Visualización de Progreso y Resultados         |
+| 7  | No se puede responder a comentarios de estudiantes desde el perfil del curso | 3                  | Flexibilidad y eficiencia en la comunicación | Recepción de Feedback de Estudiantes            |
 
-**Descripción de Problemas**
+*Descripción de Problemas*
 
-**Problema #1: Navegación lenta y con muchos pasos entre secciones**
-- **Tarea Evaluada:** Navegación del Catálogo de Servicios
-- **Recomendación:** Optimizar el flujo de navegación reduciendo la cantidad de clics necesarios entre las secciones clave. Implementar menús más rápidos y opciones de acceso directo.
+*Problema #1: Navegación lenta y con muchos pasos entre secciones*
+- *Tarea Evaluada:* Navegación del Catálogo de Cursos
+- *Recomendación:* Optimizar el flujo de navegación reduciendo la cantidad de clics necesarios entre las secciones clave. Implementar menús más rápidos y opciones de acceso directo.
 
-**Problema #2: Falta de opciones de personalización en la creación de servicios**
-- **Tarea Evaluada:** Creación de Servicio
-- **Recomendación:** Agregar más opciones de personalización, como intervalos de tiempo predeterminados y tipos de servicios preconfigurados para mejorar la flexibilidad.
+*Problema #2: Falta de opciones de personalización en la creación de cursos*
+- *Tarea Evaluada:* Creación de Materiales Educativos
+- *Recomendación:* Agregar más opciones de personalización, como la posibilidad de crear lecciones modulares y agregar materiales de diferentes tipos.
 
-**Problema #3: Filtros ocupan demasiado espacio en la pantalla de búsqueda**
-- **Tarea Evaluada:** Navegación del Catálogo de Servicios
-- **Recomendación:** Reducir el tamaño de los filtros o permitir que se colapsen para maximizar el espacio disponible en la pantalla.
+*Problema #3: Filtros ocupan demasiado espacio en la pantalla de búsqueda*
+- *Tarea Evaluada:* Navegación del Catálogo de Cursos
+- *Recomendación:* Reducir el tamaño de los filtros o permitir que se colapsen para maximizar el espacio disponible en la pantalla.
 
-**Problema #4: Diálogos grandes con demasiada información no priorizada**
-- **Tarea Evaluada:** Visualización del Perfil de la Empresa
-- **Recomendación:** Simplificar los diálogos, mostrando solo la información esencial y permitiendo la expansión para detalles adicionales.
+*Problema #4: Diálogos grandes con demasiada información no priorizada*
+- *Tarea Evaluada:* Visualización del Perfil del Docente
+- *Recomendación:* Simplificar los diálogos, mostrando solo la información esencial y permitiendo la expansión para detalles adicionales.
 
-**Problema #5: Confusión en el mensaje "ver más" al seleccionar un review**
-- **Tarea Evaluada:** Recepción de Reviews y Feedback de Clientes
-- **Recomendación:** Clarificar el mensaje "ver más" en la sección de reseñas, indicando claramente lo que se va a expandir o mostrar adicionalmente.
-
-**Problema #6: Falta de confirmaciones en acciones dentro del historial de reseñas**
-- **Tarea Evaluada:** Recepción de Reviews y Feedback de Clientes
-- **Recomendación:** Incluir mensajes de confirmación en cada acción del historial, como la publicación de una reseña o la modificación de una cita.
-
-**Problema #7: No se puede responder a reseñas desde el perfil del servicio**
-- **Tarea Evaluada:** Recepción de Reviews y Feedback de Clientes
-- **Recomendación:** Implementar una funcionalidad que permita a las empresas responder a reseñas directamente desde su perfil para facilitar la comunicación con los clientes.
-
-**User Flows a Validar**
-
-**Para el Segmento Cliente:**
-1. **Navegación del Catálogo de Servicios:** Evaluar la facilidad para encontrar y explorar servicios como manicure, pedicure y tratamientos faciales.
-2. **Proceso de Reserva:** Evaluar la facilidad para reservar un servicio, seleccionar un horario y elegir un profesional.
-3. **Recepción de Servicios:** Evaluar la confirmación de la reserva, notificaciones y feedback post-servicio.
-
-**Para el Segmento Empresa:**
-1. **Visualización del Perfil de la Empresa:** Evaluar cómo la empresa visualiza su propio perfil.
-2. **Creación de Servicio:** Evaluar la facilidad para crear y personalizar nuevos servicios.
-3. **Gestión de Reservas:** Evaluar la capacidad para gestionar reservas, visualizar y modificar citas de clientes.
-4. **Recepción de Reviews y Feedback de Clientes:** Evaluar cómo las empresas reciben y gestionan reseñas de los clientes.
-
+*Problema #5: Confusión en el mensaje "ver más" al seleccionar una evaluación*
+- *Tarea Evaluada:* Recepción de Feedback de Estudiantes
+- *Recomendación:* Aclarar el mensaje "ver más" para que los estudiantes comprendan mejor cómo pueden ver y evaluar el contenido.
 
 ### 5.4. Video About-the-Product
 | **Sección**                          | **Descripción**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
