@@ -3667,6 +3667,9 @@ La tabla de resumen muestra los problemas identificados, su nivel de severidad y
 5. **Mejorar la Gestión de Equipos**
    - A medida que el equipo se expanda, es fundamental establecer canales de comunicación más efectivos y herramientas de gestión que garanticen que todos los miembros estén alineados con los objetivos y tareas del proyecto. Adoptar metodologías ágiles de manera más rigurosa puede ayudar a aumentar la productividad y fomentar una mejor colaboración.
 
+   Link About The Team : [Link](https://youtu.be/n-hlsXPNLg0) 
+
+
 ## Bibliografía
 - *III Informe Bienal sobre la Realidad Universitaria en el Perú.* (s. f.). Informes y Publicaciones - Superintendencia Nacional de Educación Superior Universitaria - Plataforma del Estado Peruano. https://www.gob.pe/institucion/sunedu/informes-publicaciones/2824150-iii-informe-bienal-sobre-la-realidad-universitaria-en-el-peru
 - *Erestel: el 91.9 % de hogares peruanos cuenta con  teléfonos inteligentes o smartphones.* (s. f.). OSIPTEL. https://www.osiptel.gob.pe/portal-del-usuario/noticias/erestel-el-91-9-de-hogares-peruanos-cuenta-con-telefonos-inteligentes-o-smartphones/
