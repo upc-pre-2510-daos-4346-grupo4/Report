@@ -199,11 +199,11 @@
       - [5.2.3.6.Services Documentation Evidence for Sprint Review.](#5236services-documentation-evidence-for-sprint-review)
       - [5.2.3.7.Software Deployment Evidence for Sprint Review.](#5237software-deployment-evidence-for-sprint-review)
       - [5.2.3.8.Team Collaboration Insights during Sprint.](#5238team-collaboration-insights-during-sprint)
-   - [5.3. Validation Interviews](#53-validation-interviews)
-    - [5.3.1 Diseño de Entrevistas](#531-diseño-de-entrevistas)
-      - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
-    - [5.3.3. Evaluaciones según heurísticas.](#533-evaluaciones-según-heurísticas)
-  - [5.4. Video About-the-Product](#54-video-about-the-product)
+    - [5.3. Validation Interviews](#53-validation-interviews)
+      - [5.3.1 Diseño de Entrevistas](#531-diseño-de-entrevistas)
+        - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+      - [5.3.3. Evaluaciones según heurísticas.](#533-evaluaciones-según-heurísticas)
+    - [5.4. Video About-the-Product](#54-video-about-the-product)
   - [Conclusiones](#conclusiones)
   - [Recomendaciones](#recomendaciones)
   - [Bibliografía](#bibliografía)
@@ -2950,27 +2950,31 @@ Un sprint es un período breve y organizado en el que se ejecutan tareas especí
 </table>
 
 #### 5.2.3.2. Aspect Leaders and Collaborators.
-Durante este segundo sprint, el equipo se enfocó principalmente en el desarrollo del **frontend funcional** de la aplicación web Edunova. Se priorizó el diseño accesible, la implementación de componentes interactivos con Angular (tabs, paginator, cards dinámicas, menús contextuales y diálogos) y la correcta integración con la base de datos simulada (`db.json`), respetando los lineamientos definidos en el diseño del sistema y la documentación previa (DDD, UX/UI y estructuras de navegación).
 
-Los principales aspectos considerados en este sprint fueron organizados por **bounded contexts**, siendo los siguientes:
+Durante este tercer sprint, el equipo se enfocó en **consolidar el desarrollo completo del frontend**, abarcando todos los **bounded contexts** definidos en la arquitectura del sistema. Se realizó el **despliegue final del frontend**, ahora conectado a un **MockAPI** que simula el comportamiento del backend, lo cual permitió validar la integración de los flujos principales de la aplicación en un entorno más cercano al real.
 
-- **Studying Frontend**: Implementación de la interfaz para cursos en progreso y completados.
-- **UX/UI Implementation**: Aplicación de lineamientos visuales (paleta, layout responsivo, componentes Material).
-- **i18n Integration**: Configuración y uso del sistema de traducciones para múltiples idiomas.
-- **DB Integration**: Consumo e interpretación de `db.json` simulando una API REST.
-- **Routing & Navigation**: Agregado de rutas en Angular y adaptación del diseño existente.
-- **Collaboration & Sync**: Coordinación con compañeros que desarrollan otras funcionalidades relacionadas como login y perfil de usuario.
+A la par, se avanzó en la planificación y desarrollo de la primera versión de los **web services**, sentando las bases del backend y coordinando su futura integración con el frontend.
 
-A continuación, se presenta la **Leadership and Collaboration Matrix (LACX)** del Sprint:
+Los aspectos abordados en este sprint fueron organizados por bounded contexts y tareas transversales:
 
-| Team Member (Last Name, First Name)     | GitHub Username         | Studying Frontend | UX/UI Implementation | i18n Integration | DB Integration | Routing & Navigation | Collaboration & Sync |
-|----------------------------------------|--------------------------|--------------------|------------------------|-------------------|------------------|------------------------|------------------------|
-| Acuña Tomas, Diego Rolin               | ComidaRapida007         | L                  | L                      | L                 | L                | L                      | C                      |
-| Alvarez Falen, Esteban Valentino       | EstebanAlvarez1402      | C                  | L                      | C                 | C                | C                      | C                      |
-| Iparraguirre Rueda, Cristian Luis      | cristianipa7            | C                  | C                      | L                 | L                | C                      | L                      |
-| Torres Cortez, Tony Do Santos          | TonyTorresC             | C                  | C                      | C                 | C                | C                      | C                      |
+- **Full Frontend Deployment**: Integración y despliegue de todos los módulos funcionales del frontend.
+- **MockAPI Integration**: Configuración de endpoints simulados para pruebas funcionales.
+- **Web Services Planning**: Estructura inicial y definición de endpoints reales para el backend.
+- **Refinamiento UI/UX**: Ajustes finales de diseño visual, responsividad y experiencia de usuario.
+- **Intercontext Sync**: Coordinación entre distintos módulos (perfil, login, cursos, progreso, etc.).
+- **Bug Fixes & Testing**: Corrección de errores y pruebas funcionales de los componentes desplegados.
 
-Esta matriz fue definida en conjunto durante la sesión de Sprint Planning y ha servido para mantener la trazabilidad de responsabilidades, facilitando la integración entre aspectos técnicos del sistema y promoviendo una colaboración ágil y efectiva.
+A continuación, se presenta la **Leadership and Collaboration Matrix (LACX)** del Sprint 3:
+
+| Team Member (Last Name, First Name)     | GitHub Username         | Full Frontend Deployment | MockAPI Integration | Web Services Planning | Refinamiento UI/UX | Intercontext Sync | Bug Fixes & Testing |
+|----------------------------------------|--------------------------|----------------------------|----------------------|-------------------------|---------------------|---------------------|------------------------|
+| Acuña Tomas, Diego Rolin               | ComidaRapida007         | L                          | L                    | L                       | L                   | L                   | L                      |
+| Alvarez Falen, Esteban Valentino       | EstebanAlvarez1402      | C                          | C                    | C                       | C                   | C                   | C                      |
+| Iparraguirre Rueda, Cristian Luis      | cristianipa7            | C                          | C                    | C                       | C                   | C                   | C                      |
+| Torres Cortez, Tony Do Santos          | TonyTorresC             | C                          | C                    | C                       | C                   | C                   | C                      |
+
+Esta matriz fue definida en conjunto durante la sesión de Sprint Planning y ha sido clave para mantener la trazabilidad de responsabilidades. Además, facilitó la integración de los distintos aspectos técnicos del sistema y promovió una colaboración ágil y efectiva entre los miembros del equipo.
+
 
 #### 5.2.3.3.Sprint Backlog 3.
 En este segundo sprint, el equipo centró sus esfuerzos en implementar el frontend web de la aplicación EDUnova, abarcando tanto el diseño visual como la funcionalidad básica de interacción con los datos. Se priorizó la experiencia del usuario, integrando componentes de Angular Material, internacionalización (i18n) y navegación fluida. Para la organización de tareas y seguimiento del progreso se utilizó **Trello**, lo que permitió distribuir el trabajo de manera equitativa y colaborativa entre los integrantes del equipo.
