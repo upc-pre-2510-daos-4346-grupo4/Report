@@ -3476,21 +3476,20 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 | Navegación general                                       | La toolbar le le ayudo bastante a navegar con facilidad por la página.                                                          |
 
 
-
-| Entrevista 2: Estudiante que quiere aprender |                                                                                                                                                      |
-|---------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Nombre Entrevistado                                     | Carlos Villa Cayetano                                                                                                                                |
-| Edad                                                    | 20 Años                                                                                                                                              |
-| Profesión                                               | Estudiante de contabilidad                                                                                                                           |
-| Departamento                                            | Lima, Perú                                                                                                                                           |
-| Minuto de inicio                                        | 12:15 min                                                                                                                                            |
-| Captura de la entrevista                                | <img src="assets/segmento 1-2.png">                                                                                                   |
-| Búsqueda de servicio                                    | Comenta no haber tenido inconvenientes, pero preferiría quelos filtros ocupen menos espacio en pantalla                                              |
-| Visualización de información del servicio               | Comenta que el dialog es muy grande y que preferiría una imagen más oportuna.                                                                        |
-| Reservar un servicio                                    | Aprecia los mensajes de confirmación pero agradecería visualizar el nombre y un logo distintivo de la compañia.                                      |
-| Confirmación y agenda de citas pendientes               | Comenta no tener inconvenientes en la visualización de su agenda y menciona que el poder elminarla sin restricción alguna podría no ser conveniente. |
-| Historial y reseña                                      | Preferiría otro título para la sección y menciona que poder arrastrar la imagen hacia la sección de reviews facilitaría el proceso                   |
-| Navegación general                                      | Aprecia mucho la facilidad de uso de la toolbar, sin embargo comenta preferir un sidebar para mayor comodidad de navegación vertical                 |
+| Entrevista 2: Estudiante que quiere aprender             |                                                                                                                                 |
+|----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
+| Nombre Entrevistado                                      | Ferdinand Quejada Gabriel                                                                                                             |
+| Edad                                                     | 19 Años                                                                                                                         |
+| Profesión                                                | Estudiante de Economia                                                                                            |
+| Departamento                                             | Lima, Perú                                                                                                                      |
+| Minuto de inicio                                         | 08:15 min                                                                                                                       |
+| Captura de la entrevista                                 |     <img src="assets/segmento 1-2.jpg">                                                                                                                            |
+| Búsqueda de curso                                        | La página es sencilla y fácil de navegar; la información está bien organizada.                    |
+| Visualización de información del curso                   | Opina que la pagina esta perfectamente estruturada y facil de entender la informacion que presenta.               |
+| Personalización y adaptación a tus necesidades educativas| Ve que es una herramienta facil que facilita al estudiante a encontrar mas informacion respecto a cursos que se le complican.               |
+| Motivación y conexión emociona                           | Le gusto ver una lista que presenta la pagina respecto a los cursos disponibles.                                                                          |
+| Valor percibido y disposición a pagar                    | Comenta que es una pagina bien intuitiva, facil al usuario de entender de primera, con algunas complicaciones al momento de logearse, pero ante lo demas facil de entender.    |
+| Navegación general                                       | Le gusto que haya una navegacion facil, accesible y entendible para el usuario.                                                          |
 
 | Entrevista 3: Estudiante que quiere aprender |                                                                                                                               |
 |---------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
