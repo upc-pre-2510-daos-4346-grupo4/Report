@@ -3491,20 +3491,20 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 | Valor percibido y disposición a pagar                    | Comenta que es una pagina bien intuitiva, facil al usuario de entender de primera, con algunas complicaciones al momento de logearse, pero ante lo demas facil de entender.    |
 | Navegación general                                       | Le gusto que haya una navegacion facil, accesible y entendible para el usuario.                                                          |
 
-| Entrevista 3: Estudiante que quiere aprender |                                                                                                                               |
-|---------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| Nombre Entrevistado                                     | Aldo Vasquez                                                                                                  |
-| Edad                                                    | 20 Años                                                                                                                       |
-| Profesión                                               | Estudiante de Ingeniería Ambiental                                                                                                    |
-| Departamento                                            | Lima, Perú                                                                                                                    |
-| Minuto de inicio                                        | 18:14 min                                                                                                                     |
-| Captura de la entrevista                                |        <img src="assets/segmento 1-3.png">                                                                                                                          |
-| Búsqueda de servicio                                    | Encuentra el catálogo fácil de navegar y bien organizado, pero sugiere una barra de búsqueda más destacada y filtros específicos. |
-| Visualización de información del servicio               | Considera que la información es clara, pero le gustaría ver reseñas y calificaciones en cada servicio para decidir rápidamente. |
-| Reservar un servicio                                    | Comenta que es sencillo iniciar la reserva; sin embargo, el selector de horarios podría ser más intuitivo. |
-| Confirmación y agenda de citas pendientes               | Valora la retroalimentación del sistema, especialmente la confirmación inmediata y los recordatorios previos a cada cita.       |
-| Historial y reseña                                      | Encuentra el historial fácil de acceder, pero sugiere agregar opciones de filtro para organizar reservas pasadas por fecha o tipo de servicio. |
-| Navegación general                                      | Destaca la utilidad del toolbar, sin mayores sugerencias al respecto.                                                         |
+| Entrevista 3: Estudiante que quiere aprender |                                                                                                       |
+|---------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Nombre Entrevistado                                     | Renzo Nino Tomas Dueñas                                                                                                                              |
+| Edad                                                    | 24 Años                                                                                                                                              |
+| Profesión                                               | Estudiante de ingenieria civil                                                                                                                           |
+| Departamento                                            | Lima, Perú                                                                                                                                           |
+| Minuto de inicio                                        | 6:38 min                                                                                                                                            |
+| Captura de la entrevista                                | <img src="assets/entrevistaRenzo.png">                                                                                                   |
+| Búsqueda de curso                                    | Comenta que le gusto navegar y se le hizo facil entender y encontrar un curso de su agrado.                                              |
+| Visualización de información del curso               | Opina que es intuitiva el uso de la aplicacion, por lo que puede ver la informacion del curso rapidamente.                                                                       |
+| Personalización y adaptación a tus necesidades educativas	                                   | Considera que la aplicacion tiene las herramientas necesarias para que muchas personas puedan publicar sus cursos, en otras palabras tendra mas opciones para comprar.                                    |
+| Motivación y conexión emociona	               | Comenta que nuestras expresiones no son dificiles de entender y que se siente comodo leyendo la informacion de ofrecemos. |
+| Valor percibido y disposición a pagar	                                      | Comenta que le agradaria comprar cursos, cuando la pagina este disponible al publico.                   |
+| Navegación general                                      | Aprecia mucho la existencia del toolbar y del sidebar, pues con estos componentes pudes navegar sin problema sin importar el tamaño de la pantalla.                 |
 
 A continuación se presentan los detalles clave de las entrevistas realizadas a usuarios dispuestos a crear cursos en nuestra plataforma.
 
