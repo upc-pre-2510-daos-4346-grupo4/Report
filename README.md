@@ -3526,17 +3526,18 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 
 | Entrevista 2: Creador de contenido |                                                                                                                         |
 |------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| **Nombre Entrevistado**            | Flavio Gallardo                                                                                                               |
-| **Edad**                           | 20 Años                                                                                                                |
-| **Profesión**                      | Dueño de centro de belleza independiente                                                                                           |
-| **Departamento**                   | Lima, Perú                                                                                                             |
-| **Minuto de inicio**               | 29:11 min                                                                                                              |
-| Captura de la entrevista           |      <img src="assets/segmento 2-2.png">                                                                                                                      |
-| **Visualización de Perfil**        | El perfil es claro, pero Flavio desearía que fuera más dinámico y visual para atraer mejor la atención de los clientes. |
-| **Manejo de servicios**            | La creación de servicios le resulta fácil, aunque le gustaría más opciones de personalización, como intervalos de tiempo predefinidos. |
-| **Gestión de reservas**            | Encuentra funcional la gestión de reservas, pero preferiría tener un calendario visual con todas las citas pendientes para facilitar el seguimiento. |
-| **Recepción de reviews**           | Le agrada la opción de recibir reseñas, pero preferiría que solo algunas fueran visibles y que pudiera responder a ellas para interactuar con sus clientes. |
-| **Navegación general**             | La navegación es sencilla, aunque le gustaría que fuera más rápida y con menos pasos entre secciones. |
+| **Nombre Entrevistado**            | Sebastian Valentino Silva Tirado                                                                                        |
+| **Edad**                           | 21 Años                                                                                                                 |
+| **Profesión**                      | Ingeniero de Software                                                                                                   |
+| **Departamento**                   | Lima, Perú                                                                                                              |
+| **Minuto de inicio**               | 30:56 min                                                                                                               |
+| Captura de la entrevista           | <img src="assets/entrevistaSebastian.png">                                                                                     |
+| **Impresión general**              | Considera que la página tiene un diseño profesional y bien estructurado.                                               |
+| **Confianza y disposición de pago**| Le gustó la experiencia y mencionó que estaría dispuesto a pagar por publicar sus propios cursos en la plataforma.     |
+| **Interfaz y navegación**          | La navegación le pareció clara, rápida y sin fricciones. Le agradó la forma en que se organizan los módulos.           |
+| **Valor diferencial**              | Resaltó que el enfoque visual y profesional es un buen atractivo para creadores que quieren proyectar seriedad.        |
+| **Interacción con el sistema**     | Comentó que el sistema es intuitivo y que la curva de aprendizaje para nuevos usuarios es baja.                        |
+
 
 
 | Entrevista 3: Creador de contenido |                                                                                                                         |
