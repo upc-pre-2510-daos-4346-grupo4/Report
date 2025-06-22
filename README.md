@@ -3033,7 +3033,7 @@ Para el seguimiento y gestión de tareas se utilizó **Trello**, lo que facilit�
      <td> CRUD de cursos </td>
      <td> Crear, editar y eliminar cursos: título, descripción, precio, idioma, dificultad. </td>
      <td> 6 </td>
-     <td> Cristian Iparraguirre </td>
+     <td> Diego Acuña </td>
      <td> Done </td>
    </tr>
    <tr>
@@ -3043,7 +3043,7 @@ Para el seguimiento y gestión de tareas se utilizó **Trello**, lo que facilit�
      <td> Crear/editar/eliminar temas </td>
      <td> Permitir gestionar la lista de temas de un curso. </td>
      <td> 5 </td>
-     <td> Tony Torres </td>
+     <td> Diego Acuña </td>
      <td> Done </td>
    </tr>
    <tr>
@@ -3053,7 +3053,7 @@ Para el seguimiento y gestión de tareas se utilizó **Trello**, lo que facilit�
      <td> Objetivos y links de YouTube </td>
      <td> Integrar objetivos del tema y recursos con videos incrustados desde YouTube. </td>
      <td> 4 </td>
-     <td> Esteban Alvarez </td>
+     <td> Diego Acuña </td>
      <td> Done </td>
    </tr>
    <tr>
@@ -3063,7 +3063,7 @@ Para el seguimiento y gestión de tareas se utilizó **Trello**, lo que facilit�
      <td> Configuración de endpoints </td>
      <td> Usar MockAPI como fuente de datos para simular comportamiento real. </td>
      <td> 3 </td>
-     <td> Cristian Iparraguirre </td>
+     <td> Diego Acuña </td>
      <td> Done </td>
    </tr>
    <tr>
@@ -3073,7 +3073,7 @@ Para el seguimiento y gestión de tareas se utilizó **Trello**, lo que facilit�
      <td> Adaptación lógica de frontend </td>
      <td> Conectar vistas a estructuras reales modeladas en DDD para futura integración backend. </td>
      <td> 3 </td>
-     <td> Tony Torres </td>
+     <td> Diego Acuña </td>
      <td> Done </td>
    </tr>
    <tr>
@@ -3083,7 +3083,7 @@ Para el seguimiento y gestión de tareas se utilizó **Trello**, lo que facilit�
      <td> Estructura base backend </td>
      <td> Definición inicial de rutas, dominios y controladores REST para futura conexión. </td>
      <td> 4 </td>
-     <td> Esteban Alvarez </td>
+     <td> Diego Acuña </td>
      <td> In-Process </td>
    </tr>
    <tr>
@@ -3093,7 +3093,7 @@ Para el seguimiento y gestión de tareas se utilizó **Trello**, lo que facilit�
      <td> CRUD datos personales </td>
      <td> Permitir al usuario actualizar su nombre, correo, contraseña y descripción. </td>
      <td> 3 </td>
-     <td> Diego Acuña </td>
+     <td> Tony Torres </td>
      <td> Done </td>
    </tr>
    <tr>
@@ -3123,7 +3123,7 @@ Para el seguimiento y gestión de tareas se utilizó **Trello**, lo que facilit�
      <td> Visión, misión y equipo </td>
      <td> Describir la startup SofTeam, su propósito, visión, misión y valores. </td>
      <td> 2 </td>
-     <td> Esteban Alvarez </td>
+     <td> Diego Acuña </td>
      <td> Done </td>
    </tr>
    <tr>
@@ -3153,7 +3153,7 @@ Para el seguimiento y gestión de tareas se utilizó **Trello**, lo que facilit�
   <td> Formulario en card visual </td>
   <td> Encapsular el formulario de edición del perfil en una card con buen espaciado y presentación. </td>
   <td> 2 </td>
-  <td> Diego Acuña </td>
+  <td> Esteban Alvarez </td>
   <td> Done </td>
 </tr>
 <tr>
@@ -3163,7 +3163,7 @@ Para el seguimiento y gestión de tareas se utilizó **Trello**, lo que facilit�
   <td> Hacer mat-accordion responsive </td>
   <td> Ajustar estilos internos de los contenidos del `mat-accordion` para asegurar visualización en pantallas pequeñas. </td>
   <td> 3 </td>
-  <td> Esteban Alvarez </td>
+  <td> Diego Acuña </td>
   <td> Done </td>
 </tr>
 </table>
