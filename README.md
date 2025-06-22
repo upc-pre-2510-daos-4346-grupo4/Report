@@ -3456,7 +3456,7 @@ Validar la usabilidad y efectividad de la plataforma *EDUnova*, asegurando que l
 
 |                                                           |                                                                                                                                                                                                                                                                                                                                 |
 |-----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Link de video de entrevistas**                          | [Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113111_upc_edu_pe/ERNkA032CM9FiJ7MUAdyGXIBFGNkEVbN7aNAAdnzzkaTsw?e=SRS70s&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| **Link de video de entrevistas**                          | [Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221436_upc_edu_pe/ET5rKz7muXpIgpD9dp2ECEUB9vWUsqo8SiQH_yijULO2XQ?e=al6xai&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 
 A continuación se presentan los detalles clave de las entrevistas realizadas a los estudiantes dispuestos a aprender en nuestra plataforma.
 
