@@ -196,7 +196,7 @@
       - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
       - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
       - [5.2.3.5.Execution Evidence for Sprint Review.](#5235execution-evidence-for-sprint-review)
-      - [5.2.3.6.Services Documentation Evidence for Sprint Review.](#5236services-documentation-evidence-for-sprint-review)
+        - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
       - [5.2.3.7.Software Deployment Evidence for Sprint Review.](#5237software-deployment-evidence-for-sprint-review)
       - [5.2.3.8.Team Collaboration Insights during Sprint.](#5238team-collaboration-insights-during-sprint)
     - [5.3. Validation Interviews](#53-validation-interviews)
@@ -3225,34 +3225,64 @@ Studying:
 ![Evidence](assets/Studying.png)
 
 
-#### 5.2.3.6.Services Documentation Evidence for Sprint Review.
+##### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
-En el sprint 3 se planificó exclusivamente continuar con el desarrollo pendiente de la landing page y del front-end. Para evitar restricciones al momento de probar las funcionalidades, se decidió utilizar JSON Server. Al principio se empleó una versión local, pero luego de conocer My JSON Server, se optó por esta alternativa, ya que permite interactuar con la base de datos desde una aplicación web frontend ya desplegada. Enlace a My JSON Server:
-https://my-json-server.typicode.com/ComidaRapida007/db-server
+Durante este sprint se documentaron completamente los **Web Services** correspondientes a los siguientes **bounded contexts** del sistema:
 
+- Courses
+- Topics
+- Objectives
+- Resources
+- Users
+- Profiles
+- Certificates
+- LearningProgress
 
-<table>
-     <tr> 
-        <th>  Endpoints  </th>
-        <th> Description </th>
-     </tr>
-     <tr>
-      <td>Courses</td>
-      <td>Representa los cursos disponibles en la plataforma. Cada curso contiene información básica como nombre, descripción, categoría, precio y el ID del creador (referencia a un usuario).</td>
-     </tr>     
-     <tr>
-      <td>Topics</td>
-      <td>Temas específicos que componen un curso. Un curso puede estar dividido en múltiples temas para estructurar mejor el aprendizaje.</td>
-     </tr>   
-     <tr>
-      <td>Objectives</td>
-      <td>Objetivos de aprendizaje asociados a cada tema. Indican lo que el estudiante aprenderá o logrará al finalizar el tema.</td>
-     </tr>   
-     <tr>
-      <td>Resources</td>
-      <td>Recursos complementarios (videos, artículos, guías) relacionados con un tema específico para profundizar o facilitar el aprendizaje.</td>
-     </tr>   
-</table>
+A continuación, se presenta una tabla con los endpoints documentados, organizados por recurso y acción:
+
+| Recurso           | Acción                         | Verbo HTTP | Endpoint                                        | Parámetros                            | Ejemplo de Response |
+|-------------------|--------------------------------|------------|-------------------------------------------------|---------------------------------------|---------------------|
+| Courses           | Obtener todos                  | GET        | /api/v1/courses                                 | —                                     | ✅                  |
+| Courses           | Obtener por ID                 | GET        | /api/v1/courses/{courseId}                      | courseId: string                      | ✅                  |
+| Courses           | Crear                          | POST       | /api/v1/courses                                 | body: objeto course                   | ✅                  |
+| Courses           | Actualizar                     | PUT        | /api/v1/courses/{courseId}                      | courseId: string, body: course        | ✅                  |
+| Courses           | Eliminar                       | DELETE     | /api/v1/courses/{courseId}                      | courseId: string                      | ✅                  |
+| Topics            | Obtener todos                  | GET        | /api/v1/topics                                  | —                                     | ✅                  |
+| Topics            | Obtener por ID                 | GET        | /api/v1/topics/{topicId}                        | topicId: string                       | ✅                  |
+| Topics            | Crear                          | POST       | /api/v1/topics                                  | body: objeto topic                    | ✅                  |
+| Topics            | Actualizar                     | PUT        | /api/v1/topics/{topicId}                        | topicId: string, body: topic          | ✅                  |
+| Topics            | Eliminar                       | DELETE     | /api/v1/topics/{topicId}                        | topicId: string                       | ✅                  |
+| Objectives        | Obtener todos                  | GET        | /api/v1/objectives                              | —                                     | ✅                  |
+| Objectives        | Obtener por ID                 | GET        | /api/v1/objectives/{objectiveId}                | objectiveId: string                   | ✅                  |
+| Objectives        | Crear                          | POST       | /api/v1/objectives                              | body: objeto objective                | ✅                  |
+| Objectives        | Actualizar                     | PUT        | /api/v1/objectives/{objectiveId}                | objectiveId: string, body: obj        | ✅                  |
+| Objectives        | Eliminar                       | DELETE     | /api/v1/objectives/{objectiveId}                | objectiveId: string                   | ✅                  |
+| Resources         | Obtener todos                  | GET        | /api/v1/resources                               | —                                     | ✅                  |
+| Resources         | Obtener por ID                 | GET        | /api/v1/resources/{resourceId}                  | resourceId: string                    | ✅                  |
+| Resources         | Crear                          | POST       | /api/v1/resources                               | body: objeto resource                 | ✅                  |
+| Resources         | Actualizar                     | PUT        | /api/v1/resources/{resourceId}                  | resourceId: string, body: resource    | ✅                  |
+| Resources         | Eliminar                       | DELETE     | /api/v1/resources/{resourceId}                  | resourceId: string                    | ✅                  |
+| Users             | Obtener todos                  | GET        | /api/v1/users                                   | —                                     | ✅                  |
+| Users             | Obtener por ID                 | GET        | /api/v1/users/{userId}                          | userId: string                        | ✅                  |
+| Users             | Crear cuenta                   | POST       | /api/v1/users                                   | body: objeto user                     | ✅                  |
+| Users             | Actualizar                     | PUT        | /api/v1/users/{userId}                          | userId: string, body: user            | ✅                  |
+| Users             | Eliminar                       | DELETE     | /api/v1/users/{userId}                          | userId: string                        | ✅                  |
+| Profiles          | Obtener todos                  | GET        | /api/v1/profiles                                | —                                     | ✅                  |
+| Profiles          | Obtener por ID                 | GET        | /api/v1/profiles/{profileId}                    | profileId: string                     | ✅                  |
+| Profiles          | Crear perfil                   | POST       | /api/v1/profiles                                | body: objeto profile                  | ✅                  |
+| Profiles          | Actualizar                     | PUT        | /api/v1/profiles/{profileId}                    | profileId: string, body: profile      | ✅                  |
+| Profiles          | Eliminar                       | DELETE     | /api/v1/profiles/{profileId}                    | profileId: string                     | ✅                  |
+| Certificates      | Obtener todos                  | GET        | /api/v1/certificates                            | —                                     | ✅                  |
+| Certificates      | Obtener por ID                 | GET        | /api/v1/certificates/{certificateId}            | certificateId: string                 | ✅                  |
+| Certificates      | Crear                          | POST       | /api/v1/certificates                            | body: objeto certificate              | ✅                  |
+| Certificates      | Actualizar                     | PUT        | /api/v1/certificates/{certificateId}            | certificateId: string, body: cert     | ✅                  |
+| Certificates      | Eliminar                       | DELETE     | /api/v1/certificates/{certificateId}            | certificateId: string                 | ✅                  |
+| LearningProgress  | Obtener todos                  | GET        | /api/v1/learning-progress                       | —                                     | ✅                  |
+| LearningProgress  | Obtener por ID                 | GET        | /api/v1/learning-progress/{progressId}          | progressId: string                    | ✅                  |
+| LearningProgress  | Crear                          | POST       | /api/v1/learning-progress                       | body: objeto progress                 | ✅                  |
+| LearningProgress  | Actualizar                     | PUT        | /api/v1/learning-progress/{progressId}          | progressId: string, body: progress    | ✅                  |
+| LearningProgress  | Eliminar                       | DELETE     | /api/v1/learning-progress/{progressId}          | progressId: string                    | ✅                  |
+
 
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 
