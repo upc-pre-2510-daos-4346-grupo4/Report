@@ -194,7 +194,7 @@
       - [5.2.3.1.Sprint Planning 3.](#5231sprint-planning-3)
       - [5.2.3.2. Aspect Leaders and Collaborators.](#5232-aspect-leaders-and-collaborators)
       - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
-      - [5.2.3.4.Development Evidence for Sprint Review.](#5234development-evidence-for-sprint-review)
+      - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
       - [5.2.3.5.Execution Evidence for Sprint Review.](#5235execution-evidence-for-sprint-review)
       - [5.2.3.6.Services Documentation Evidence for Sprint Review.](#5236services-documentation-evidence-for-sprint-review)
       - [5.2.3.7.Software Deployment Evidence for Sprint Review.](#5237software-deployment-evidence-for-sprint-review)
@@ -3171,19 +3171,33 @@ Para el seguimiento y gestión de tareas se utilizó **Trello**, lo que facilit�
 
 
 
-#### 5.2.3.4.Development Evidence for Sprint Review.
+#### 5.2.3.4. Development Evidence for Sprint Review
 
+En esta sección se detallan los commits realizados en la rama `develop` del repositorio del frontend durante el Sprint 3. Estos reflejan los avances técnicos clave como la implementación de dominios, mejoras visuales, corrección de errores y documentación del proyecto.
 
-En esta sección se detallan los commits realizados en la rama `main` del repositorio del frontend durante el Sprint 2. Estos reflejan el progreso del desarrollo de la aplicación web en Angular:
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|----------------|---------------------|---------------------|
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | 36078db | Solucioné errores | Corrección de errores funcionales generales en vistas. | 21/06/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | 1be38b4 | Solucioné errores del toolbar | Ajustes de estilo y funcionalidad en el toolbar. | 21/06/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | ce9247d | Solucioné errores del toolbar | Refinamientos visuales y comportamiento del menú superior. | 21/06/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | b542ba1 | Actualicé errores de services | Ajustes en el consumo de servicios simulados. | 21/06/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | 41a56af | El domain Publishing está listo en cuanto a estilos y visual | El módulo de publicación ahora es completamente funcional y responsive. | 21/06/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | 4cc81c3 | El domain Publishing ya tiene estilos | Aplicación de estilos y estructura responsive para publishing. | 21/06/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | f4a7371 | Resolví algunos errores | Correcciones generales de funcionamiento en distintos módulos. | 21/06/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | aa6faaf | Agregué el domain Presenting | Se añadió la estructura y vista para el bounded context de presentación de cursos. | 21/06/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | ca15fcd | Agregué el domain Studying | Estructura completa y funcional de cursos en progreso y completados. | 21/06/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | 2cdbb62 | Nueva versión de publishing | Reestructuración de componentes y mejoras internas. | 21/06/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | 51ab11f | Arreglé el product backlog | Corrección final del documento de backlog para reflejar las historias trabajadas. | 22/06/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | 02a7d7d | Arreglé el product backlog | Ajustes de estructura y redacción del backlog. | 22/06/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | b7ce49b | Completé el sprint backlog | Se añadió la tabla final con todas las user stories y tareas del Sprint 3. | 22/06/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | 79a7a71 | Agregué Aspect Leaders and Collaborators del sprint 3 | Registro de responsables y colaboradores por aspecto técnico en el Sprint 3. | 22/06/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | 40aa58f | Update README.md | Actualización de información general del proyecto en el README. | 22/06/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | dbfa93a | Update README.md | Ajustes menores en formato y redacción del README. | 22/06/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | 571dd06 | Update README.md | Inclusión de nuevas secciones informativas en el README. | 22/06/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | 99af2f8 | summary | Commit de resumen previo a la entrega del Sprint 3. | 22/06/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | 34d4a06 | Update README.md | Actualización de colaboradores y tecnologías usadas. | 22/06/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | d2320e9 | Update README.md | Últimos cambios previos al cierre del Sprint. | 22/06/2025 |
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
-|------------|--------|-----------|----------------|---------------------|--------------------|
-| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | main | a1b2c3d | feat: Crear estructura inicial de proyecto Angular | Se configuró la base del proyecto con Angular 19 y soporte para traducción. | 02/05/2025 |
-| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | main | c2d3e4f | feat: Implementar componente language-switcher | Componente para cambiar idioma entre inglés y español usando ngx-translate. | 04/05/2025 |
-| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | main | f5g6h7i | feat: Crear estructura para el bounded context "studying" | Se creó el componente studying y se integró la vista de cronograma con tabs y paginador. | 07/05/2025 |
-| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | main | j8k9l0m | feat: Implementar cards de cursos con menú dinámico por semana | Cada card permite ver las semanas del curso y abrir un diálogo con la descripción. | 09/05/2025 |
-| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | main | n1o2p3q | fix: Corrección en lógica de cursos completados e incompletos | Ajustes para filtrar correctamente los cursos en progreso y finalizados por usuario. | 10/05/2025 |
-| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | main | r4s5t6u | style: Ajustes de estilo en studying.component.css | Se alineó correctamente el contenido de las tarjetas y se mejoró la paleta de colores. | 11/05/2025 |
 
 
 #### 5.2.3.5.Execution Evidence for Sprint Review.
