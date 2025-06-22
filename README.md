@@ -3290,7 +3290,7 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 | Profesión                                                | Estudiante de Ingeniería de Software                                                                                            |
 | Departamento                                             | Lima, Perú                                                                                                                      |
 | Minuto de inicio                                         | 00:00 min                                                                                                                       |
-| Captura de la entrevista                                 |     <img src="resources/chapter-5/capturaEKarol.png">                                                                                                                            |
+| Captura de la entrevista                                 |     <img src="assets/segmento 1-1.jpg">                                                                                                                            |
 | Búsqueda de curso                                        | Es una pagina bastante fácil de entender, muestra imagenes e informacion precisas y optimas para el cliente.                    |
 | Visualización de información del curso                   | Opina que la pagina esta bien redactada respecto a la descripcion de los distintas funciones que tiene la pagina.               |
 | Personalización y adaptación a tus necesidades educativas| Le parece que tomamos un enfoque básico que ayuda al usuario a realizar sus actividades sin muchas complicaciones               |
@@ -3339,7 +3339,7 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 | **Profesión**                      | Coordinadora                                                                                          |
 | **Departamento**                   | Lima, Perú                                                                                                             |
 | **Minuto de inicio**               | 29:11 min                                                                                                              |
-| Captura de la entrevista           |      <img src="resources/chapter-5/capturaEFlavio.png">                                                                                                                      |
+| Captura de la entrevista           |      <img src="assets/segmento 2-1.jpg">                                                                                                                      |
 | **Interacción con la landing page**   | A primera vista, una pagina bien lograda que me da informacion rápida y justa. |
 | **Interfaz y flujo de trabajo:**      | Me gusta la manera en que se muestran las secciones de la pagina, es bastante fácil de entender y manipular. |
 | **Creación de contenido educativo**   | Encuentra primordial el que la creación de su contenido sea tan flexible como se le permita. |
