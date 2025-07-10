@@ -3386,6 +3386,89 @@ Durante este sprint, las tareas de diseño, implementación y documentación del
 
 ### 5.2.4. Sprint 4
 #### 5.2.4.1.Sprint Planning 4.
+
+El Sprint #4, iniciado el 02/07/2025, tiene como objetivo la creacion de las siguientes bounded context en el backend:
+
+- Implementar el bounded **Publishing** y sus endpoints
+- Implementar el bounded **Presenting** y sus endpoints
+- Implementar el bounded **Studying** y sus endpoints
+- Implementar el bounded **Selling** y sus endpoints
+- Implementar el bounded **Reviewing** y sus endpoints
+
+<table>
+  <tr>
+    <th> Sprint # </th>
+    <th> Sprint 4 </th>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;" colspan="7"> Sprint Planing Background</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Date </td>
+    <td> 02/07/2025 </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Time </td>
+    <td> 15:00 horas (GMT-5) </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Location </td>
+    <td> Modalidad remota a través de Discord </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Prepared By </td>
+    <td> Acuña Tomas, Diego Rolin </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Attendees (to planning meeting) </td>
+    <td> 
+        <br> Acuña Tomas, Diego Rolin
+        <br> Alvarez Falen, Esteban Valentino
+        <br> Iparraguirre Rueda, Cristian Luis
+        <br> Torres Cortez, Tony Do Santos <br>
+    </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 1 Review Summary </td>
+    <td> Se completó exitosamente la landing page con todas las secciones planificadas. </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 1 Retrospective Summary </td>
+    <td> Se identificaron mejoras en la comunicación y coordinación entre los miembros del equipo. </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 2 Review Summary </td>
+    <td> Se completó parcialmente el front-end incluyendo todas las secciones planificadas. </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 2 Retrospective Summary </td>
+    <td> Se identificó mejor agilidad para presentar entregables diarios entre los miembros del equipo. </td>
+  </tr>
+   <tr>
+    <td style="font-weight: bold;"> Sprint 3 Review Summary </td>
+    <td> Se completó totalmente el front-end incluyendo todas las secciones planificadas. Se inició la planificacion y desarrollo de un endpoint del back-end</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 3 Retrospective Summary </td>
+    <td> Se identificaron debilidades entre los entregables de los miembros del equipo. Asimisimo mejoras de legibilidad en reportes enviados con anterioridad. </td>
+  </tr>
+  <tr> 
+    <td style="font-weight: bold;" colspan="7"> Sprint Goal & User Stories</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 4 Goal</td>
+    <td> Mejorar y completar las funcionalidades implementadas en el front-end, desarrollar los servicios de back-end para que haya una comunicación bilateral, así como con la base de datos y deployaer todos los servicios del proyecto.</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 4 Velocity </td>
+    <td> 124 </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sum of Story Points </td>
+    <td> 124 </td>
+  </tr>
+</table>
+
 #### 5.2.4.2. Aspect Leaders and Collaborators.
 #### 5.2.4.3. Sprint Backlog 3
 #### 5.2.4.4. Development Evidence for Sprint Review
