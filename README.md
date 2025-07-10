@@ -3697,100 +3697,73 @@ Evidencia de ejecución funcional del software: gifs, capturas de pantalla, fluj
 
 ##### Publishing: <!--Gestion de cursos -->
 
-Esta imagen muestra los planes que uno puede crear:
+Esta imagen muestra lo que uno ve al entrar a Course Management:
 
-[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+![image.png](./assets/publishing/CourseManagement.png)
+<p align="center"><em>Figura 112</em></p>
 
-Esta imagen tiene la pantalla de update de un plan de salud y comparte campos con el de creación:
+Esta imagen tiene la pantalla de crear curso, completando todo el formulario:
 
-[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+![image.png](./assets/publishing/creaarCurso.png)
+<p align="center"><em>Figura 113</em></p>
 
-Esta imagen muestra el dialog de confirmación para eliminar un plan de salud y es común a lo largo del proyecto:
+Esta imagen muestra la opcion de editar curso, pudiendo modificar lo que contenia dentro de ello:
 
-[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+![image.png](./assets/publishing/EditarCurso.png)
+<p align="center"><em>Figura 114</em></p>
 
-Este página se encarga de dar detalles de los planes de salud y se accde con el botón de ver de color celeste.
+Esta Imagen te da la opcion de eliminar curso, con opcion a cancelar en caso que de que el usuario se arrepienta.
 
-[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+![image.png](./assets/publishing/EliminarCurso.png)
+<p align="center"><em>Figura 115</em></p>
 
-Esta página tambien puede editar y eliminar un plan de salud:
+Esta Imagen te da opcion a mostrar mas detalles del curso mostrado:
 
-[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+![image.png](./assets/publishing/Masinformacion.png)
+<p align="center"><em>Figura 116</em></p>
 
-[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+##### Studying:  <!--todo referido al apartado Studying-->
 
-La pagína de details tiene la función de asignar comidas y ejercicios a un plan de salud. Además, los filtra por día de la semana.:
+En esta imagen muestra todo de Studying:
 
-[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
-
-[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
-
-A su vez cuenta con opciones de edición y eliminado:
-
-[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
-
-[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
-
-Luego tenemos la página para crear comidas/ejercicios o editarlos. Además de hacer un filtrado por nombre. Cabe resalta que tambien cuenta con un paginado:
-
-[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
-
-[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
-
-[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
-
-Ahora para demostrar los endpoints del lado del backend de publishing (Exercises, Meals, HealthPlan, HealthPlanMeal, HealthPlanExercise y HealthPlanDetails):
-
-[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
-
-[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
-
-##### Profile:  <!--todo referido al apartado perfil-->
-
-En esta imagen muestra todas reviews:
-
-[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+![image.png](./assets/Studying/Studying.png)
+<p align="center"><em>Figura 117</em></p>
 
 En esta imagen se muestra solo las review por un plan seleccionado:
 
-[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+![image.png](./assets/Studying/Studyingcompleted.png)
+<p align="center"><em>Figura 118</em></p>
 
 En esta imagen se muestra el formulario para poder crear una nueva review:
 
-[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+![image.png](./assets/Studying/editcourse.png)
+<p align="center"><em>Figura 119</em></p>
 
 Al apretar el boton de comentarios se muestran los comentarios por reviews, donde se puede escribir un comentario y seleccionar una review para poder asignarle el comentario:
 
-[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+![image.png](./assets/Studying/addtopiccourse.png)
+<p align="center"><em>Figura 120</em></p>
 
 Luego para cada review tambien hay un boton donde se puede reportar en caso se requiera, esto se almacena en la base de datos:
 
-[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+![image.png](./assets/Studying/listweekcourse.png)
+<p align="center"><em>Figura 121</em></p>
 
+##### Profile y About Us: 
+En esta imagen se muestra el perfil del usuario completo y con opcion a editar y actualizar informacion.:
 
-Ahora para demostrar los endpoints del lado del backend de reviewing(Reviews, ReviewComments, ReviewReports):
-[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+![image.png](./assets/Profile11.png)
+<p align="center"><em>Figura 121</em></p>
 
-##### Studying: <!--todo el apartado studying -->
-En esta imagen se muestran los cronogramas:
+En esta imagen continua el perfil del usuario y de sus certificaciones que obtuvo usando la app:
 
-[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+![image.png](./assets/Profile22.png)
+<p align="center"><em>Figura 121</em></p>
 
-En esta imagen se muestran el formulario para crear un cronograma:
+En esta imagen se muestra el About Us del equipo y la barra lateral de herramientas para ayudar al usuario:
 
-[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
-
-En esta imagen se muestran el formulario para editar un cronograma:
-
-[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
-
-En esta imagen se muestran el formulario para borrar un cronograma:
-
-[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
-
-Ahora para demostrar los endpoints del lado del backend de organizing(Schedules):
-
-[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+![image.png](./assets/aboutuus.png)
+<p align="center"><em>Figura 121</em></p>
 
 
 Endpoints - 
