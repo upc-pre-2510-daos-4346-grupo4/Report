@@ -252,6 +252,8 @@ Ser reconocidos como una startup líder en el desarrollo de plataformas educativ
 <p align="center">
   <img src="assets/Logo.png" alt="Logo Edunova"/>
 </p>
+<p align="center"><em>Figura 1</em></p>
+
 
 ### 1.1.2. Perfiles de integrantes del equipo.
 <TABLE BORDER>
@@ -351,6 +353,7 @@ El Lean UX Canvas es una herramienta clave dentro del enfoque de diseño centrad
 <div align="center">
   <img src="./assets/Lean UX Canvas.png" alt="LeanUxCanvas" width="1000"/>
 </div>
+<p align="center"><em>Figura 2</em></p>
 
 ## 1.3. Segmentos objetivo.
 
@@ -553,6 +556,7 @@ Entrevista #1: Jeremy Eredia
     </li>
 </ul>
 <img src="assets/interviews/EstudiantesEntrevistado1.jpg" alt="Entrevista Estudiante 1">
+<p align="center"><em>Figura 3</em></p>
 
 Resumen:
 <p>
@@ -577,6 +581,7 @@ Entrevista #2: Aldo Vasquez Sotomayor
     </li>
 </ul>
 <img src="assets/interviews/EstudiantesEntrevistado2.jpg" alt="Entrevista Estudiante 2">
+<p align="center"><em>Figura 4</em></p>
 
 Resumen:
 <p>
@@ -601,6 +606,7 @@ Entrevista #3: Daniel Monago
     </li>
 </ul>
 <img src="assets/interviews/EstudiantesEntrevistado3.webp" alt="Entrevista Estudiante 3">
+<p align="center"><em>Figura 5</em></p>
 
 Resumen:
 <p>
@@ -625,6 +631,7 @@ Entrevista #4: Sayry Ayvar
     </li>
 </ul>
 <img src="assets/interviews/EstudiantesEntrevistado4.jpg" alt="Entrevista Estudiante 4">
+<p align="center"><em>Figura 6</em></p>
 
 Resumen:
 <p>
@@ -649,6 +656,7 @@ Entrevista #5: Sebastián Silva
     </li>
 </ul>
 <img src="assets/interviews/EstudiantesEntrevistado5.jpg" alt="Entrevista Estudiante 5">
+<p align="center"><em>Figura 7</em></p>
 
 Resumen:
 <p>
@@ -674,6 +682,7 @@ Entrevista #1: Alexia Acuña
     </li>
 </ul>
 <img src="assets/interviews/InstructoresEntrevistado1.jpg" alt="Entrevista Instructor 1">
+<p align="center"><em>Figura 8</em></p>
 
 Resumen:
 <p>
@@ -698,6 +707,7 @@ Entrevista #2: Alonso Robles
     </li>
 </ul>
 <img src="assets/interviews/InstructoresEntrevistado2.jpg" alt="Entrevista Instructor 2">
+<p align="center"><em>Figura 9</em></p>
 
 Resumen:
 <p>
@@ -722,6 +732,7 @@ Entrevista #3: Violeta Cortés
     </li>
 </ul>
 <img src="assets/interviews/InstructoresEntrevistado3.jpg" alt="Entrevista Instructor 3">
+<p align="center"><em>Figura 10</em></p>
 
 Resumen:
 <p>
@@ -746,6 +757,7 @@ Entrevista #4: Luis Iparraguirre
     </li>
 </ul>
 <img src="assets/interviews/InstructoresEntrevistado4.jpg" alt="Entrevista Instructor 4">
+<p align="center"><em>Figura 11</em></p>
 
 Resumen:
 <p>
@@ -772,11 +784,13 @@ Las dificultades técnicas y la limitada interacción en algunos entornos digita
 <div align="center">
   <img src="./assets/UserPersona1.png" alt="UserPersona1" width="1000"/>
 </div>
+<p align="center"><em>Figura 12</em></p>
 
 **Segmento Objetivo: Creadores de cursos**
 <div align="center">
   <img src="./assets/UserPersona2.png" alt="UserPersona2" width="1000"/>
 </div>
+<p align="center"><em>Figura 13</em></p>
 
 ### 2.3.2. User Task Matrix.
 
@@ -831,22 +845,26 @@ Da máxima prioridad a crear contenido organizado, gestionar la comunicación co
 <div align="center">
   <img src="./assets/UserJourney1.jpg" alt="UserJourney1" width="1000"/>
 </div>
+<p align="center"><em>Figura 14</em></p>
 
 **Segmento Objetivo: Creadores de cursos**
 
 <div align="center">
   <img src="./assets/UserJourney2.jpg" alt="UserJourney2" width="1000"/>
 </div>
+<p align="center"><em>Figura 15</em></p>
 
 ### 2.3.4. Empathy Mapping.
 
 **Segmento Objetivo: Estudiantes universitarios que desean aprender**
 <p align="center">
   <img src="./assets/UPSamuel.png" alt="emp1"/>
+<p align="center"><em>Figura 16</em></p>
 
 **Segmento Objetivo: Creadores de cursos**
 <p align="center">
   <img src="./assets/UPSofia.png" alt="emp2"/>
+<p align="center"><em>Figura 17</em></p>
 
 ### 2.3.5. As-is Scenario Mapping.
 
@@ -854,11 +872,13 @@ Da máxima prioridad a crear contenido organizado, gestionar la comunicación co
 <div align="center">
   <img src="./assets/as-isOP1.jpg" alt="asis1" width="1000"/>
 </div>
+<p align="center"><em>Figura 18</em></p>
 
 **Segmento Objetivo: Creadores de cursos**
 <div align="center">
   <img src="./assets/as-isOP2.jpg" alt="asis2" width="1000"/>
 </div>
+<p align="center"><em>Figura 19</em></p>
 
 ## 2.4. Ubiquitous Language.
 
@@ -888,11 +908,13 @@ Da máxima prioridad a crear contenido organizado, gestionar la comunicación co
 <div align="center">
   <img src="./assets/to-beOP1.jpg" alt="tobe1" width="1000"/>
 </div>
+<p align="center"><em>Figura 20</em></p>
 
 **Segmento Objetivo: Creadores de cursos**
 <div align="center">
   <img src="./assets/to-beOP2.jpg" alt="tobe2" width="1000"/>
 </div>
+<p align="center"><em>Figura 21</em></p>
 
 ## 3.2. User Stories.
 
@@ -948,6 +970,8 @@ Epic ID
 <div align="center">
   <img src="./assets/impac open source.png" alt="ImpacMap" width="1000"/>
 </div>
+<p align="center"><em>Figura 22</em></p>
+
 ## 3.4. Product Backlog.
 
 |# Orden | User Story ID | Título                                 | Descripción                                                                                           | Story Points |
@@ -1016,6 +1040,7 @@ Esta guía establece los fundamentos de diseño visual y comunicación para **Ed
 <p align="center">
   <img src="./assets/ColorPalette.jpeg" alt="Color Palette"/>
 </p> 
+<p align="center"><em>Figura 23</em></p>
 
 ---
 
@@ -1381,26 +1406,31 @@ Esta categorización permite a los usuarios filtrar rápidamente los ejercicios 
 <div align="center">
   <img src="./assets/Figma1.jpg" alt="Wireframe1" width="1000"/>
 </div>
+<p align="center"><em>Figura 24</em></p>
 
 
 <div align="center">
   <img src="./assets/Figma2.jpg" alt="Wireframe2" width="1000"/>
 </div>
+<p align="center"><em>Figura 25</em></p>
 
 
 <div align="center">
   <img src="./assets/Figma3.jpg" alt="Wireframe3" width="1000"/>
 </div>
+<p align="center"><em>Figura 26</em></p>
 
 
 <div align="center">
   <img src="./assets/Figma4.jpg" alt="Wireframe4" width="1000"/>
 </div>
+<p align="center"><em>Figura 27</em></p>
 
 
 <div align="center">
   <img src="./assets/Figma5.jpg" alt="Wireframe5" width="1000"/>
 </div>
+<p align="center"><em>Figura 28</em></p>
 
 Imagenes proporcionadas de [Figma](https://www.figma.com/design/W8CsKPwurDNtM7WKB5NhWh/Open-source?t=XRp6JykfbClFpZ4R-1)
 
@@ -1409,21 +1439,25 @@ Imagenes proporcionadas de [Figma](https://www.figma.com/design/W8CsKPwurDNtM7WK
 <div align="center">
   <img src="./assets/Final1.jpg" alt="final1" width="1000"/>
 </div>
+<p align="center"><em>Figura 29</em></p>
 
 
 <div align="center">
   <img src="./assets/Final2.jpg" alt="final2" width="1000"/>
 </div>
+<p align="center"><em>Figura 30</em></p>
 
 
 <div align="center">
   <img src="./assets/Final3.jpg" alt="final3" width="1000"/>
 </div>
+<p align="center"><em>Figura 31</em></p>
 
 
 <div align="center">
   <img src="./assets/Final4.jpg" alt="final4" width="1000"/>
 </div>
+<p align="center"><em>Figura 32</em></p>
 
 Extraido de [Figma](https://www.figma.com/design/osVWOdkywKisqeSpAovE4d/Untitled?node-id=0-1&t=XRp6JykfbClFpZ4R-1)
 
@@ -1433,55 +1467,67 @@ Extraido de [Figma](https://www.figma.com/design/osVWOdkywKisqeSpAovE4d/Untitled
 <div align="center">
   <img src="./assets/WireframeWebApplicationActualizarContrasena.png" alt="Figma" width="1000"/>
 </div>
+<p align="center"><em>Figura 33</em></p>
 
 <div align="center">
   <img src="./assets/WireframeWebApplicationComunidad.png" alt="Figma" width="1000"/>
 </div>
+<p align="center"><em>Figura 34</em></p>
 
 <div align="center">
   <img src="./assets/WireframeWebApplicationCursosDetalles.png" alt="Figma" width="1000"/>
 </div>
+<p align="center"><em>Figura 35</em></p>
 
 <div align="center">
   <img src="./assets/WireframeWebApplicationCursosInscripcion.png" alt="Figma" width="1000"/>
 </div>
+<p align="center"><em>Figura 36</em></p>
 
 <div align="center">
   <img src="./assets/WireframeWebApplicationEnviarCorreoRecuperacion.png" alt="Figma" width="1000"/>
 </div>
+<p align="center"><em>Figura 37</em></p>
 
 <div align="center">
   <img src="./assets/WireframeWebApplicationLogin.png" alt="Figma" width="1000"/>
 </div>
+<p align="center"><em>Figura 38</em></p>
 
 <div align="center">
   <img src="./assets/WireframeWebApplicationPerfil.png" alt="Figma" width="1000"/>
 </div>
+<p align="center"><em>Figura 39</em></p>
 
 
 <div align="center">
   <img src="./assets/WireframeWebApplicationProgreso.png" alt="Figma" width="1000"/>
 </div>
+<p align="center"><em>Figura 40</em></p>
 
 
 <div align="center">
   <img src="./assets/WireframeWebApplicationRegister.png" alt="Figma" width="1000"/>
 </div>
+<p align="center"><em>Figura 41</em></p>
 
 
 <div align="center">
   <img src="./assets/WireframeWebApplicationSimulacroActualizacion.png" alt="Figma" width="1000"/>
 </div>
+<p align="center"><em>Figura 42</em></p>
 
 
 <div align="center">
   <img src="./assets/WireframeWebApplicationSimulacroAgregar.png" alt="Figma" width="1000"/>
 </div>
+<p align="center"><em>Figura 43</em></p>
 
 
 <div align="center">
   <img src="./assets/WireframeWebApplicationSimulacroSeleccion.png" alt="Figma" width="1000"/>
 </div>
+<p align="center"><em>Figura 44</em></p>
 
 
 
@@ -1491,6 +1537,7 @@ Extraido de [Figma](https://www.figma.com/design/osVWOdkywKisqeSpAovE4d/Untitled
 <div align="center">
   <img src="./assets/WD1.jpg" alt="relation2" width="1000"/>
 </div>
+<p align="center"><em>Figura 45</em></p>
 
 
 
@@ -1499,44 +1546,54 @@ Extraido de [Figma](https://www.figma.com/design/osVWOdkywKisqeSpAovE4d/Untitled
 <div align="center">
   <img src="./assets/Mockup1.png" alt="relation2" width="1000"/>
 </div>
+<p align="center"><em>Figura 46</em></p>
 
 <div align="center">
   <img src="./assets/Mockup2.png" alt="relation2" width="1000"/>
 </div>
+<p align="center"><em>Figura 47</em></p>
 
 <div align="center">
   <img src="./assets/Mockup3.png" alt="relation2" width="1000"/>
 </div>
+<p align="center"><em>Figura 48</em></p>
 
 <div align="center">
   <img src="./assets/Mockup4.png" alt="relation2" width="1000"/>
 </div>
+<p align="center"><em>Figura 49</em></p>
 
 <div align="center">
   <img src="./assets/Mockup5.png" alt="relation2" width="1000"/>
 </div>
+<p align="center"><em>Figura 50</em></p>
 
 <div align="center">
   <img src="./assets/Mockup6.png" alt="relation2" width="1000"/>
 </div>
+<p align="center"><em>Figura 51</em></p>
 
 <div align="center">
   <img src="./assets/Mockup7.png" alt="relation2" width="1000"/>
 </div>
+<p align="center"><em>Figura 52</em></p>
 
 <div align="center">
   <img src="./assets/Mockup8.png" alt="relation2" width="1000"/>
 </div>
+<p align="center"><em>Figura 53</em></p>
 
 <div align="center">
   <img src="./assets/Mockup9.png" alt="relation2" width="1000"/>
 </div>
+<p align="center"><em>Figura 54</em></p>
 
 ### 4.4.3. Web Applications User Flow Diagrams.
 
 <div align="center">
   <img src="./assets/UFD.jpg" alt="relation2" width="1000"/>
 </div>
+<p align="center"><em>Figura 55</em></p>
 
 ## 4.5. Web Applications Prototyping.
 En el desarrollo de nuestra aplicación web, hemos priorizado la creación de una experiencia simple, funcional y académicamente confiable para los usuarios interesados en ampliar sus conocimientos universitarios mediante cursos en línea especializados. A continuación, se describen las principales funcionalidades prototipadas:
@@ -1594,6 +1651,7 @@ Al completar exitosamente los cursos, los estudiantes pueden descargar certifica
 <p align="center">
 <img src="./assets/PrototipoWeb.png" alt="PrototipoWeb"/>
 </p>
+<p align="center"><em>Figura 56</em></p>
 
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221436_upc_edu_pe/EZPGSnteMP1Jg-y2LMju5dYBN5JEsNQnkx43cHBEqKQG5Q?e=stK1n5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
@@ -1606,11 +1664,13 @@ El Domain Driven Design (DDD) busca lograr una comprensión común del dominio q
 <p align="center">
   <img src="./assets/SAContextDiagram.png" alt="Context Diagram"/>
 </p>
+<p align="center"><em>Figura 57</em></p>
 
 ### 4.6.2. Software Architecture Container Diagram.
 <p align="center">
   <img src="./assets/SAContainerDiagram.png" alt="Container Diagram"/>
 </p>
+<p align="center"><em>Figura 58</em></p>
 
 ### 4.6.3. Software Architecture Components Diagrams.
 Los componentes del sistema siguen el patrón CQRS, organizados por bounded context: User Management, Course Management, Enrollment & Purchase Management, Notification Management y Live Session Management.
@@ -1620,6 +1680,7 @@ Gestión de estudiantes, instructores, admins.
 <p align="center">
   <img src="./assets/SAComponentsDiagramsUserManagement.png" alt="User Management"/>
 </p>
+<p align="center"><em>Figura 59</em></p>
 
 ---
 
@@ -1629,6 +1690,7 @@ Gestión de cursos, materiales, módulos, sesiones en vivo.
 <p align="center">
   <img src="./assets/SAComponentsDiagramsCourseManagement.png" alt="Course Management"/>
 </p>
+<p align="center"><em>Figura 60</em></p>
 
 ---
 
@@ -1637,6 +1699,7 @@ Gestión de inscripciones, compras, pagos.
 <p align="center">
   <img src="./assets/SAComponentsDiagramsEnrollment&PurchaseManagement.png" alt="Enrollment & Purchase Management"/>
 </p>
+<p align="center"><em>Figura 61</em></p>
 
 ---
 
@@ -1645,6 +1708,7 @@ Gestión de notificaciones internas (recordatorios, promociones).
 <p align="center">
   <img src="./assets/SAComponentsDiagramsNotificationManagement.png" alt="Notification Management"/>
 </p>
+<p align="center"><em>Figura 62</em></p>
 
 ---
 
@@ -1653,6 +1717,7 @@ Gestión de clases en vivo (integración con videoconferencias).
 <p align="center">
   <img src="./assets/SAComponentsDiagramsLiveSessionManagement.png" alt="Live Session Management"/>
 </p>
+<p align="center"><em>Figura 63</em></p>
 
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
@@ -1663,30 +1728,39 @@ Nuestro dominio se divide en 5 Bounded Contexts:
     <p align="center">
       <img src="./assets/CDUserManagement.png" alt="User Management"/>
     </p>
+    <p align="center"><em>Figura 64</em></p>
   </li>
   <li>
     <b>Course Management</b> maneja todo lo relacionado con los cursos: creación, estructura modular (módulos y lecciones), materiales de aprendizaje (documentos, videos) y la gestión de su publicación.
     <p align="center">
       <img src="./assets/CDCourseManagement.png" alt="Course Management"/>
     </p>
+    <p align="center"><em>Figura 65</em></p>
+
   </li>
   <li>
     <b>Enrollment & Purchase Management</b> gestiona la inscripción de estudiantes a los cursos (Enrollment) y el proceso de compra y validación de pagos (Purchase).
     <p align="center">
       <img src="./assets/CDEnrollment&PurchaseManagement.png" alt="Enrollment & Purchase Management"/>
     </p>
+    <p align="center"><em>Figura 66</em></p>
+
   </li>
   <li>
     <b>Notification Management</b> gestiona el envío de notificaciones automáticas o manuales a los usuarios (estudiantes, instructores o administradores) a través de diferentes canales (email, SMS, etc.).
     <p align="center">
       <img src="./assets/CDNotificationManagement.png" alt="Notification Management"/>
     </p>
+    <p align="center"><em>Figura 67</em></p>
+
   </li>
   <li>
     <b>Live Session Management</b> gestiona la programación, actualización y recordatorio de sesiones en vivo de los cursos en Edunova, incluyendo la integración con plataformas externas de videoconferencia.
     <p align="center">
       <img src="./assets/CDLiveSessionManagement.png" alt="Live Session Management"/>
     </p>
+    <p align="center"><em>Figura 68</em></p>
+
   </li>
 </ol>
 
@@ -1696,6 +1770,7 @@ Nuestro dominio se divide en 5 Bounded Contexts:
 <p align="center">
   <img src="./assets/CDCompleto.png" alt="Class diagram complete"/>
 </p>
+<p align="center"><em>Figura 69</em></p>
 
 ### 4.7.2. Class Dictionary.
 <h3>User Management</h3>
@@ -1924,6 +1999,7 @@ En esta sección se presenta el diseño de la base de datos. Se incluye un diagr
 <p align="center">
   <img src="./assets/DatabaseDesign.png" alt="Database Design"/>
 </p>
+<p align="center"><em>Figura 70</em></p>
 
 ### 4.8.1. Database Diagram.
 El diagrama de la base de datos proporciona una representación visual de las tablas, sus atributos y las relaciones entre ellas, facilitando la comprensión de la organización y la integridad de los datos en el sistema.
@@ -1933,6 +2009,7 @@ A continuación, presentaremos el diagrama de base de datos, una herramienta fun
 <p align="center">
   <img src="./assets/DatabaseDiagram.png" alt="Database Diagram"/>
 </p>
+<p align="center"><em>Figura 71</em></p>
 
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management.
@@ -2196,13 +2273,15 @@ A continuación, se describen los pasos necesarios para desplegar nuestro sitio 
 1. **Despliegue con GitHub Pages**: Primero, ingresamos al repositorio de GitHub donde está alojado el proyecto y luego accedemos a la sección de configuración del repositorio.
 
    ![Imagen](./assets/SettingsWeb.png)
+<p align="center"><em>Figura 72</em></p>
 
    &nbsp;
 
 2. Dentro del menú de ajustes, seleccionamos la opción "Pages".
 
    ![Imagen](./assets/PagesWeb.png)
-   
+   <p align="center"><em>Figura 73</em></p>
+
 ---
 
 <h4>Control de Versiones</h4>
@@ -2300,6 +2379,7 @@ Un sprint es un período breve y organizado en el que se ejecutan tareas especí
 En el primer sprint backlog, el equipo estableció como objetivo comenzar y finalizar el desarrollo de la landing page. Para organizar y gestionar al equipo, se utilizó Trello, una herramienta que permitió desglosar las user stories en tareas más pequeñas y asignarlas según las habilidades de cada miembro. El objetivo principal del sprint era desarrollar la landing page en su totalidad, asegurando que fuera atractiva y funcional.
 
 ![Trello](assets/Sprint1.png)
+<p align="center"><em>Figura 74</em></p>
 
 
 <table style="width:100%; height:auto; border-collapse: collapse;">
@@ -2507,18 +2587,27 @@ En esta entrega, nuestro equipo logró publicar exitosamente la landing page.
 Enlace de la Landing Page: https://upc-pre-2510-daos-4346-grupo4.github.io/LandingPage/
 
 ![image.png](./assets/LPHero.png)
+<p align="center"><em>Figura 75</em></p>
 Descripción: Imagen del hero y header<br><br>
 
 ![image.png](./assets/LPInformation.png)
+<p align="center"><em>Figura 76</em></p>
+
 Descripción: Imagen de la sección Information<br><br>
 
 ![image.png](./assets/LPBenefits.png)
+<p align="center"><em>Figura 77</em></p>
+
 Descripción: Imagen de la sección Benefits<br><br>
 
 ![image.png](./assets/LPAboutUs.png)
+<p align="center"><em>Figura 78</em></p>
+
 Descripción: Imagen de la sección About Us<br><br>
 
 ![image.png](./assets/LPContactUs.png)
+<p align="center"><em>Figura 79</em></p>
+
 Descripción: Imagen de la sección Contact Us<br><br>
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
@@ -2540,6 +2629,8 @@ En este caso hemos realizado el `deploy` mediante el servicio de **Pages** de Gi
 - Contar con un archivo principal nombrado `index.html`.
 
 ![image.png](./assets/Deploy1.png)
+<p align="center"><em>Figura 80</em></p>
+
 Descripción: Imagen del proceso de creación de un repositorio.<br><br>
 
 <h4>2. Subir tu proyecto al repositorio</h4>
@@ -2549,9 +2640,13 @@ Descripción: Imagen del proceso de creación de un repositorio.<br><br>
 - Elegir los archivos que deseas subir
 
 ![image.png](./assets/Deploy2.png)
+<p align="center"><em>Figura 81</em></p>
+
 Descripción: Visualización de un repositorio, en este ejemplo ya contiene la Landing Page desplegada, aunque normalmente estaría vacío si es un repositorio nuevo.<br><br>
 
 ![image.png](./assets/Deploy3.png)
+<p align="center"><em>Figura 82</em></p>
+
 Descripción: Área destinada a la carga de los archivos requeridos para la Landing Page.<br><br>
 
 <h4>3. Habilitar GitHub Pages</h4>
@@ -2563,6 +2658,8 @@ Descripción: Área destinada a la carga de los archivos requeridos para la Land
 - Presiona Save para guardar los cambios.
   
 ![image.png](./assets/Deploy4.png)
+<p align="center"><em>Figura 83</em></p>
+
 Demostración de que la Landing Page ha sido correctamente desplegada.<br><br>
 
 Link de la Landing Page: https://upc-pre-2510-daos-4346-grupo4.github.io/LandingPage/
@@ -2574,6 +2671,8 @@ Link de la Landing Page: https://upc-pre-2510-daos-4346-grupo4.github.io/Landing
 Durante este sprint, las tareas de diseño, implementación y documentación de la landing page fueron asignadas entre los miembros del equipo. La mayor parte de la implementación y despliegue de la landing page fue realizada por Diego Acuña.
 
 ![image.png](./assets/CollaborationSprint1.png)
+<p align="center"><em>Figura 84</em></p>
+
 
 ### 5.2.2. Sprint 2
 #### 5.2.2.1.Sprint Planning 2.
@@ -2668,6 +2767,8 @@ Esta matriz fue definida en conjunto durante la sesión de Sprint Planning y ha 
 En este segundo sprint, el equipo centró sus esfuerzos en implementar el frontend web de la aplicación EDUnova, abarcando tanto el diseño visual como la funcionalidad básica de interacción con los datos. Se priorizó la experiencia del usuario, integrando componentes de Angular Material, internacionalización (i18n) y navegación fluida. Para la organización de tareas y seguimiento del progreso se utilizó **Trello**, lo que permitió distribuir el trabajo de manera equitativa y colaborativa entre los integrantes del equipo.
 
 ![Trello](assets/trelloSprint2.png)
+<p align="center"><em>Figura 85</em></p>
+
 
 <table style="width:100%; height:auto; border-collapse: collapse;">
    <tr>
@@ -2829,9 +2930,16 @@ En esta sección se detallan los commits realizados en la rama `main` del reposi
 Durante el sprint 2, se alcanzó un progreso parcial en el desarrollo e implementación del front-end. Se construyeron varias secciones esenciales que permiten al usuario interactuar con las funciones principales del sistema. A continuación, se muestran algunas evidencias del trabajo realizado:
 
 ![Evidence](assets/sprint2Course1.png)
+<p align="center"><em>Figura 86</em></p>
+
 ![Evidence](assets/sprint2course2.png)
+<p align="center"><em>Figura 87</em></p>
+
 ![Evidence](assets/sprint2Course4.png)
+<p align="center"><em>Figura 88</em></p>
+
 ![Evidence](assets/sprint2Course5.png)
+<p align="center"><em>Figura 89</em></p>
 
 
 #### 5.2.2.6.Services Documentation Evidence for Sprint Review.
@@ -2881,10 +2989,20 @@ En la entrega correspondiente al segundo sprint, se realizaron despliegues indiv
 <h4>Landing Page</h4>
 
 ![Evidence](assets/sprint2L1.png)
+<p align="center"><em>Figura 90</em></p>
+
 ![Evidence](assets/sprint2L2.png)
+<p align="center"><em>Figura 91</em></p>
+
 ![Evidence](assets/sprint2L3.png)
+<p align="center"><em>Figura 92</em></p>
+
 ![Evidence](assets/sprint2L4.png)
+<p align="center"><em>Figura 93</em></p>
+
 ![Evidence](assets/sprint2L5.png)
+<p align="center"><em>Figura 94</em></p>
+
 URL: https://upc-pre-2510-daos-4346-grupo4.github.io/LandingPage/
 
 
@@ -2892,9 +3010,16 @@ URL: https://upc-pre-2510-daos-4346-grupo4.github.io/LandingPage/
 
 Publicación de cursos para su venta
 ![Evidence](assets/sprint2Course1.png)
+<p align="center"><em>Figura 95</em></p>
+
 ![Evidence](assets/sprint2course2.png)
+<p align="center"><em>Figura 96</em></p>
+
 ![Evidence](assets/sprint2Course4.png)
+<p align="center"><em>Figura 97</em></p>
+
 ![Evidence](assets/sprint2Course5.png)
+<p align="center"><em>Figura 98</em></p>
 
 URL: https://edunova-frontend.web.app/publishing/courses
 
@@ -2902,6 +3027,7 @@ URL: https://edunova-frontend.web.app/publishing/courses
 Durante este sprint, las tareas de diseño, implementación y documentación del frontend fueron asignadas entre los miembros del equipo.
 
 ![image.png](./assets/CollaborationSprint2.png)
+<p align="center"><em>Figura 99</em></p>
 
 
 ### 5.2.3. Sprint 3
@@ -3008,6 +3134,7 @@ Entre los avances clave, se destacan la mejora visual de la **landing page**, la
 Para el seguimiento y gestión de tareas se utilizó **Trello**, lo que facilitó una planificación colaborativa y organizada.
 
 ![Trello](assets/trelloSprint3.png)
+<p align="center"><em>Figura 100</em></p>
 
 <table style="width:100%; border-collapse: collapse;">
    <tr>
@@ -3217,24 +3344,41 @@ Durante el sprint 3, se corrigieron los bounded context y se agregaron nuevos en
 
 Home:
 ![Evidence](assets/Home.png)
+<p align="center"><em>Figura 101</em></p>
 
 About:
 ![Evidence](assets/About.png)
+<p align="center"><em>Figura 102</em></p>
 
 Publishing:
 ![Evidence](assets/Publishing1.png)
+<p align="center"><em>Figura 103</em></p>
+
 ![Evidence](assets/Publishing2.png)
+<p align="center"><em>Figura 104</em></p>
+
 ![Evidence](assets/Publishing3.png)
+<p align="center"><em>Figura 105</em></p>
+
 ![Evidence](assets/Publishing4.png)
+<p align="center"><em>Figura 106</em></p>
+
 ![Evidence](assets/Publishing5.png)
+<p align="center"><em>Figura 107</em></p>
+
 ![Evidence](assets/Publishing6.png)
+<p align="center"><em>Figura 108</em></p>
 
 Profile:
 ![Evidence](assets/profile1.png)
+<p align="center"><em>Figura 109</em></p>
+
 ![Evidence](assets/profile2.png)
+<p align="center"><em>Figura 110</em></p>
 
 Studying:
 ![Evidence](assets/Studying.png)
+<p align="center"><em>Figura 110</em></p>
 
 
 ##### 5.2.3.6. Services Documentation Evidence for Sprint Review
@@ -3382,6 +3526,7 @@ http://edunova-frontend.web.app
 Durante este sprint, las tareas de diseño, implementación y documentación del frontend fueron asignadas entre los miembros del equipo.
 
 ![image.png](./assets/CollaborationSprint2.png)
+<p align="center"><em>Figura 111</em></p>
 
 
 ### 5.2.4. Sprint 4
@@ -3580,7 +3725,7 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 | Profesión                                                | Estudiante de Ingeniería de Software                                                                                            |
 | Departamento                                             | Lima, Perú                                                                                                                      |
 | Minuto de inicio                                         | 00:00 min                                                                                                                       |
-| Captura de la entrevista                                 |     <img src="assets/segmento 1-1.jpg">                                                                                                                            |
+| Captura de la entrevista                                 |     <img src="assets/segmento 1-1.jpg"><p align="center"><em>Figura 112</em></p>                                                                                                                            |
 | Búsqueda de curso                                        | Es una pagina bastante fácil de entender, muestra imagenes e informacion precisas y optimas para el cliente.                    |
 | Visualización de información del curso                   | Opina que la pagina esta bien redactada respecto a la descripcion de los distintas funciones que tiene la pagina.               |
 | Personalización y adaptación a tus necesidades educativas| Le parece que tomamos un enfoque básico que ayuda al usuario a realizar sus actividades sin muchas complicaciones               |
@@ -3596,7 +3741,7 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 | Profesión                                                | Estudiante de Economia                                                                                            |
 | Departamento                                             | Lima, Perú                                                                                                                      |
 | Minuto de inicio                                         | 08:15 min                                                                                                                       |
-| Captura de la entrevista                                 |     <img src="assets/segmento 1-2.jpg">                                                                                                                            |
+| Captura de la entrevista                                 |     <img src="assets/segmento 1-2.jpg"><p align="center"><em>Figura 113</em></p>                                                                                                                            |
 | Búsqueda de curso                                        | La página es sencilla y fácil de navegar; la información está bien organizada.                    |
 | Visualización de información del curso                   | Opina que la pagina esta perfectamente estruturada y facil de entender la informacion que presenta.               |
 | Personalización y adaptación a tus necesidades educativas| Ve que es una herramienta facil que facilita al estudiante a encontrar mas informacion respecto a cursos que se le complican.               |
@@ -3611,7 +3756,7 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 | Profesión                                               | Estudiante de ingenieria civil                                                                                                                           |
 | Departamento                                            | Lima, Perú                                                                                                                                           |
 | Minuto de inicio                                        | 6:38 min                                                                                                                                            |
-| Captura de la entrevista                                | <img src="assets/entrevistaRenzo.png">                                                                                                   |
+| Captura de la entrevista                                | <img src="assets/entrevistaRenzo.png"><p align="center"><em>Figura 113</em></p>                                                                                                   |
 | Búsqueda de curso                                    | Comenta que le gusto navegar y se le hizo facil entender y encontrar un curso de su agrado.                                              |
 | Visualización de información del curso               | Opina que es intuitiva el uso de la aplicacion, por lo que puede ver la informacion del curso rapidamente.                                                                       |
 | Personalización y adaptación a tus necesidades educativas	                                   | Considera que la aplicacion tiene las herramientas necesarias para que muchas personas puedan publicar sus cursos, en otras palabras tendra mas opciones para comprar.                                    |
@@ -3628,7 +3773,7 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 | **Profesión**                      | Coordinadora                                                                                          |
 | **Departamento**                   | Lima, Perú                                                                                                             |
 | **Minuto de inicio**               | 29:11 min                                                                                                              |
-| Captura de la entrevista           |      <img src="assets/segmento 2-1.jpg">                                                                                                                      |
+| Captura de la entrevista           |      <img src="assets/segmento 2-1.jpg"><p align="center"><em>Figura 114</em></p>                                                                                                                   |
 | **Interacción con la landing page**   | A primera vista, una pagina bien lograda que me da informacion rápida y justa. |
 | **Interfaz y flujo de trabajo:**      | Me gusta la manera en que se muestran las secciones de la pagina, es bastante fácil de entender y manipular. |
 | **Creación de contenido educativo**   | Encuentra primordial el que la creación de su contenido sea tan flexible como se le permita. |
@@ -3644,7 +3789,7 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 | **Profesión**                      | Ingeniero de Software                                                                                                   |
 | **Departamento**                   | Lima, Perú                                                                                                              |
 | **Minuto de inicio**               | 30:56 min                                                                                                               |
-| Captura de la entrevista           | <img src="assets/entrevistaSebastian.png">                                                                                     |
+| Captura de la entrevista           | <img src="assets/entrevistaSebastian.png"><p align="center"><em>Figura 115</em></p>                                                                                     |
 | **Impresión general**              | Considera que la página tiene un diseño profesional y bien estructurado.                                               |
 | **Confianza y disposición de pago**| Le gustó la experiencia y mencionó que estaría dispuesto a pagar por publicar sus propios cursos en la plataforma.     |
 | **Interfaz y navegación**          | La navegación le pareció clara, rápida y sin fricciones. Le agradó la forma en que se organizan los módulos.           |
@@ -3660,7 +3805,7 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 | **Profesión**                       | Dueño de centro de belleza independiente                                                                                              |
 | **Departamento**                    | Lima, Perú                                                                                                         |
 | **Minuto de incio**                     | 31:41 min                                                                                                              |
-| Captura de la entrevista            |      <img src="assets/segmento 2-3.png">                                                                                                                      |
+| Captura de la entrevista            |      <img src="assets/segmento 2-3.png"><p align="center"><em>Figura 116</em></p>                                                                                                                      |
 | **Visualización de Perfil**         | Considera que el perfil es claro y fácil de leer, aunque cree que añadir una breve descripción o imagen destacada junto a cada servicio lo haría más atractivo. |
 | **Manejo de servicios**             | Encuentra sencillo el proceso de crear servicios, pero preferiría poder hacer cambios rápidos desde la lista general, sin necesidad de editar cada servicio por separado. |
 | **Gestión de reservas**             | Comenta que la gestión de reservas es práctica, aunque le gustaría tener un tablero de control que muestre un resumen de las reservas activas. |
@@ -3745,7 +3890,7 @@ La tabla de resumen muestra los problemas identificados, su nivel de severidad y
 |--------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Resumen del Video**                | Se muestra una descripción general del modelo de negocio y las principales características del mismo, por otro lado, se muestra un recorrido por la aplicación y las acciones que se pueden realizar en la misma.                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | **Pauta de Secuencias de Contenido** | **00:00:00**: Introducción <br> **00:00:05**: Landing Page <br> **00:00:15**: Perfil del usuario <br> **00:00:25**: Crear cursos <br> **00:00:34**: Bandeja de cursos comprados o creados <br> **00:00:42**: About <br> **00:00:47**: Testimonios                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| **Cuadro de Video Representativo**   | <img src="assets/About-the-Product.png" alt="Descripción de la imagen" width="300" height="200">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Cuadro de Video Representativo**   | <img src="assets/About-the-Product.png" alt="Descripción de la imagen" width="300" height="200"> <p align="center"><em>Figura 117</em></p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | **URL del Video**                    | **Microsoft Stream**: [Link de acceso](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113111_upc_edu_pe/EfIjq39RJD1BqIGqNZfovpQBEOfBnZk-HSxZZ3LGXQYULQ?e=Yv26fu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) <br/> **Youtube**:[Link de acceso](https://youtu.be/ScQnf9z0pm0) |
 
 ## Conclusiones
