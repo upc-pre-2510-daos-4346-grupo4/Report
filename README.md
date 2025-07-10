@@ -3955,6 +3955,30 @@ en base a lo que se determine
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 
+BACKEND
+
+[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) nota: contribucion back--> 
+
+[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) nota: contribucion back--> 
+
+FRONTEND
+
+[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) nota: contribucion front--> 
+
+[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) nota: contribucion front--> 
+
+
+LANDING PAGE
+
+[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) nota: contribucion landing--> 
+
+[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) nota: contribucion landing--> 
+
+REPORT
+
+[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) nota: contribucion reporte--> 
+
+[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) nota: contribucion reporte--> 
 
 
 ### 5.3. Validation Interviews
