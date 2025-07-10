@@ -202,6 +202,15 @@
         - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
       - [5.2.3.7.Software Deployment Evidence for Sprint Review.](#5237software-deployment-evidence-for-sprint-review)
       - [5.2.3.8.Team Collaboration Insights during Sprint.](#5238team-collaboration-insights-during-sprint)
+       - [5.2.4. Sprint 4](#524-sprint-4)
+      - [5.2.4.1.Sprint Planning 4.](#5241sprint-planning-4)
+      - [5.2.4.2. Aspect Leaders and Collaborators.](#5242-aspect-leaders-and-collaborators)
+      - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
+      - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
+      - [5.2.4.5.Execution Evidence for Sprint Review.](#5245execution-evidence-for-sprint-review)
+        - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+      - [5.2.4.7.Software Deployment Evidence for Sprint Review.](#5247software-deployment-evidence-for-sprint-review)
+      - [5.2.4.8.Team Collaboration Insights during Sprint.](#5248team-collaboration-insights-during-sprint)
     - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1 Diseño de Entrevistas](#531-diseño-de-entrevistas)
       - [*Objetivo de la Entrevista*](#objetivo-de-la-entrevista)
@@ -3228,7 +3237,7 @@ Studying:
 ![Evidence](assets/Studying.png)
 
 
-##### 5.2.2.6. Services Documentation Evidence for Sprint Review
+##### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
 Durante este sprint se documentaron completamente los **Web Services** correspondientes a los siguientes **bounded contexts** del sistema:
 
@@ -3373,6 +3382,16 @@ http://edunova-frontend.web.app
 Durante este sprint, las tareas de diseño, implementación y documentación del frontend fueron asignadas entre los miembros del equipo.
 
 ![image.png](./assets/CollaborationSprint2.png)
+
+
+### 5.2.4. Sprint 4
+#### 5.2.4.1.Sprint Planning 4.
+#### 5.2.4.2. Aspect Leaders and Collaborators.
+#### 5.2.4.3. Sprint Backlog 3
+#### 5.2.4.4. Development Evidence for Sprint Review
+#### 5.2.4.5.Execution Evidence for Sprint Review.
+##### 5.2.4.6. Services Documentation Evidence for Sprint Review
+#### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 
 ### 5.3. Validation Interviews
 En esta sección se presentan los detalles de las entrevistas de validación realizadas.
