@@ -1549,7 +1549,7 @@ Extraido de [Figma](https://www.figma.com/design/osVWOdkywKisqeSpAovE4d/Untitled
 <p align="center"><em>Figura 46</em></p>
 
 <div align="center">
-  <img src="./assets/Mockup2.png" alt="relation2" width="1000"/>
+  <img src="./assets/Mokcup2.png" alt="relation2" width="1000"/>
 </div>
 <p align="center"><em>Figura 47</em></p>
 
