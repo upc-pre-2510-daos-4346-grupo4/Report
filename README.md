@@ -3470,6 +3470,19 @@ El Sprint #4, iniciado el 02/07/2025, tiene como objetivo la creacion de las sig
 </table>
 
 #### 5.2.4.2. Aspect Leaders and Collaborators.
+
+| Miembro del equipo (Apellido, Nombre)      | Nombre de usuario en GitHub  | Gestión de Home | Gestion manejo de cursos  | Gestión de Perfil |Refinamiento UI/UX  | Full Backend Deployment | Documentación del Sprint |
+|--------------------------------------------|------------------------------|-------------------|--------------------|--------------------|-------------------|------------------------|--------------------------|
+| Acuña Tomas, Diego Rolin                   | ComidaRapida007              | L                 | L                  | L                  | L                 | L                      | L                        |
+| Alvarez Falen, Esteban Valentino         | EstebanAlvarez1402              | C                 | C                  | C                  | C                 | C                      | C                        |
+|Iparraguirre Rueda, Cristian Luis         | cristianipa7                 | C                 | C                  | C                  | C                 | C                     | C                        |
+| Torres Cortez, Tony Do Santos            |TonyTorresC          | C                 | C                  | C                  | C                 | C                      | C                        |
+
+
+
+
+
+
 #### 5.2.4.3. Sprint Backlog 3
 #### 5.2.4.4. Development Evidence for Sprint Review
 #### 5.2.4.5.Execution Evidence for Sprint Review.
