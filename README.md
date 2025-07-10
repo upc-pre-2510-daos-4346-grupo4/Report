@@ -2327,7 +2327,7 @@ En el primer sprint backlog, el equipo estableció como objetivo comenzar y fina
    <th> UT01 </th>
    <th> Creación de la barra de navegación. </th>
    <th> Implementar el menú de navegación de la landing page de EDUnova, asegurando que las opciones sean fáciles de usar y claras para los usuarios. </th>
-   <th> 1 </th>
+   <th> 4 </th>
    <th> Diego Acuña </th> 
    <th> Done </th>
     </tr>
@@ -2337,7 +2337,7 @@ En el primer sprint backlog, el equipo estableció como objetivo comenzar y fina
     <th> UT02</th>
     <th> Optimización de la barra de navegación. </th>
     <th> Mejorar la experiencia del usuario en la barra de navegación mediante la inclusión de animaciones y transiciones suaves. </th>
-    <th> 3 </th>
+    <th> 5 </th>
     <th> Diego Acuña </th> 
     <th> Done </th>
     </tr>
@@ -2347,7 +2347,7 @@ En el primer sprint backlog, el equipo estableció como objetivo comenzar y fina
     <th> UT03</th>
     <th> Creación de la sección Hero. </th>
     <th> Diseñar la sección principal de la landing page con una imagen atractiva y un título que capte la atención del visitante. </th>
-    <th> 3 </th>
+    <th> 6 </th>
     <th> Diego Acuña </th> 
     <th> Done </th>
     </tr>
@@ -2357,7 +2357,7 @@ En el primer sprint backlog, el equipo estableció como objetivo comenzar y fina
     <th> UT04 </th>
     <th> Modificaciones en la sección Hero. </th>
     <th> Ajustar la sección Hero para asegurar su correcta visualización en diferentes dispositivos y tamaños de pantalla. </th>
-    <th> 2 </th>
+    <th> 5 </th>
     <th> Diego Acuña </th> 
     <th> Done </th>
     </tr>
@@ -2367,7 +2367,7 @@ En el primer sprint backlog, el equipo estableció como objetivo comenzar y fina
     <th> UT05 </th>
     <th> Creación de la sección de footer. </th>
     <th> Crear la sección de pie de página con enlaces a información sobre el equipo y los términos y condiciones de uso. </th>
-    <th> 1 </th>
+    <th> 4 </th>
     <th> Diego Acuña </th> 
     <th> Done </th>
     </tr>
@@ -2377,7 +2377,7 @@ En el primer sprint backlog, el equipo estableció como objetivo comenzar y fina
     <th> UT06 </th>
     <th> Crear una sección que describa nuestra startup. </th>
     <th> Desarrollar la sección "Sobre nosotros" para proporcionar detalles acerca del equipo y la misión de la empresa. </th>
-    <th> 2 </th>
+    <th> 4 </th>
     <th> Diego Acuña </th> 
     <th> Done </th>
     </tr>
@@ -2387,7 +2387,7 @@ En el primer sprint backlog, el equipo estableció como objetivo comenzar y fina
     <th> UT07 </th>
     <th> Describir nuestra empresa y a los miembros del equipo. </th>
     <th> Incluir información detallada sobre la historia de la empresa y sus miembros en la sección "Sobre nosotros". </th>
-    <th> 2 </th>
+    <th> 4 </th>
     <th> Diego Acuña </th> 
     <th> Done </th>
     </tr>
@@ -2397,7 +2397,7 @@ En el primer sprint backlog, el equipo estableció como objetivo comenzar y fina
     <th> UT08 </th>
     <th> Describir en detalle nuestro producto. </th>
     <th> Crear una sección que explique de manera detallada nuestro producto. </th>
-    <th> 2 </th>
+    <th> 5 </th>
     <th> Diego Acuña </th> 
     <th> Done </th>
     </tr>
@@ -2407,7 +2407,7 @@ En el primer sprint backlog, el equipo estableció como objetivo comenzar y fina
     <th> UT09 </th>
     <th> Modificación de la sección "Information". </th>
     <th> Agregar información complementaria sobre el producto, junto con una frase persuasiva y una imagen representativa. </th>
-    <th> 2 </th>
+    <th> 4 </th>
     <th> Diego Acuña </th> 
     <th> Done </th>
     </tr>
@@ -2417,7 +2417,7 @@ En el primer sprint backlog, el equipo estableció como objetivo comenzar y fina
     <th> UT10 </th>
     <th> Explicar los beneficios de nuestro producto. </th>
     <th> Desarrollar una sección destacada que explique los beneficios de la aplicación en comparación con otras opciones disponibles. </th>
-    <th> 2 </th>
+    <th> 4 </th>
     <th> Diego Acuña </th> 
     <th> Done </th>
     </tr>
@@ -2427,7 +2427,7 @@ En el primer sprint backlog, el equipo estableció como objetivo comenzar y fina
     <th> UT11 </th>
     <th> Modificación de la sección "Benefits". </th>
     <th> Explicar los beneficios de manera atractiva, utilizando imágenes interactivas y textos explicativos para cada beneficio. </th>
-    <th> 2 </th>
+    <th> 4 </th>
     <th> Diego Acuña </th> 
     <th> Done </th>
     </tr>
@@ -2437,7 +2437,7 @@ En el primer sprint backlog, el equipo estableció como objetivo comenzar y fina
     <th> UT12 </th>
     <th> Creación de la sección de contacto. </th>
     <th> Incluir la información de contacto del equipo para facilitar la interacción con los usuarios. </th>
-    <th> 2 </th>
+    <th> 4 </th>
     <th> Diego Acuña </th> 
     <th> Done </th>
     </tr>
@@ -2447,7 +2447,7 @@ En el primer sprint backlog, el equipo estableció como objetivo comenzar y fina
     <th> UT13 </th>
     <th> Desarrollar el formulario de contacto. </th>
     <th> Desarrollar un formulario de contacto funcional en la sección correspondiente de la página. </th>
-    <th> 1 </th>
+    <th> 4 </th>
     <th> Diego Acuña </th> 
     <th> Done </th>
     </tr>
@@ -2467,7 +2467,7 @@ En el primer sprint backlog, el equipo estableció como objetivo comenzar y fina
     <th> UT15 </th>
     <th> Adaptación para dispositivos móviles. </th>
     <th> Optimizar el diseño para ofrecer una experiencia de usuario más fluida en dispositivos móviles. </th>
-    <th> 2 </th>
+    <th> 4 </th>
     <th> Diego Acuña </th> 
     <th> Done </th>
 </tr>
@@ -2714,7 +2714,7 @@ En este segundo sprint, el equipo centró sus esfuerzos en implementar el fronte
      <td> UT03 </td>
      <td> Mostrar resumen del curso en cada tarjeta </td>
      <td> Agregar en las tarjetas de cursos el nombre, instructor y una breve descripción accesible. </td>
-     <td> 2 </td>
+     <td> 4 </td>
      <td> Diego Acuña </td>
      <td> Done </td>
    </tr>
@@ -2724,7 +2724,7 @@ En este segundo sprint, el equipo centró sus esfuerzos en implementar el fronte
      <td> UT04 </td>
      <td> Preparar la infraestructura para futuras sugerencias en buscador </td>
      <td> Dejar preparada la estructura para integrar funcionalidades futuras como el buscador predictivo. </td>
-     <td> 2 </td>
+     <td> 4 </td>
      <td> Esteban Alvarez </td>
      <td> To-Do </td>
    </tr>
@@ -2734,7 +2734,7 @@ En este segundo sprint, el equipo centró sus esfuerzos en implementar el fronte
      <td> UT05 </td>
      <td> Configuración inicial de sistema de notificaciones </td>
      <td> Planificación del modelo y mecanismo para envío de notificaciones en futuras vistas. </td>
-     <td> 3 </td>
+     <td> 5 </td>
      <td> Cristian Iparraguirre </td>
      <td> In-Process </td>
    </tr>
@@ -2754,7 +2754,7 @@ En este segundo sprint, el equipo centró sus esfuerzos en implementar el fronte
      <td> UT07 </td>
      <td> Implementar tabs de cursos en progreso y completados </td>
      <td> Añadir navegación por tabs en el cronograma para visualizar el estado del curso. </td>
-     <td> 2 </td>
+     <td> 4 </td>
      <td> Esteban Alvarez </td>
      <td> Done </td>
    </tr>
@@ -2764,7 +2764,7 @@ En este segundo sprint, el equipo centró sus esfuerzos en implementar el fronte
      <td> UT08 </td>
      <td> Implementar menú desplegable de semanas </td>
      <td> Agregar menú con listado de temas por curso, mostrando su título y posición. </td>
-     <td> 3 </td>
+     <td> 6 </td>
      <td> Cristian Iparraguirre </td>
      <td> Done </td>
    </tr>
@@ -2774,7 +2774,7 @@ En este segundo sprint, el equipo centró sus esfuerzos en implementar el fronte
      <td> UT09 </td>
      <td> Mostrar información completa de tema en diálogo </td>
      <td> Diseñar un diálogo para desplegar información detallada del tema seleccionado. </td>
-     <td> 3 </td>
+     <td> 6 </td>
      <td> Tony Torres </td>
      <td> Done </td>
    </tr>
@@ -2784,7 +2784,7 @@ En este segundo sprint, el equipo centró sus esfuerzos en implementar el fronte
      <td> UT10 </td>
      <td> Agregar soporte i18n en vista Studying </td>
      <td> Traducir el contenido visible de la vista Studying utilizando ngx-translate. </td>
-     <td> 2 </td>
+     <td> 4 </td>
      <td> Diego Acuña </td>
      <td> Done </td>
    </tr>
@@ -2794,7 +2794,7 @@ En este segundo sprint, el equipo centró sus esfuerzos en implementar el fronte
      <td> UT11 </td>
      <td> Ajuste de diseño para dispositivos móviles </td>
      <td> Adaptar la vista para asegurar su usabilidad en pantallas pequeñas. </td>
-     <td> 3 </td>
+     <td> 5 </td>
      <td> Tony Torres </td>
      <td> Done </td>
    </tr>
@@ -2804,7 +2804,7 @@ En este segundo sprint, el equipo centró sus esfuerzos en implementar el fronte
      <td> UT12 </td>
      <td> Implementar componente paginator </td>
      <td> Utilizar MatPaginator para manejar la paginación de los cursos mostrados. </td>
-     <td> 2 </td>
+     <td> 4 </td>
      <td> Cristian Iparraguirre </td>
      <td> Done </td>
    </tr>
@@ -3074,7 +3074,7 @@ Para el seguimiento y gestión de tareas se utilizó **Trello**, lo que facilit�
      <td> UT17 </td>
      <td> Configuración de endpoints </td>
      <td> Usar MockAPI como fuente de datos para simular comportamiento real. </td>
-     <td> 3 </td>
+     <td> 4 </td>
      <td> Diego Acuña </td>
      <td> Done </td>
    </tr>
@@ -3084,7 +3084,7 @@ Para el seguimiento y gestión de tareas se utilizó **Trello**, lo que facilit�
      <td> UT18 </td>
      <td> Adaptación lógica de frontend </td>
      <td> Conectar vistas a estructuras reales modeladas en DDD para futura integración backend. </td>
-     <td> 3 </td>
+     <td> 4 </td>
      <td> Diego Acuña </td>
      <td> Done </td>
    </tr>
@@ -3104,7 +3104,7 @@ Para el seguimiento y gestión de tareas se utilizó **Trello**, lo que facilit�
      <td> UT20 </td>
      <td> CRUD datos personales </td>
      <td> Permitir al usuario actualizar su nombre, correo, contraseña y descripción. </td>
-     <td> 3 </td>
+     <td>5 </td>
      <td> Tony Torres </td>
      <td> Done </td>
    </tr>
@@ -3124,7 +3124,7 @@ Para el seguimiento y gestión de tareas se utilizó **Trello**, lo que facilit�
      <td> UT22 </td>
      <td> Mensaje de bienvenida y objetivos </td>
      <td> Explicar brevemente el propósito de EDUnova y qué problemática busca solucionar. </td>
-     <td> 2 </td>
+     <td> 4 </td>
      <td> Cristian Iparraguirre </td>
      <td> Done </td>
    </tr>
@@ -3134,7 +3134,7 @@ Para el seguimiento y gestión de tareas se utilizó **Trello**, lo que facilit�
      <td> UT23 </td>
      <td> Visión, misión y equipo </td>
      <td> Describir la startup SofTeam, su propósito, visión, misión y valores. </td>
-     <td> 2 </td>
+     <td> 4 </td>
      <td> Diego Acuña </td>
      <td> Done </td>
    </tr>
@@ -3144,7 +3144,7 @@ Para el seguimiento y gestión de tareas se utilizó **Trello**, lo que facilit�
      <td> UT24 </td>
      <td> Página de error 404 </td>
      <td> Implementar `page-not-found` y redirigir automáticamente al Home. </td>
-     <td> 2 </td>
+     <td> 4 </td>
      <td> Diego Acuña </td>
      <td> Done </td>
    </tr>
@@ -3154,7 +3154,7 @@ Para el seguimiento y gestión de tareas se utilizó **Trello**, lo que facilit�
   <td> UT25 </td>
   <td> Tabla de certificados con acciones </td>
   <td> Implementar tabla que liste los certificados del usuario con opciones para editar y eliminar. </td>
-  <td> 3 </td>
+  <td> 5 </td>
   <td> Tony Torres </td>
   <td> Done </td>
 </tr>
@@ -3164,7 +3164,7 @@ Para el seguimiento y gestión de tareas se utilizó **Trello**, lo que facilit�
   <td> UT26 </td>
   <td> Formulario en card visual </td>
   <td> Encapsular el formulario de edición del perfil en una card con buen espaciado y presentación. </td>
-  <td> 2 </td>
+  <td> 4 </td>
   <td> Esteban Alvarez </td>
   <td> Done </td>
 </tr>
@@ -3174,7 +3174,7 @@ Para el seguimiento y gestión de tareas se utilizó **Trello**, lo que facilit�
   <td> UT27 </td>
   <td> Hacer mat-accordion responsive </td>
   <td> Ajustar estilos internos de los contenidos del `mat-accordion` para asegurar visualización en pantallas pequeñas. </td>
-  <td> 3 </td>
+  <td> 5 </td>
   <td> Diego Acuña </td>
   <td> Done </td>
 </tr>
