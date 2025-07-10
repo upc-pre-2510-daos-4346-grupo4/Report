@@ -3714,7 +3714,7 @@ Esta imagen muestra la opcion de editar curso, pudiendo modificar lo que conteni
 
 Esta Imagen te da la opcion de eliminar curso, con opcion a cancelar en caso que de que el usuario se arrepienta.
 
-![image.png](./assets/publishing/EliminarCurso.png)
+![image.png](./assets/publishing/eliminarcurso.png)
 <p align="center"><em>Figura 115</em></p>
 
 Esta Imagen te da opcion a mostrar mas detalles del curso mostrado:
