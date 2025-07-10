@@ -3624,6 +3624,54 @@ El Sprint #4, iniciado el 02/07/2025, tiene como objetivo la creacion de las sig
 | Torres Cortez, Tony Do Santos            |TonyTorresC          | C                 | C                  | C                  | C                 | C                      | C                        |
 
 #### 5.2.4.3. Sprint Backlog 4
+
+Tabla con el backlog definido para el Sprint 4. Incluye ID de User Story, tareas asociadas, estimación en horas, responsable y estado actual (To-do, In Progress, Done).
+
+[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) nota: aqui va el trello-->
+
+<table style="width:100%; border-collapse: collapse;">
+  <tr>
+    <th colspan="4"> Sprint # </th>
+    <th colspan="7"> Sprint 4 </th>
+  </tr>
+  <tr>
+    <th colspan="4"> User Story </th>
+    <th colspan="7"> Work-Item / Task </th>
+  </tr>
+   <tr>
+    <th> US00 </th>
+    <th colspan="3"> <!--Agregar ejercicios a una rutina--> </th>
+    <th> <!--UT35--> </th>
+    <th> <!--Agregar ejercicios--> </th>
+    <th> <!--Implementar la funcionalidad que permita añadir ejercicios a una rutina--> </th>
+    <th> <!--4--> </th>
+    <th> <!--Miguel Gomez--> </th>
+    <th> <!--Done--> </th>
+  </tr>
+  <tr>
+    <th> US00 </th>
+    <th colspan="3"> <!--Agregar ejercicios a una rutina--> </th>
+    <th> <!--UT35--> </th>
+    <th> <!--Agregar ejercicios--> </th>
+    <th> <!--Implementar la funcionalidad que permita añadir ejercicios a una rutina--> </th>
+    <th> <!--4--> </th>
+    <th> <!--Miguel Gomez--> </th>
+    <th> <!--Done--> </th>
+  </tr>
+    <tr>
+    <th> US00 </th>
+    <th colspan="3"> <!--Agregar ejercicios a una rutina--> </th>
+    <th> <!--UT35--> </th>
+    <th> <!--Agregar ejercicios--> </th>
+    <th> <!--Implementar la funcionalidad que permita añadir ejercicios a una rutina--> </th>
+    <th> <!--4--> </th>
+    <th> <!--Miguel Gomez--> </th>
+    <th> <!--Done--> </th>
+  </tr>
+ 
+  </table>
+
+
 #### 5.2.4.4. Development Evidence for Sprint Review
 #### 5.2.4.5.Execution Evidence for Sprint Review.
 ##### 5.2.4.6. Services Documentation Evidence for Sprint Review
