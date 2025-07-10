@@ -3953,7 +3953,7 @@ en base a lo que se determine
 
 [Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) nota: pasos de como se hizo el deploy--> 
 
-#### 5.2.4.8. Team Collaboration Insights during Sprint
+#### 5.2.4.8.Team Collaboration Insights during Sprint
 
 BACKEND
 
