@@ -3639,34 +3639,45 @@ Tabla con el backlog definido para el Sprint 4. Incluye ID de User Story, tareas
     <th colspan="7"> Work-Item / Task </th>
   </tr>
    <tr>
-    <th> US00 </th>
-    <th colspan="3"> <!--Agregar ejercicios a una rutina--> </th>
-    <th> <!--UT35--> </th>
-    <th> <!--Agregar ejercicios--> </th>
-    <th> <!--Implementar la funcionalidad que permita añadir ejercicios a una rutina--> </th>
-    <th> <!--4--> </th>
-    <th> <!--Miguel Gomez--> </th>
-    <th> <!--Done--> </th>
+    <th> US55 </th>
+    <th colspan="3"> Mejorar landing page </th>
+    <th> UT28 </th>
+    <th> Rediseño y actualización de link  </th>
+    <th>  Hicimos correciones y mejoras referido a lo que es la información y videos mostrados en el landing page</th>
+    <th> 3</th>
+    <th> Tony Torres </th>
+    <th> Done</th>
   </tr>
   <tr>
-    <th> US00 </th>
-    <th colspan="3"> <!--Agregar ejercicios a una rutina--> </th>
-    <th> <!--UT35--> </th>
-    <th> <!--Agregar ejercicios--> </th>
-    <th> <!--Implementar la funcionalidad que permita añadir ejercicios a una rutina--> </th>
-    <th> <!--4--> </th>
-    <th> <!--Miguel Gomez--> </th>
-    <th> <!--Done--> </th>
+    <th> US56 </th>
+    <th colspan="3"> Adaptabilidad a móviles </th>
+    <th> UT29 </th>
+    <th> Adaptable a móviles </th>
+    <th> Ajustar ciertas secciones y diseños que no se veían con claridad </th>
+    <th> 4</th>
+    <th>Diego Acuña</th>
+    <th> Done </th>
   </tr>
     <tr>
-    <th> US00 </th>
-    <th colspan="3"> <!--Agregar ejercicios a una rutina--> </th>
-    <th> <!--UT35--> </th>
-    <th> <!--Agregar ejercicios--> </th>
-    <th> <!--Implementar la funcionalidad que permita añadir ejercicios a una rutina--> </th>
-    <th> <!--4--> </th>
-    <th> <!--Miguel Gomez--> </th>
-    <th> <!--Done--> </th>
+    <th> US57  </th>
+    <th colspan="3"> Gestionar certificados </th>
+    <th> UT30 </th>
+    <th> Errores en operaciones crud </th>
+    <th> Habían pequeños errores al hacer crud para la base de datos </th>
+    <th> 5 </th>
+    <th> Cristian </th>
+    <th> In Proccess </th>
+  </tr>
+  </tr>
+   <tr>
+    <th>US58 </th>
+    <th colspan="3"> Conectar Frontend a Backend </th>
+    <th> UT31 </th>
+    <th> Conexion backend a frontend  </th>
+    <th>  Conectar back y fron-end para un buen funcionamiento en la pagina</th>
+    <th> 8</th>
+    <th> Valentino </th>
+    <th> In Proccess</th>
   </tr>
  
   </table>
