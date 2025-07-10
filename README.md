@@ -3830,6 +3830,18 @@ Endpoints -
 [Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) nota: imagen del swagger--> 
 
 ##### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+Documentación técnica de los servicios desarrollados: endpoints, contratos de API, flujos de datos, modelos utilizados, y ejemplos de respuestas esperadas.
+
+| Recurso | Acción | Verbo HTTP | Endpoint | Parámetros |
+|---------|--------|------------|----------|-------------|
+|nombre de apartado <!--Certificates--> | <!--Listar certificados--> | <!--GET--> | <!--`/api/v1/certificates`--> | <!--userId (query) o id(pathc) o query o body--> |
+|nombre de apartado <!--Certificates--> | <!--Listar certificados--> | <!--GET--> | <!--`/api/v1/certificates`--> | <!--userId (query) o id(pathc) o query o body--> |
+|nombre de apartado <!--Certificates--> | <!--Listar certificados--> | <!--GET--> | <!--`/api/v1/certificates`--> | <!--userId (query) o id(pathc) o query o body--> |
+|nombre de apartado <!--Certificates--> | <!--Listar certificados--> | <!--GET--> | <!--`/api/v1/certificates`--> | <!--userId (query) o id(pathc) o query o body--> |
+|nombre de apartado <!--Certificates--> | <!--Listar certificados--> | <!--GET--> | <!--`/api/v1/certificates`--> | <!--userId (query) o id(pathc) o query o body--> |
+|nombre de apartado <!--Certificates--> | <!--Listar certificados--> | <!--GET--> | <!--`/api/v1/certificates`--> | <!--userId (query) o id(pathc) o query o body--> |
+
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 
 ### 5.3. Validation Interviews
