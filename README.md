@@ -202,7 +202,7 @@
         - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
       - [5.2.3.7.Software Deployment Evidence for Sprint Review.](#5237software-deployment-evidence-for-sprint-review)
       - [5.2.3.8.Team Collaboration Insights during Sprint.](#5238team-collaboration-insights-during-sprint)
-       - [5.2.4. Sprint 4](#524-sprint-4)
+     - [5.2.4. Sprint 4](#524-sprint-4)
       - [5.2.4.1.Sprint Planning 4.](#5241sprint-planning-4)
       - [5.2.4.2. Aspect Leaders and Collaborators.](#5242-aspect-leaders-and-collaborators)
       - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
@@ -3952,6 +3952,10 @@ Esto evidenció que la aplicación fue desplegada correctamente y se encuentra f
 en base a lo que se determine
 
 [Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) nota: pasos de como se hizo el deploy--> 
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+
+
 
 ### 5.3. Validation Interviews
 En esta sección se presentan los detalles de las entrevistas de validación realizadas.
