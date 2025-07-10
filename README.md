@@ -3671,9 +3671,164 @@ Tabla con el backlog definido para el Sprint 4. Incluye ID de User Story, tareas
  
   </table>
 
-
 #### 5.2.4.4. Development Evidence for Sprint Review
+
+Capturas, fragmentos de código y commits realizados durante el desarrollo de funcionalidades correspondientes al Sprint 4. Se incluyen enlaces a pull requests o repositorios si aplica.
+
+BACKEND
+
+| Repository | Branch | Commit Id | Commit Message | Description | Commited on (Date) |
+|------------|--------|-----------|----------------|-------------|---------------------|
+| link<!-- https://github.com/AplicacionesWeb-4380-G2-VibeFit/FitWise-BackEnd -->| main <!-- o develop -->| id del commit <!-- 563f2f6 --> | mensaje del commit<!-- Update Program.cs --> | Descipcion <!-- Ajuste en Program.cs para mejorar configuración general--> | 00/00/0000|
+| link| main | id del commit | mensaje del commit | Descipcion | 00/00/0000|
+| link| main | id del commit | mensaje del commit | Descipcion | 00/00/0000|
+
+
+FRONTEND
+| Repository | Branch | Commit Id | Commit Message | Description | Commited on (Date) |
+|------------|--------|-----------|----------------|-------------|---------------------|
+| link<!-- https://github.com/AplicacionesWeb-4380-G2-VibeFit/FitWise-BackEnd -->| main <!-- o develop -->| id del commit <!-- 563f2f6 --> | mensaje del commit<!-- Update Program.cs --> | Descipcion <!-- Ajuste en Program.cs para mejorar configuración general--> | 00/00/0000|
+| link| main | id del commit | mensaje del commit | Descipcion | 00/00/0000|
+| link| main | id del commit | mensaje del commit | Descipcion | 00/00/0000|
+
 #### 5.2.4.5.Execution Evidence for Sprint Review.
+
+Evidencia de ejecución funcional del software: gifs, capturas de pantalla, flujos grabados de navegación en la plataforma desarrollada durante este Sprint.
+
+##### Publishing: <!--Gestion de cursos -->
+
+Esta imagen muestra los planes que uno puede crear:
+
+[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+
+Esta imagen tiene la pantalla de update de un plan de salud y comparte campos con el de creación:
+
+[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+
+Esta imagen muestra el dialog de confirmación para eliminar un plan de salud y es común a lo largo del proyecto:
+
+[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+
+Este página se encarga de dar detalles de los planes de salud y se accde con el botón de ver de color celeste.
+
+[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+
+Esta página tambien puede editar y eliminar un plan de salud:
+
+[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+
+[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+
+La pagína de details tiene la función de asignar comidas y ejercicios a un plan de salud. Además, los filtra por día de la semana.:
+
+[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+
+[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+
+A su vez cuenta con opciones de edición y eliminado:
+
+[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+
+[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+
+Luego tenemos la página para crear comidas/ejercicios o editarlos. Además de hacer un filtrado por nombre. Cabe resalta que tambien cuenta con un paginado:
+
+[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+
+[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+
+[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+
+Ahora para demostrar los endpoints del lado del backend de publishing (Exercises, Meals, HealthPlan, HealthPlanMeal, HealthPlanExercise y HealthPlanDetails):
+
+[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+
+[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+
+##### Profile:  <!--todo referido al apartado perfil-->
+
+En esta imagen muestra todas reviews:
+
+[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+
+En esta imagen se muestra solo las review por un plan seleccionado:
+
+[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+
+En esta imagen se muestra el formulario para poder crear una nueva review:
+
+[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+
+Al apretar el boton de comentarios se muestran los comentarios por reviews, donde se puede escribir un comentario y seleccionar una review para poder asignarle el comentario:
+
+[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+
+Luego para cada review tambien hay un boton donde se puede reportar en caso se requiera, esto se almacena en la base de datos:
+
+[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+
+
+Ahora para demostrar los endpoints del lado del backend de reviewing(Reviews, ReviewComments, ReviewReports):
+[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+
+##### Studying: <!--todo el apartado studying -->
+En esta imagen se muestran los cronogramas:
+
+[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+
+En esta imagen se muestran el formulario para crear un cronograma:
+
+[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+
+En esta imagen se muestran el formulario para editar un cronograma:
+
+[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+
+En esta imagen se muestran el formulario para borrar un cronograma:
+
+[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+
+Ahora para demostrar los endpoints del lado del backend de organizing(Schedules):
+
+[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) -->
+
+
+Endpoints - 
+
+| Método | Endpoint                               | Descripción                                           |
+|--------|----------------------------------------|-------------------------------------------------------|
+| POST   | `/api/v1/payments`                     | Crea un nuevo registro de pago                        |
+| GET    | `/api/v1/payments`                     | Lista todos los pagos registrados                     |
+| PATCH  | `/api/v1/payments/{id}`                | Actualiza el estado de un pago específico             |
+| DELETE | `/api/v1/payments/{id}`                | Elimina un pago por su ID                             |
+| GET    | `/api/v1/payments/{id}`                | Recupera un pago específico por ID                    |
+| GET    | `/api/v1/payments/pending/{ownerId}`   | Recupera pagos pendientes para un usuario específico  |
+
+---
+
+Endpoints - 
+
+| Método | Endpoint                                 | Descripción                                               |
+|--------|------------------------------------------|-----------------------------------------------------------|
+| GET    | `/api/v1/purchased-plans`                | Lista todos los planes comprados                          |
+| POST   | `/api/v1/purchased-plans`                | Registra un nuevo plan comprado                           |
+| GET    | `/api/v1/purchased-plans/{id}`           | Recupera información de un plan comprado por su ID        |
+| PUT    | `/api/v1/purchased-plans/{id}`           | Actualiza un plan comprado existente                      |
+| DELETE | `/api/v1/purchased-plans/{id}`           | Elimina un plan comprado por su ID                        |
+
+---
+
+Endpoints - 
+
+| Método | Endpoint                                         | Descripción                                                         |
+|--------|--------------------------------------------------|---------------------------------------------------------------------|
+| GET    | `/api/v1/purchase-histories/{userId}`            | Recupera el historial de compras de un usuario específico           |
+| PATCH  | `/api/v1/purchase-histories/{userId}`            | Asocia un pago a un historial de compra existente                   |
+| POST   | `/api/v1/purchase-histories`                     | Crea un nuevo historial de compra para un usuario                   |
+| GET    | `/api/v1/purchase-histories`                     | Lista todos los historiales de compra registrados                   |
+
+[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) nota: imagen del swagger--> 
+
 ##### 5.2.4.6. Services Documentation Evidence for Sprint Review
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 
