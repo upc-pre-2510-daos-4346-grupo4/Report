@@ -3842,7 +3842,116 @@ Documentación técnica de los servicios desarrollados: endpoints, contratos de 
 |nombre de apartado <!--Certificates--> | <!--Listar certificados--> | <!--GET--> | <!--`/api/v1/certificates`--> | <!--userId (query) o id(pathc) o query o body--> |
 |nombre de apartado <!--Certificates--> | <!--Listar certificados--> | <!--GET--> | <!--`/api/v1/certificates`--> | <!--userId (query) o id(pathc) o query o body--> |
 
-#### 5.2.3.7.Software Deployment Evidence for Sprint Review.
+#### 5.2.4.7.Software Deployment Evidence for Sprint Review.
+
+# Despliegue del Frontend en Firebase
+
+El frontend del proyecto **EDUnova** fue desplegado en la plataforma **Firebase Hosting**, permitiendo una publicación rápida y segura de la aplicación web. A continuación, se detallan los pasos seguidos durante el proceso de implementación.
+
+```
+ng build
+```
+Luego accedí al sitio web de Firebase: [https://firebase.google.com/](https://firebase.google.com/)  
+Inicié sesión haciendo clic en `sign in` (ubicado en la parte superior derecha) e ingresé con mi cuenta de Google.
+
+Para crear un nuevo proyecto en Firebase seguí estos pasos:
+
+- Ingresé a la consola con `Go to console`.
+- Seleccioné `Add project`.
+- Le asigné el nombre `daos-codigo-learning-center`.
+- Desactivé la opción `Enable Google Analytics for this project`.
+- Presioné `Create project` y esperé hasta que Firebase mostrara el mensaje `Your Firebase project is ready`.
+- Finalmente, hice clic en `Continue`.
+
+Después configuré el servicio de Hosting con los siguientes pasos:
+
+- En el menú lateral, seleccioné `Build` y luego `Hosting`.
+- Hice clic en `Get started`, donde se mostraron las etapas: instalación del CLI, inicialización del proyecto y despliegue.
+- Seguí las instrucciones en el orden indicado.
+
+Desde el terminal, instalé las herramientas necesarias ejecutando:
+```
+npm install -g firebase-tools
+```
+
+A continuación, inicié sesión con:
+```
+firebase login
+```
+
+Cuando el sistema preguntó si quería compartir estadísticas de uso, respondí `n`.  
+Luego, en el navegador, seleccioné mi cuenta de Google, autoricé los permisos y confirmé el mensaje `Firebase CLI Login Successful`.
+
+Después ejecuté la inicialización del proyecto con:
+```
+firebase init
+```
+
+A la pregunta `Allow Firebase to collect CLI and Emulator Suite usage and error reporting information? (Y/n)`, respondi: `n`.
+
+Cargo el Navegador Web con las siguientes indicaciones: 
+- `Choose an account to continue to Firebase CLI`, seleccione la cuenta donde creo el proyecto.
+- `Sign in to Firebase CLI`, haga click en `Continue`.
+- `Firebase CLI wants to access your Google Account`, haga click en `Allow`.
+- Le aparecerá el mensaje: `Firebase CLI Login Successful`.
+- En el Terminal del IDE debe de aparecerle el siguiente mensaje: `Success! Logged in as ....`
+
+En el `Terminal` del IDE ejecute la siguiente instrucción: 
+```
+firebase init
+```
+
+Durante el proceso de configuración, respondí lo siguiente:
+
+- `Are you ready to proceed?` → `Y`
+- Seleccioné: `Hosting: Configure files for Firebase Hosting...` con `space` y confirmé con `enter`.
+- Elegí: `Use an existing project`.
+- Seleccioné el proyecto: `daos-codigo-learning-center`.
+- Como carpeta pública ingresé: `dist/daos-ws53-learning-center/browser`
+- Confirmé que es una SPA con: `Y`
+- Rechacé la configuración automática con GitHub: `N`
+- Y cuando se me preguntó si deseaba sobrescribir el archivo `index.html`, respondí: `n`
+
+Para finalizar el proceso, ejecuté el despliegue con:
+
+
+```
+firebase deploy
+```
+La aplicación quedó publicada correctamente en:
+```
+http://edunova-frontend.web.app
+```
+
+# Despliegue del Backend en Azure App Service
+
+El backend del proyecto **EDUnova** fue desplegado en la plataforma **aun no ce**, aprovechando los recursos disponibles en la suscripción **aun nada **. A continuación, se detallan los pasos seguidos durante el proceso de implementación.
+
+---
+
+. . .
+---
+
+## Conexión a base de datos MySQL Flexible
+
+. . .
+
+---
+
+## Verificación de funcionamiento
+
+La validación del despliegue se realizó accediendo a la interfaz Swagger de la API, confirmando que los endpoints estaban operativos. Algunos de los endpoints disponibles son:
+
+. . .
+Esto evidenció que la aplicación fue desplegada correctamente y se encuentra funcionando con éxito.
+
+---
+
+## Conclusión
+
+en base a lo que se determine
+
+[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) nota: pasos de como se hizo el deploy--> 
 
 ### 5.3. Validation Interviews
 En esta sección se presentan los detalles de las entrevistas de validación realizadas.
