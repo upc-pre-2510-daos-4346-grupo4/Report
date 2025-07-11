@@ -3678,6 +3678,39 @@ Tabla con el backlog definido para el Sprint 4. Incluye ID de User Story, tareas
     <th> Valentino </th>
     <th> In Proccess</th>
   </tr>
+    <tr>
+    <th>US59 </th>
+    <th colspan="3"> Reediseño del frontend </th>
+    <th> UT32 </th>
+    <th> Reediseño del frontend  </th>
+    <th>  reediseñar el front y actualizar</th>
+    <th> 8</th>
+    <th> Valentino </th>
+    <th> Done</th>
+  </tr>
+    </tr>
+   </tr>
+   <tr>
+    <th>US60 </th>
+    <th colspan="3"> Organizar estructura de carpetas </th>
+    <th> UT33 </th>
+    <th> Organizar estructura de carpetas  </th>
+    <th>  Reestructurar las carpetas de uso</th>
+    <th> 8</th>
+    <th> Valentino </th>
+    <th> Done</th>
+  </tr>
+  </tr>
+    <tr>
+    <th>US60 </th>
+    <th colspan="3"> Backend apartado perfil </th>
+    <th> UT34 </th>
+    <th> Endpoints y funciones </th>
+    <th> Creacion de endpoints y prueba de funciones</th>
+    <th> 8</th>
+    <th> Tony Torres </th>
+    <th> Done</th>
+  </tr>
  
   </table>
 
