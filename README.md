@@ -3849,7 +3849,12 @@ Endpoints - Profile
 | POST   | `/api/v1/authentication/sign-up`             | Sign-up                        |
 | POST   | `/api/v1/authentication/sign-in`             | Sign-in                        |
 
-[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) nota: imagen del swagger--> 
+![Endpoint1](assets/backend/Endpoint1.png)  <!-- ![Nombre de la imagen](ruta dela imagen) nota: imagen del swagger--> 
+
+![Endpoint1](assets/backend/Endpoint2.png)
+
+![Endpoint1](assets/backend/Endpoint3.png)
+
 
 ##### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
