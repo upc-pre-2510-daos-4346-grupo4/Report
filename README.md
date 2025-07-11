@@ -3711,6 +3711,28 @@ Tabla con el backlog definido para el Sprint 4. Incluye ID de User Story, tareas
     <th> Tony Torres </th>
     <th> Done</th>
   </tr>
+    </tr>
+    <tr>
+    <th>US61 </th>
+    <th colspan="3"> Backend Gestion de cursos </th>
+    <th> UT35 </th>
+    <th> Backend y endpoints </th>
+    <th> Creacion de endpoints y prueba de funciones</th>
+    <th> 8</th>
+    <th> Diego Acuña </th>
+    <th> Done</th>
+  </tr>
+    </tr>
+    <tr>
+    <th>US62 </th>
+    <th colspan="3"> AIM </th>
+    <th> UT36 </th>
+    <th> Creacion y configuracion del AIM </th>
+    <th> Implementacion de AIM para asegurar SIGN IN / SIGN UP</th>
+    <th> 6</th>
+    <th> Diego Acuña </th>
+    <th> Done</th>
+  </tr>
  
   </table>
 
