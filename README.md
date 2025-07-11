@@ -3944,6 +3944,26 @@ Endpoints - Objectives
 | Objectives | Listar todos los objetivos | GET   | `/api/v1/objectives`                         | Ninguno                      |
 | Objectives | Crear un nuevo objetivo | POST     | `/api/v1/objectives`                         | body                         |
 
+Endpoints - Certificates
+
+| Recurso     | Acción                        | Verbo HTTP | Endpoint                                    | Parámetros                       |
+|-------------|-------------------------------|------------|---------------------------------------------|----------------------------------|
+| Certificates| Crear certificado             | POST       | `/api/v1/certificates`                      | body                             |
+| Certificates| Listar certificados de perfil | GET        | `/api/v1/certificates/profile/{profileId}`  | `profileId` (path)               |
+| Certificates| Actualizar certificado        | PUT        | `/api/v1/certificates/{id}`                 | `id` (path), body                |
+| Certificates| Eliminar certificado          | DELETE     | `/api/v1/certificates/{id}`                 | `id` (path)                      |
+
+Endpoints - Profile
+
+| Recurso | Acción                        | Verbo HTTP | Endpoint                     | Parámetros                   |
+|---------|-------------------------------|------------|------------------------------|------------------------------|
+| Profile | Crear perfil                  | POST       | `/api/v1/profiles`           | body                         |
+| Profile | Listar todos los perfiles     | GET        | `/api/v1/profiles`           | Ninguno                      |
+| Profile | Obtener perfil por ID         | GET        | `/api/v1/profiles/{id}`      | `id` (path)                  |
+| Profile | Actualizar perfil             | PUT        | `/api/v1/profiles/{id}`      | `id` (path), body            |
+| Profile | Eliminar perfil               | DELETE     | `/api/v1/profiles/{id}`      | `id` (path)                  |
+
+
 
 #### 5.2.4.7.Software Deployment Evidence for Sprint Review.
 
