@@ -3776,28 +3776,27 @@ En esta imagen se muestra el About Us del equipo y la barra lateral de herramien
 <p align="center"><em>Figura 124</em></p>
 
 
-Endpoints - 
+Endpoints - Certificates
 
-| Método | Endpoint                               | Descripción                                           |
-|--------|----------------------------------------|-------------------------------------------------------|
-| POST   | `/api/v1/payments`                     | Crea un nuevo registro de pago                        |
-| GET    | `/api/v1/payments`                     | Lista todos los pagos registrados                     |
-| PATCH  | `/api/v1/payments/{id}`                | Actualiza el estado de un pago específico             |
-| DELETE | `/api/v1/payments/{id}`                | Elimina un pago por su ID                             |
-| GET    | `/api/v1/payments/{id}`                | Recupera un pago específico por ID                    |
-| GET    | `/api/v1/payments/pending/{ownerId}`   | Recupera pagos pendientes para un usuario específico  |
+| Método | Endpoint                                    | Descripción                                       |
+|--------|---------------------------------------------|---------------------------------------------------|
+| POST   | `/api/v1/certificates`                     | Crea un nuevo certificado                         |
+| GET    | `/api/v1/certificates/profile/{profileId}` | Lista todos los certificados de un perfil        |
+| PUT    | `/api/v1/certificates/{id}`                | Actualiza un certificado existente               |
+| DELETE | `/api/v1/certificates/{id}`                | Elimina un certificado por su ID                 |
 
 ---
+---
 
-Endpoints - 
+Endpoints - Profile 
 
-| Método | Endpoint                                 | Descripción                                               |
-|--------|------------------------------------------|-----------------------------------------------------------|
-| GET    | `/api/v1/purchased-plans`                | Lista todos los planes comprados                          |
-| POST   | `/api/v1/purchased-plans`                | Registra un nuevo plan comprado                           |
-| GET    | `/api/v1/purchased-plans/{id}`           | Recupera información de un plan comprado por su ID        |
-| PUT    | `/api/v1/purchased-plans/{id}`           | Actualiza un plan comprado existente                      |
-| DELETE | `/api/v1/purchased-plans/{id}`           | Elimina un plan comprado por su ID                        |
+| Método | Endpoint                     | Descripción                                       |
+|--------|------------------------------|---------------------------------------------------|
+| POST   | `/api/v1/profiles`           | Crea un nuevo perfil (solo backend/Swagger)      |
+| GET    | `/api/v1/profiles`           | Lista todos los perfiles                         |
+| GET    | `/api/v1/profiles/{id}`      | Recupera la información de un perfil por ID      |
+| PUT    | `/api/v1/profiles/{id}`      | Actualiza un perfil existente por ID             |
+| DELETE | `/api/v1/profiles/{id}`      | Elimina un perfil por su ID (solo backend/Swagger) |
 
 ---
 
