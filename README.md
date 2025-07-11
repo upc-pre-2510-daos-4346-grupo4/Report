@@ -3851,9 +3851,9 @@ Endpoints - Profile
 
 ![Endpoint1](assets/backend/Endpoint1.png)  <!-- ![Nombre de la imagen](ruta dela imagen) nota: imagen del swagger--> 
 
-![Endpoint1](assets/backend/Endpoint2.png)
+![Endpoint2](assets/backend/Endpoint2.png)
 
-![Endpoint1](assets/backend/Endpoint3.png)
+![Endpoint3](assets/backend/Endpoint3.png)
 
 
 ##### 5.2.4.6. Services Documentation Evidence for Sprint Review
