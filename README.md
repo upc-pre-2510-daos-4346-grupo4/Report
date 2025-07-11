@@ -3764,17 +3764,17 @@ Luego para cada review tambien hay un boton donde se puede reportar en caso se r
 En esta imagen se muestra el perfil del usuario completo y con opcion a editar y actualizar informacion.:
 
 ![image.png](./assets/Profile11.png)
-<p align="center"><em>Figura 121</em></p>
+<p align="center"><em>Figura 122</em></p>
 
 En esta imagen continua el perfil del usuario y de sus certificaciones que obtuvo usando la app:
 
 ![image.png](./assets/Profile22.png)
-<p align="center"><em>Figura 121</em></p>
+<p align="center"><em>Figura 123</em></p>
 
 En esta imagen se muestra el About Us del equipo y la barra lateral de herramientas para ayudar al usuario:
 
 ![image.png](./assets/aboutuus.png)
-<p align="center"><em>Figura 121</em></p>
+<p align="center"><em>Figura 124</em></p>
 
 
 Endpoints - 
@@ -3931,38 +3931,45 @@ Esto evidenció que la aplicación fue desplegada correctamente y se encuentra f
 
 ---
 
-## Conclusión
-
-en base a lo que se determine
-
-[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) nota: pasos de como se hizo el deploy--> 
-
 #### 5.2.4.8.Team Collaboration Insights during Sprint
 
 BACKEND
 
-[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) nota: contribucion back--> 
+![image.png](./assets/backend/backendpro.png)
+<p align="center"><em>Figura 125</em></p>
 
-[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) nota: contribucion back--> 
+
+![image.png](./assets/backend/backendpro1.png)
+<p align="center"><em>Figura 126</em></p>
+
 
 FRONTEND
 
-[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) nota: contribucion front--> 
+![image.png](./assets/Frontend/frontpro1.png)
+<p align="center"><em>Figura 127</em></p>
 
-[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) nota: contribucion front--> 
+
+![image.png](./assets/Frontend/frontpro2.png)
+<p align="center"><em>Figura 128</em></p>
 
 
 LANDING PAGE
 
-[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) nota: contribucion landing--> 
+![image.png](./assets/Landingpage/landinpro.png)
+<p align="center"><em>Figura 129</em></p>
 
-[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) nota: contribucion landing--> 
+![image.png](./assets/Landingpage/landinpro1.png)
+<p align="center"><em>Figura 130</em></p>
 
 REPORT
 
-[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) nota: contribucion reporte--> 
+![image.png](./assets/Report/reportpro.png)
+<p align="center"><em>Figura 131</em></p>
 
-[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) nota: contribucion reporte--> 
+
+![image.png](./assets/Report/reportpro1.png)
+<p align="center"><em>Figura 132</em></p>
+
 
 
 ### 5.3. Validation Interviews
