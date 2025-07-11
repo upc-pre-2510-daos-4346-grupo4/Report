@@ -3800,14 +3800,54 @@ Endpoints - Profile
 
 ---
 
-Endpoints - 
+ Endpoints - Resources
 
-| Método | Endpoint                                         | Descripción                                                         |
-|--------|--------------------------------------------------|---------------------------------------------------------------------|
-| GET    | `/api/v1/purchase-histories/{userId}`            | Recupera el historial de compras de un usuario específico           |
-| PATCH  | `/api/v1/purchase-histories/{userId}`            | Asocia un pago a un historial de compra existente                   |
-| POST   | `/api/v1/purchase-histories`                     | Crea un nuevo historial de compra para un usuario                   |
-| GET    | `/api/v1/purchase-histories`                     | Lista todos los historiales de compra registrados                   |
+| Método | Endpoint                                     | Descripción                    |
+|--------|----------------------------------------------|--------------------------------|
+| GET    | `/api/v1/resources/{resourceId}`             | Obtener un recurso por ID      |
+| PUT    | `/api/v1/resources/{resourceId}`             | Actualizar un recurso          |
+| DELETE | `/api/v1/resources/{resourceId}`             | Eliminar un recurso            |
+| GET    | `/api/v1/resources`                          | Obtener todos los recursos     |
+| POST   | `/api/v1/resources`                          | Crear un nuevo recurso         |
+
+---
+
+ Endpoints - Topics
+
+| Método | Endpoint                                     | Descripción                    |
+|--------|----------------------------------------------|--------------------------------|
+| GET    | `/api/v1/topics/{topicId}`                   | Obtener un tema por ID         |
+| PUT    | `/api/v1/topics/{topicId}`                   | Actualizar un tema             |
+| DELETE | `/api/v1/topics/{topicId}`                   | Eliminar un tema               |
+| GET    | `/api/v1/topics`                             | Obtener todos los temas        |
+| POST   | `/api/v1/topics`                             | Crear un nuevo tema            |
+
+---
+
+ Endpoints - Learning Progress
+
+| Método | Endpoint                                     | Descripción                    |
+|--------|----------------------------------------------|--------------------------------|
+| PUT    | `/api/v1/learning-progress/{id}`             | Actualizar progreso            |
+| GET    | `/api/v1/learning-progress`                  | Obtener progreso por userId    |
+
+---
+
+ Endpoints - Users
+
+| Método | Endpoint                                     | Descripción                    |
+|--------|----------------------------------------------|--------------------------------|
+| GET    | `/api/v1/users`                              | Obtener todos los usuarios     |
+| GET    | `/api/v1/users/{userId}`                     | Obtener usuario por ID         |
+
+---
+
+ Endpoints - Authentication
+
+| Método | Endpoint                                     | Descripción                    |
+|--------|----------------------------------------------|--------------------------------|
+| POST   | `/api/v1/authentication/sign-up`             | Sign-up                        |
+| POST   | `/api/v1/authentication/sign-in`             | Sign-in                        |
 
 [Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) nota: imagen del swagger--> 
 
