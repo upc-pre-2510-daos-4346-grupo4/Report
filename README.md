@@ -3605,11 +3605,11 @@ El Sprint #4, iniciado el 02/07/2025, tiene como objetivo la creacion de las sig
   </tr>
   <tr>
     <td style="font-weight: bold;"> Sprint 4 Velocity </td>
-    <td> 124 </td>
+    <td> 124</td>
   </tr>
   <tr>
     <td style="font-weight: bold;"> Sum of Story Points </td>
-    <td> 124 </td>
+    <td> 44 </td>
   </tr>
 </table>
 
