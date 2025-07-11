@@ -3775,6 +3775,29 @@ En esta imagen se muestra el About Us del equipo y la barra lateral de herramien
 ![image.png](./assets/aboutuus.png)
 <p align="center"><em>Figura 124</em></p>
 
+ Endpoints - Courses
+
+| Método | Endpoint                           | Descripción            |
+|--------|------------------------------------|------------------------|
+| GET    | `/api/v1/courses/{courseId}`       | Obtener un curso por ID |
+| PUT    | `/api/v1/courses/{courseId}`       | Actualizar un curso     |
+| DELETE | `/api/v1/courses/{courseId}`       | Eliminar un curso       |
+| GET    | `/api/v1/courses`                  | Obtener todos los cursos|
+| POST   | `/api/v1/courses`                  | Crear un nuevo curso    |
+
+---
+
+ Endpoints - Objectives
+
+| Método | Endpoint                              | Descripción              |
+|--------|---------------------------------------|--------------------------|
+| GET    | `/api/v1/objectives/{objectiveId}`    | Obtener un objetivo por ID|
+| PUT    | `/api/v1/objectives/{objectiveId}`    | Actualizar un objetivo    |
+| DELETE | `/api/v1/objectives/{objectiveId}`    | Eliminar un objetivo      |
+| GET    | `/api/v1/objectives`                  | Obtener todos los objetivos|
+| POST   | `/api/v1/objectives`                  | Crear un nuevo objetivo   |
+
+---
 
 Endpoints - Certificates
 
@@ -3860,14 +3883,67 @@ Endpoints - Profile
 
 Documentación técnica de los servicios desarrollados: endpoints, contratos de API, flujos de datos, modelos utilizados, y ejemplos de respuestas esperadas.
 
-| Recurso | Acción | Verbo HTTP | Endpoint | Parámetros |
-|---------|--------|------------|----------|-------------|
-|nombre de apartado <!--Certificates--> | <!--Listar certificados--> | <!--GET--> | <!--`/api/v1/certificates`--> | <!--userId (query) o id(pathc) o query o body--> |
-|nombre de apartado <!--Certificates--> | <!--Listar certificados--> | <!--GET--> | <!--`/api/v1/certificates`--> | <!--userId (query) o id(pathc) o query o body--> |
-|nombre de apartado <!--Certificates--> | <!--Listar certificados--> | <!--GET--> | <!--`/api/v1/certificates`--> | <!--userId (query) o id(pathc) o query o body--> |
-|nombre de apartado <!--Certificates--> | <!--Listar certificados--> | <!--GET--> | <!--`/api/v1/certificates`--> | <!--userId (query) o id(pathc) o query o body--> |
-|nombre de apartado <!--Certificates--> | <!--Listar certificados--> | <!--GET--> | <!--`/api/v1/certificates`--> | <!--userId (query) o id(pathc) o query o body--> |
-|nombre de apartado <!--Certificates--> | <!--Listar certificados--> | <!--GET--> | <!--`/api/v1/certificates`--> | <!--userId (query) o id(pathc) o query o body--> |
+Endpoints - Resources
+
+| Recurso  | Acción                | Verbo HTTP | Endpoint                                    | Parámetros                   |
+|----------|-----------------------|------------|---------------------------------------------|------------------------------|
+| Resources | Obtener recurso por ID | GET        | `/api/v1/resources/{resourceId}`             | `resourceId` (path)          |
+| Resources | Actualizar recurso    | PUT        | `/api/v1/resources/{resourceId}`             | `resourceId` (path), body    |
+| Resources | Eliminar recurso      | DELETE     | `/api/v1/resources/{resourceId}`             | `resourceId` (path)          |
+| Resources | Listar todos los recursos | GET    | `/api/v1/resources`                          | Ninguno                      |
+| Resources | Crear recurso         | POST       | `/api/v1/resources`                          | body                         |
+
+Endpoints - Topics
+
+| Recurso  | Acción                | Verbo HTTP | Endpoint                                    | Parámetros                   |
+|----------|-----------------------|------------|---------------------------------------------|------------------------------|
+| Topics   | Obtener tema por ID    | GET        | `/api/v1/topics/{topicId}`                   | `topicId` (path)             |
+| Topics   | Actualizar tema        | PUT        | `/api/v1/topics/{topicId}`                   | `topicId` (path), body       |
+| Topics   | Eliminar tema          | DELETE     | `/api/v1/topics/{topicId}`                   | `topicId` (path)             |
+| Topics   | Listar todos los temas | GET        | `/api/v1/topics`                             | Ninguno                      |
+| Topics   | Crear tema             | POST       | `/api/v1/topics`                             | body                         |
+
+Endpoints - Learning Progress
+
+| Recurso         | Acción                | Verbo HTTP | Endpoint                                    | Parámetros                   |
+|-----------------|-----------------------|------------|---------------------------------------------|------------------------------|
+| Learning Progress | Actualizar progreso  | PUT        | `/api/v1/learning-progress/{id}`             | `id` (path), body            |
+| Learning Progress | Obtener progreso     | GET        | `/api/v1/learning-progress`                  | `userId` (query)             |
+
+Endpoints - Users
+
+| Recurso  | Acción                | Verbo HTTP | Endpoint                                    | Parámetros                   |
+|----------|-----------------------|------------|---------------------------------------------|------------------------------|
+| Users    | Listar todos los usuarios | GET    | `/api/v1/users`                              | Ninguno                      |
+| Users    | Obtener usuario por ID | GET        | `/api/v1/users/{userId}`                     | `userId` (path)              |
+
+Endpoints - Authentication
+
+| Recurso       | Acción  | Verbo HTTP | Endpoint                                     | Parámetros                   |
+|---------------|---------|------------|----------------------------------------------|------------------------------|
+| Authentication | Registro (Sign-up) | POST       | `/api/v1/authentication/sign-up`             | body                         |
+| Authentication | Inicio de sesión (Sign-in) | POST       | `/api/v1/authentication/sign-in`             | body                         |
+
+Endpoints - Courses
+
+| Recurso  | Acción                | Verbo HTTP | Endpoint                                    | Parámetros                   |
+|----------|-----------------------|------------|---------------------------------------------|------------------------------|
+| Courses  | Obtener curso por ID   | GET        | `/api/v1/courses/{courseId}`                 | `courseId` (path)            |
+| Courses  | Actualizar curso       | PUT        | `/api/v1/courses/{courseId}`                 | `courseId` (path), body      |
+| Courses  | Eliminar curso         | DELETE     | `/api/v1/courses/{courseId}`                 | `courseId` (path)            |
+| Courses  | Listar todos los cursos| GET        | `/api/v1/courses`                            | Ninguno                      |
+| Courses  | Crear un nuevo curso   | POST       | `/api/v1/courses`                            | body                         |
+
+Endpoints - Objectives
+
+| Recurso   | Acción                | Verbo HTTP | Endpoint                                    | Parámetros                   |
+|-----------|-----------------------|------------|---------------------------------------------|------------------------------|
+| Objectives | Obtener objetivo por ID | GET       | `/api/v1/objectives/{objectiveId}`           | `objectiveId` (path)         |
+| Objectives | Actualizar objetivo   | PUT        | `/api/v1/objectives/{objectiveId}`           | `objectiveId` (path), body   |
+| Objectives | Eliminar objetivo     | DELETE     | `/api/v1/objectives/{objectiveId}`           | `objectiveId` (path)         |
+| Objectives | Listar todos los objetivos | GET   | `/api/v1/objectives`                         | Ninguno                      |
+| Objectives | Crear un nuevo objetivo | POST     | `/api/v1/objectives`                         | body                         |
+
 
 #### 5.2.4.7.Software Deployment Evidence for Sprint Review.
 
