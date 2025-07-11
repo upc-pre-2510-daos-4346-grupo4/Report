@@ -3537,8 +3537,7 @@ El Sprint #4, iniciado el 02/07/2025, tiene como objetivo la creacion de las sig
 - Implementar el bounded **Publishing** y sus endpoints
 - Implementar el bounded **Presenting** y sus endpoints
 - Implementar el bounded **Studying** y sus endpoints
-- Implementar el bounded **Selling** y sus endpoints
-- Implementar el bounded **Reviewing** y sus endpoints
+
 
 <table>
   <tr>
