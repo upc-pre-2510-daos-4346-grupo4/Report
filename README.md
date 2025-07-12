@@ -3742,19 +3742,23 @@ Capturas, fragmentos de código y commits realizados durante el desarrollo de fu
 
 BACKEND
 
-| Repository | Branch | Commit Id | Commit Message | Description | Commited on (Date) |
-|------------|--------|-----------|----------------|-------------|---------------------|
-| link<!-- https://github.com/AplicacionesWeb-4380-G2-VibeFit/FitWise-BackEnd -->| main <!-- o develop -->| id del commit <!-- 563f2f6 --> | mensaje del commit<!-- Update Program.cs --> | Descipcion <!-- Ajuste en Program.cs para mejorar configuración general--> | 00/00/0000|
-| link| main | id del commit | mensaje del commit | Descipcion | 00/00/0000|
-| link| main | id del commit | mensaje del commit | Descipcion | 00/00/0000|
+| Repository | Branch | Commit Id | Commit Message | Description | Committed on (Date) |
+|---|---|---|---|---|---|
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Backend-EDUnova | develop | e7f4c12 | feat: endpoints perfil | Creación de endpoints y pruebas para el apartado perfil | 06/07/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Backend-EDUnova | develop | 4a9d6b8 | feat: gestión cursos | Creación de endpoints y pruebas para la gestión de cursos | 07/07/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Backend-EDUnova | develop | f1b3e9c | feat: implementación AIM | Configuración de AIM para asegurar el SIGN IN / SIGN UP | 08/07/2025 |
 
 
 FRONTEND
-| Repository | Branch | Commit Id | Commit Message | Description | Commited on (Date) |
-|------------|--------|-----------|----------------|-------------|---------------------|
-| link<!-- https://github.com/AplicacionesWeb-4380-G2-VibeFit/FitWise-BackEnd -->| main <!-- o develop -->| id del commit <!-- 563f2f6 --> | mensaje del commit<!-- Update Program.cs --> | Descipcion <!-- Ajuste en Program.cs para mejorar configuración general--> | 00/00/0000|
-| link| main | id del commit | mensaje del commit | Descipcion | 00/00/0000|
-| link| main | id del commit | mensaje del commit | Descipcion | 00/00/0000|
+| Repository | Branch | Commit Id | Commit Message | Description | Committed on (Date) |
+|---|---|---|---|---|---|
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | 3a4d5c2 | feat: mejora landing page | Mejoras en información y videos mostrados en la landing page | 06/07/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | 8f9b1a7 | feat: adaptación móvil | Ajustes de diseño y secciones para correcta visualización en móviles | 07/07/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | c2f3d8e | fix: errores CRUD certificados | Corrección de errores menores en operaciones CRUD en certificados | 08/07/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | 5e7c1b9 | feat: conexión backend frontend | Conexión entre backend y frontend para correcto funcionamiento | 09/07/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | 7b6d4e1 | feat: rediseño frontend | Rediseño completo y actualización de estilos en el frontend | 09/07/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | d4c8e23 | chore: reorganización de carpetas | Reorganización y estructura de carpetas de uso | 10/07/2025 |
+
 
 #### 5.2.4.5.Execution Evidence for Sprint Review.
 
