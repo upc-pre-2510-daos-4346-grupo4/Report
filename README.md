@@ -4103,16 +4103,45 @@ http://edunova-frontend.web.app
 
 # Despliegue del Backend en Azure App Service
 
-El backend del proyecto **EDUnova** fue desplegado en la plataforma **aun no ce**, aprovechando los recursos disponibles en la suscripción **aun nada **. A continuación, se detallan los pasos seguidos durante el proceso de implementación.
+El backend del proyecto **EDUnova** fue desplegado en la plataforma **Azure App Service**, aprovechando los recursos disponibles en la suscripción **Azure for Students**. A continuación, se detallan los pasos seguidos durante el proceso de implementación.
 
 ---
 
-. . .
+## 1. Creación del grupo de recursos
+
+Se creó el grupo de recursos `EDUnova`, que sirve como contenedor lógico para los recursos del proyecto. Este agrupamiento permite una mejor organización, monitoreo y control de costos desde el portal de Azure.
+
 ---
 
-## Conexión a base de datos MySQL Flexible
+## 2. Configuración del App Service
 
-. . .
+En la sección *App Services* del portal de Azure, se configuró una nueva aplicación web con las siguientes características:
+
+- **Nombre de la aplicación**: `EDUnova` (con sufijo automático para generar un dominio único)
+- **Sistema operativo**: Linux
+- **Plan de App Service**: `ASP-EDUnovab-89ce`
+- **SKU**: Básico (B1) — 1.75 GB de memoria, 1 vCPU
+- **Región**: East US 2
+- **Publicación**: Código
+
+---
+
+## 3. Integración con GitHub
+
+Se habilitó la integración continua a través de **GitHub Actions**, conectando el App Service al repositorio:
+
+
+Esta integración generó un *workflow* automático que permite desplegar la aplicación cada vez que se realiza un *push* al repositorio. La última implementación registrada se completó con éxito, según los registros disponibles en el portal de Azure.
+
+---
+
+## 4. Conexión a base de datos MySQL Flexible
+
+El backend se conecta a una base de datos tipo **Azure Database for MySQL - Flexible Server**, con el identificador `EDUnova-server`. La conexión fue configurada mediante variables de entorno dentro del App Service:
+
+- Se añadió la cadena de conexión en:  
+  `Configuración > Configuración de la aplicación`
+- Se siguió el formato requerido por Entity Framework Core para su correcto reconocimiento desde el backend.
 
 ---
 
