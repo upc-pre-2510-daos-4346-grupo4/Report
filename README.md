@@ -58,6 +58,13 @@
 |TB2| 20/06/2025| - Tony Torres|Desarrolle el apartado de perfiles siguiendo lineamiento DDD|
 |TB2| 20/06/2025| - Tony Torres|Realice correciones y mejora continua en base a observaciones/feedbacks dados en entregas previas|
 |TB2| 20/06/2025| - Tony Torres|Realice modificaciones al presente documento luego de analizar la deficiencias que teniamos.|
+|TB2| 20/06/2025| - Diego Acuña|Desarrollo completo del módulo de cursos (Studying y Publishing), implementación de cards dinámicas, conexión con MockAPI y ajustes visuales de la landing.|
+|TB2| 20/06/2025| - Esteban Álvarez|Implementación de navegación con tabs, ajustes responsive y revisión de diseño visual.|
+|TB2| 20/06/2025| - Cristian Iparraguirre|Desarrollo de menú contextual por tema, integración con simulador de backend y despliegue funcional con Firebase.|
+|TF1| 08/07/2025| - Diego Acuña|Despliegue completo del frontend funcional con todas las vistas conectadas a MockAPI, implementación de CRUD para cursos y temarios.|
+|TF1| 08/07/2025| - Esteban Álvarez|Corrección visual en el módulo de perfil y ajustes de estilo en secciones móviles.|
+|TF1| 08/07/2025| - Cristian Iparraguirre|Documentación técnica del flujo de temas, validación de vistas, mejora de rendimiento y coherencia entre componentes.|
+
 
 # Project Report Collaboration Insights
 
@@ -202,6 +209,15 @@
         - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
       - [5.2.3.7.Software Deployment Evidence for Sprint Review.](#5237software-deployment-evidence-for-sprint-review)
       - [5.2.3.8.Team Collaboration Insights during Sprint.](#5238team-collaboration-insights-during-sprint)
+     - [5.2.4. Sprint 4](#524-sprint-4)
+      - [5.2.4.1.Sprint Planning 4.](#5241sprint-planning-4)
+      - [5.2.4.2. Aspect Leaders and Collaborators.](#5242-aspect-leaders-and-collaborators)
+      - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
+      - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
+      - [5.2.4.5.Execution Evidence for Sprint Review.](#5245execution-evidence-for-sprint-review)
+        - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+      - [5.2.4.7.Software Deployment Evidence for Sprint Review.](#5247software-deployment-evidence-for-sprint-review)
+      - [5.2.4.8.Team Collaboration Insights during Sprint.](#5248team-collaboration-insights-during-sprint)
     - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1 Diseño de Entrevistas](#531-diseño-de-entrevistas)
       - [*Objetivo de la Entrevista*](#objetivo-de-la-entrevista)
@@ -224,8 +240,8 @@
 # Student Outcome
 | **Criterio Específico**                                           | **Acciones Realizadas** | **Conclusiones** |
 |-------------------------------------------------------------------|--------------------------|------------------|
-| **Comunica oralmente con efectividad a diferentes rangos de audiencia** | **Diego Acuña**<br>**TP:**<br>Al realizar el apartado de header, footer requerimos de constante comunicación oral con los demás integrantes del grupo para alinear funcionalidades y validar requerimientos, además de participar activamente en la resolución del documento.<br><br>**Tony Torres**<br>**TP:**<br>Por mi parte, realicé el apartado de perfil asegurando una comunicación continua con mi grupo para enfatizar y priorizar las características principales que debe tener este apartado tan importante de nuestro proyecto.<br>**Tb2:**<br>Para la presenta entrega, consiedero que cumpli un rol oralmente con efectividad ya que nos enfocamos mucho en transmitir lo que hace nuestra pagina y en los diferentes puntos de mejora que tiene nuestro producto.<br><br>**Cristian Iparraguirre**<br>**TP:**<br>Cumplí con la competencia designada al completar mi apartado Seguir cursos, entablando comunicación activa entre mi grupo para coincidir en componentes y materiales usados para el desarrollo de este.<br><br>**Esteban Álvarez**<br>**TP:**<br>Gracias al desarrollo del apartado Búsqueda de filtro, he podido cumplir satisfactoriamente esta competencia del curso al coordinar con mis compañeros de grupo las funciones y requerimientos que requerimos para completar este apartado del proyecto.<br><br>**Jhon Guerrero**<br>**TP:**<br>Para esta entrega, me encargué de la corrección de errores y realización del apartado de interfaz principal manteniendo una comunicación continua con mis compañeros de equipo para coordinar funcionalidades y componentes utilizados cumpliendo de tal manera la competencia del curso. | En EDUnova priorizamos siempre la comunicación oralmente ya que al realizar un trabajo minimalista que aporte ayuda a pequeñas empresas es importante tener lineamientos y esquemas para funciones y/o futuras implementaciones claras para no generar conflictos entre los apartados que desarrolle el equipo de manera autónoma. |
-| **Comunica por escrito con efectividad a diferentes rangos de audiencia** | **Diego Acuña**<br>**TP:**<br>Para el cumplimiento de esta competencia, realicé diferentes revisiones y modificaciones a nuestra documentación técnica refiriéndonos tanto a nuestra interfaz inicial como los apartados de Header y Footer.<br><br>**Tony Torres**<br>**TP:**<br>Cumpliendo con la competencia, mantuve una comunicación escrita al realizar reportes sobre las funcionalidades del apartado perfil, aportando así significativamente a la elaboración de descripciones y requisitos.<br>**Tb2:**<br>En esta entrega cumplu satisfactoriamente los diferentes topicos impuestos inicialmente ya que realizamos un reporte detallado sobre las incidencias, mejoras, sugerencias y puntos fuertes que tiene nuestro producto frente a su compentencia. Enfatizando siempre en que hubo reflexion grupal sobre como abordar estas oportunidades de mejora.<br><br>**Cristian Iparraguirre**<br>**TP:**<br>Registré diferentes cambios y observaciones sobre el apartado Seguir Cursos mediante mensajes escritos describiendo así los componentes y materiales utilizados.<br><br>**Esteban Álvarez**<br>**TP:**<br>Coordinamos por escrito los diferentes requerimientos funcionales de los distintos módulos de los que dispone nuestra aplicación permitiéndome cumplir la competencia.<br><br>**Jhon Guerrero**<br>**TP:**<br>Debido a que completé las correcciones de pasadas entregas y me encargué del desarrollo de la interfaz inicial, registré los diferentes cambios y/o mejoras del proyecto de manera escrita para poder entregar un trabajo sólido, pulido y renovado cumpliendo así la competencia del curso. | Consideramos que la comunicación escrita fue clave para lograr nuestro proyecto, ya que es de vital importancia documentar los diferentes cambios y registros por los que pasa nuestro proyecto para garantizar sinergia entre funciones actuales y funciones futuras manteniendo un código y una documentación legible y profesional. |
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia** | **Diego Acuña**<br>**TB1:**<br>Al realizar el header y footer de la landing, mantuve comunicación activa con mis compañeros para definir funcionalidades comunes y validar el resultado final.<br><br>**TP:**<br>Al realizar el apartado de header, footer requerimos de constante comunicación oral con los demás integrantes del grupo para alinear funcionalidades y validar requerimientos, además de participar activamente en la resolución del documento.<br><br>**TB2:**<br>Dirigí reuniones técnicas de integración entre vistas de cursos y edición de temas.<br><br>**TF1:**<br>Coordiné con el equipo la conexión de servicios simulados para asegurar una presentación clara del producto.<br><br>**Tony Torres**<br>**TP:**<br>Por mi parte, realicé el apartado de perfil asegurando una comunicación continua con mi grupo para enfatizar y priorizar las características principales que debe tener este apartado tan importante de nuestro proyecto.<br>**Tb2:**<br>Para la presenta entrega, consiedero que cumpli un rol oralmente con efectividad ya que nos enfocamos mucho en transmitir lo que hace nuestra pagina y en los diferentes puntos de mejora que tiene nuestro producto.<br><br>**Cristian Iparraguirre**<br>**TB1:**<br>Al desarrollar el apartado “Seguir cursos”, coordiné directamente con Diego para asegurar la integración de datos y estilo de componentes.<br><br>**TP:**<br>Cumplí con la competencia designada al completar mi apartado Seguir cursos, entablando comunicación activa entre mi grupo para coincidir en componentes y materiales usados para el desarrollo de este.<br><br>**TB2:**<br>Me enfoqué en dialogar y validar con el equipo las rutas y datos del simulador, garantizando su funcionalidad.<br><br>**TF1:**<br>Participé activamente en sesiones grupales para alinear el desarrollo técnico con la narrativa del proyecto.<br><br>**Esteban Álvarez**<br>**TB1:**<br>En la definición del filtro de búsqueda, participé en varias reuniones orales donde se debatieron los criterios clave para una navegación funcional.<br><br>**TP:**<br>Gracias al desarrollo del apartado Búsqueda de filtro, he podido cumplir satisfactoriamente esta competencia del curso al coordinar con mis compañeros de grupo las funciones y requerimientos que requerimos para completar este apartado del proyecto.<br><br>**TB2:**<br>Propuse ajustes a la visualización en móviles mediante comunicación en tiempo real.<br><br>**TF1:**<br>Aporté en la definición conjunta del flujo visual de navegación de usuario para una presentación más fluida.<br><br>**Jhon Guerrero**<br>**TP:**<br>Para esta entrega, me encargué de la corrección de errores y realización del apartado de interfaz principal manteniendo una comunicación continua con mis compañeros de equipo para coordinar funcionalidades y componentes utilizados cumpliendo de tal manera la competencia del curso. | En EDUnova priorizamos siempre la comunicación oralmente ya que al realizar un trabajo minimalista que aporte ayuda a pequeñas empresas es importante tener lineamientos y esquemas para funciones y/o futuras implementaciones claras para no generar conflictos entre los apartados que desarrolle el equipo de manera autónoma. |
+| **Comunica por escrito con efectividad a diferentes rangos de audiencia** | **Diego Acuña**<br>**TB1:**<br>Redacté documentación técnica en relación a la estructura de la landing, detallando cada componente en términos de funcionalidad y propósito.<br><br>**TP:**<br>Para el cumplimiento de esta competencia, realicé diferentes revisiones y modificaciones a nuestra documentación técnica refiriéndonos tanto a nuestra interfaz inicial como los apartados de Header y Footer.<br><br>**TB2:**<br>Documenté los endpoints de la MockAPI y redacté instrucciones de implementación para vistas conectadas.<br><br>**TF1:**<br>Redacté la documentación de publicación de cursos, estructura final de servicios y navegación.<br><br>**Tony Torres**<br>**TP:**<br>Cumpliendo con la competencia, mantuve una comunicación escrita al realizar reportes sobre las funcionalidades del apartado perfil, aportando así significativamente a la elaboración de descripciones y requisitos.<br>**Tb2:**<br>En esta entrega cumplu satisfactoriamente los diferentes topicos impuestos inicialmente ya que realizamos un reporte detallado sobre las incidencias, mejoras, sugerencias y puntos fuertes que tiene nuestro producto frente a su compentencia. Enfatizando siempre en que hubo reflexion grupal sobre como abordar estas oportunidades de mejora.<br><br>**Cristian Iparraguirre**<br>**TB1:**<br>Documenté los contenidos de las entrevistas, antecedentes y el planteamiento del problema, asegurando claridad y enfoque escrito.<br><br><br>**TP:**<br>Registré diferentes cambios y observaciones sobre el apartado Seguir Cursos mediante mensajes escritos describiendo así los componentes y materiales utilizados.<br><br>**TB2:**<br>Escribí instrucciones para navegación entre temas y uso del menú contextual.<br><br>**TF1:**<br>Formalicé la estructura de los datos de cursos para conexión real futura.<br><br>**Esteban Álvarez**<br>**TB1:**<br>Contribuí en la escritura del análisis de entrevistas, señalando por escrito propuestas de mejora directamente aplicables al sistema. | Gracias a una comunicación escrita clara y organizada, pudimos establecer estándares técnicos y de diseño que facilitaron el avance del proyecto en sus primeras etapas, reduciendo errores de interpretación y reforzando el trabajo colaborativo.<br><br><br>**TP:**<br>Coordinamos por escrito los diferentes requerimientos funcionales de los distintos módulos de los que dispone nuestra aplicación permitiéndome cumplir la competencia.<br><br>**TB2:**<br>Registré en Trello avances y validaciones de cada vista ajustada.<br><br>**TF1:**<br>Redacté observaciones visuales que fueron clave para mejorar la presentación final.<br><br>**Jhon Guerrero**<br>**TP:**<br>Debido a que completé las correcciones de pasadas entregas y me encargué del desarrollo de la interfaz inicial, registré los diferentes cambios y/o mejoras del proyecto de manera escrita para poder entregar un trabajo sólido, pulido y renovado cumpliendo así la competencia del curso. | Consideramos que la comunicación escrita fue clave para lograr nuestro proyecto, ya que es de vital importancia documentar los diferentes cambios y registros por los que pasa nuestro proyecto para garantizar sinergia entre funciones actuales y funciones futuras manteniendo un código y una documentación legible y profesional. |
 
 # Capítulo I: Introducción
 ## 1.1. Startup Profile.
@@ -243,6 +259,8 @@ Ser reconocidos como una startup líder en el desarrollo de plataformas educativ
 <p align="center">
   <img src="assets/Logo.png" alt="Logo Edunova"/>
 </p>
+<p align="center"><em>Figura 1</em></p>
+
 
 ### 1.1.2. Perfiles de integrantes del equipo.
 <TABLE BORDER>
@@ -342,6 +360,7 @@ El Lean UX Canvas es una herramienta clave dentro del enfoque de diseño centrad
 <div align="center">
   <img src="./assets/Lean UX Canvas.png" alt="LeanUxCanvas" width="1000"/>
 </div>
+<p align="center"><em>Figura 2</em></p>
 
 ## 1.3. Segmentos objetivo.
 
@@ -544,6 +563,7 @@ Entrevista #1: Jeremy Eredia
     </li>
 </ul>
 <img src="assets/interviews/EstudiantesEntrevistado1.jpg" alt="Entrevista Estudiante 1">
+<p align="center"><em>Figura 3</em></p>
 
 Resumen:
 <p>
@@ -568,6 +588,7 @@ Entrevista #2: Aldo Vasquez Sotomayor
     </li>
 </ul>
 <img src="assets/interviews/EstudiantesEntrevistado2.jpg" alt="Entrevista Estudiante 2">
+<p align="center"><em>Figura 4</em></p>
 
 Resumen:
 <p>
@@ -592,6 +613,7 @@ Entrevista #3: Daniel Monago
     </li>
 </ul>
 <img src="assets/interviews/EstudiantesEntrevistado3.webp" alt="Entrevista Estudiante 3">
+<p align="center"><em>Figura 5</em></p>
 
 Resumen:
 <p>
@@ -616,6 +638,7 @@ Entrevista #4: Sayry Ayvar
     </li>
 </ul>
 <img src="assets/interviews/EstudiantesEntrevistado4.jpg" alt="Entrevista Estudiante 4">
+<p align="center"><em>Figura 6</em></p>
 
 Resumen:
 <p>
@@ -640,6 +663,7 @@ Entrevista #5: Sebastián Silva
     </li>
 </ul>
 <img src="assets/interviews/EstudiantesEntrevistado5.jpg" alt="Entrevista Estudiante 5">
+<p align="center"><em>Figura 7</em></p>
 
 Resumen:
 <p>
@@ -665,6 +689,7 @@ Entrevista #1: Alexia Acuña
     </li>
 </ul>
 <img src="assets/interviews/InstructoresEntrevistado1.jpg" alt="Entrevista Instructor 1">
+<p align="center"><em>Figura 8</em></p>
 
 Resumen:
 <p>
@@ -689,6 +714,7 @@ Entrevista #2: Alonso Robles
     </li>
 </ul>
 <img src="assets/interviews/InstructoresEntrevistado2.jpg" alt="Entrevista Instructor 2">
+<p align="center"><em>Figura 9</em></p>
 
 Resumen:
 <p>
@@ -713,6 +739,7 @@ Entrevista #3: Violeta Cortés
     </li>
 </ul>
 <img src="assets/interviews/InstructoresEntrevistado3.jpg" alt="Entrevista Instructor 3">
+<p align="center"><em>Figura 10</em></p>
 
 Resumen:
 <p>
@@ -737,6 +764,7 @@ Entrevista #4: Luis Iparraguirre
     </li>
 </ul>
 <img src="assets/interviews/InstructoresEntrevistado4.jpg" alt="Entrevista Instructor 4">
+<p align="center"><em>Figura 11</em></p>
 
 Resumen:
 <p>
@@ -763,11 +791,13 @@ Las dificultades técnicas y la limitada interacción en algunos entornos digita
 <div align="center">
   <img src="./assets/UserPersona1.png" alt="UserPersona1" width="1000"/>
 </div>
+<p align="center"><em>Figura 12</em></p>
 
 **Segmento Objetivo: Creadores de cursos**
 <div align="center">
   <img src="./assets/UserPersona2.png" alt="UserPersona2" width="1000"/>
 </div>
+<p align="center"><em>Figura 13</em></p>
 
 ### 2.3.2. User Task Matrix.
 
@@ -822,22 +852,26 @@ Da máxima prioridad a crear contenido organizado, gestionar la comunicación co
 <div align="center">
   <img src="./assets/UserJourney1.jpg" alt="UserJourney1" width="1000"/>
 </div>
+<p align="center"><em>Figura 14</em></p>
 
 **Segmento Objetivo: Creadores de cursos**
 
 <div align="center">
   <img src="./assets/UserJourney2.jpg" alt="UserJourney2" width="1000"/>
 </div>
+<p align="center"><em>Figura 15</em></p>
 
 ### 2.3.4. Empathy Mapping.
 
 **Segmento Objetivo: Estudiantes universitarios que desean aprender**
 <p align="center">
   <img src="./assets/UPSamuel.png" alt="emp1"/>
+<p align="center"><em>Figura 16</em></p>
 
 **Segmento Objetivo: Creadores de cursos**
 <p align="center">
   <img src="./assets/UPSofia.png" alt="emp2"/>
+<p align="center"><em>Figura 17</em></p>
 
 ### 2.3.5. As-is Scenario Mapping.
 
@@ -845,11 +879,13 @@ Da máxima prioridad a crear contenido organizado, gestionar la comunicación co
 <div align="center">
   <img src="./assets/as-isOP1.jpg" alt="asis1" width="1000"/>
 </div>
+<p align="center"><em>Figura 18</em></p>
 
 **Segmento Objetivo: Creadores de cursos**
 <div align="center">
   <img src="./assets/as-isOP2.jpg" alt="asis2" width="1000"/>
 </div>
+<p align="center"><em>Figura 19</em></p>
 
 ## 2.4. Ubiquitous Language.
 
@@ -879,11 +915,13 @@ Da máxima prioridad a crear contenido organizado, gestionar la comunicación co
 <div align="center">
   <img src="./assets/to-beOP1.jpg" alt="tobe1" width="1000"/>
 </div>
+<p align="center"><em>Figura 20</em></p>
 
 **Segmento Objetivo: Creadores de cursos**
 <div align="center">
   <img src="./assets/to-beOP2.jpg" alt="tobe2" width="1000"/>
 </div>
+<p align="center"><em>Figura 21</em></p>
 
 ## 3.2. User Stories.
 
@@ -939,6 +977,8 @@ Epic ID
 <div align="center">
   <img src="./assets/impac open source.png" alt="ImpacMap" width="1000"/>
 </div>
+<p align="center"><em>Figura 22</em></p>
+
 ## 3.4. Product Backlog.
 
 |# Orden | User Story ID | Título                                 | Descripción                                                                                           | Story Points |
@@ -1007,6 +1047,7 @@ Esta guía establece los fundamentos de diseño visual y comunicación para **Ed
 <p align="center">
   <img src="./assets/ColorPalette.jpeg" alt="Color Palette"/>
 </p> 
+<p align="center"><em>Figura 23</em></p>
 
 ---
 
@@ -1372,26 +1413,31 @@ Esta categorización permite a los usuarios filtrar rápidamente los ejercicios 
 <div align="center">
   <img src="./assets/Figma1.jpg" alt="Wireframe1" width="1000"/>
 </div>
+<p align="center"><em>Figura 24</em></p>
 
 
 <div align="center">
   <img src="./assets/Figma2.jpg" alt="Wireframe2" width="1000"/>
 </div>
+<p align="center"><em>Figura 25</em></p>
 
 
 <div align="center">
   <img src="./assets/Figma3.jpg" alt="Wireframe3" width="1000"/>
 </div>
+<p align="center"><em>Figura 26</em></p>
 
 
 <div align="center">
   <img src="./assets/Figma4.jpg" alt="Wireframe4" width="1000"/>
 </div>
+<p align="center"><em>Figura 27</em></p>
 
 
 <div align="center">
   <img src="./assets/Figma5.jpg" alt="Wireframe5" width="1000"/>
 </div>
+<p align="center"><em>Figura 28</em></p>
 
 Imagenes proporcionadas de [Figma](https://www.figma.com/design/W8CsKPwurDNtM7WKB5NhWh/Open-source?t=XRp6JykfbClFpZ4R-1)
 
@@ -1400,21 +1446,25 @@ Imagenes proporcionadas de [Figma](https://www.figma.com/design/W8CsKPwurDNtM7WK
 <div align="center">
   <img src="./assets/Final1.jpg" alt="final1" width="1000"/>
 </div>
+<p align="center"><em>Figura 29</em></p>
 
 
 <div align="center">
   <img src="./assets/Final2.jpg" alt="final2" width="1000"/>
 </div>
+<p align="center"><em>Figura 30</em></p>
 
 
 <div align="center">
   <img src="./assets/Final3.jpg" alt="final3" width="1000"/>
 </div>
+<p align="center"><em>Figura 31</em></p>
 
 
 <div align="center">
   <img src="./assets/Final4.jpg" alt="final4" width="1000"/>
 </div>
+<p align="center"><em>Figura 32</em></p>
 
 Extraido de [Figma](https://www.figma.com/design/osVWOdkywKisqeSpAovE4d/Untitled?node-id=0-1&t=XRp6JykfbClFpZ4R-1)
 
@@ -1424,55 +1474,67 @@ Extraido de [Figma](https://www.figma.com/design/osVWOdkywKisqeSpAovE4d/Untitled
 <div align="center">
   <img src="./assets/WireframeWebApplicationActualizarContrasena.png" alt="Figma" width="1000"/>
 </div>
+<p align="center"><em>Figura 33</em></p>
 
 <div align="center">
   <img src="./assets/WireframeWebApplicationComunidad.png" alt="Figma" width="1000"/>
 </div>
+<p align="center"><em>Figura 34</em></p>
 
 <div align="center">
   <img src="./assets/WireframeWebApplicationCursosDetalles.png" alt="Figma" width="1000"/>
 </div>
+<p align="center"><em>Figura 35</em></p>
 
 <div align="center">
   <img src="./assets/WireframeWebApplicationCursosInscripcion.png" alt="Figma" width="1000"/>
 </div>
+<p align="center"><em>Figura 36</em></p>
 
 <div align="center">
   <img src="./assets/WireframeWebApplicationEnviarCorreoRecuperacion.png" alt="Figma" width="1000"/>
 </div>
+<p align="center"><em>Figura 37</em></p>
 
 <div align="center">
   <img src="./assets/WireframeWebApplicationLogin.png" alt="Figma" width="1000"/>
 </div>
+<p align="center"><em>Figura 38</em></p>
 
 <div align="center">
   <img src="./assets/WireframeWebApplicationPerfil.png" alt="Figma" width="1000"/>
 </div>
+<p align="center"><em>Figura 39</em></p>
 
 
 <div align="center">
   <img src="./assets/WireframeWebApplicationProgreso.png" alt="Figma" width="1000"/>
 </div>
+<p align="center"><em>Figura 40</em></p>
 
 
 <div align="center">
   <img src="./assets/WireframeWebApplicationRegister.png" alt="Figma" width="1000"/>
 </div>
+<p align="center"><em>Figura 41</em></p>
 
 
 <div align="center">
   <img src="./assets/WireframeWebApplicationSimulacroActualizacion.png" alt="Figma" width="1000"/>
 </div>
+<p align="center"><em>Figura 42</em></p>
 
 
 <div align="center">
   <img src="./assets/WireframeWebApplicationSimulacroAgregar.png" alt="Figma" width="1000"/>
 </div>
+<p align="center"><em>Figura 43</em></p>
 
 
 <div align="center">
   <img src="./assets/WireframeWebApplicationSimulacroSeleccion.png" alt="Figma" width="1000"/>
 </div>
+<p align="center"><em>Figura 44</em></p>
 
 
 
@@ -1482,6 +1544,7 @@ Extraido de [Figma](https://www.figma.com/design/osVWOdkywKisqeSpAovE4d/Untitled
 <div align="center">
   <img src="./assets/WD1.jpg" alt="relation2" width="1000"/>
 </div>
+<p align="center"><em>Figura 45</em></p>
 
 
 
@@ -1490,44 +1553,54 @@ Extraido de [Figma](https://www.figma.com/design/osVWOdkywKisqeSpAovE4d/Untitled
 <div align="center">
   <img src="./assets/Mockup1.png" alt="relation2" width="1000"/>
 </div>
+<p align="center"><em>Figura 46</em></p>
 
 <div align="center">
-  <img src="./assets/Mockup2.png" alt="relation2" width="1000"/>
+  <img src="./assets/Mokcup2.png" alt="relation2" width="1000"/>
 </div>
+<p align="center"><em>Figura 47</em></p>
 
 <div align="center">
   <img src="./assets/Mockup3.png" alt="relation2" width="1000"/>
 </div>
+<p align="center"><em>Figura 48</em></p>
 
 <div align="center">
   <img src="./assets/Mockup4.png" alt="relation2" width="1000"/>
 </div>
+<p align="center"><em>Figura 49</em></p>
 
 <div align="center">
   <img src="./assets/Mockup5.png" alt="relation2" width="1000"/>
 </div>
+<p align="center"><em>Figura 50</em></p>
 
 <div align="center">
   <img src="./assets/Mockup6.png" alt="relation2" width="1000"/>
 </div>
+<p align="center"><em>Figura 51</em></p>
 
 <div align="center">
   <img src="./assets/Mockup7.png" alt="relation2" width="1000"/>
 </div>
+<p align="center"><em>Figura 52</em></p>
 
 <div align="center">
   <img src="./assets/Mockup8.png" alt="relation2" width="1000"/>
 </div>
+<p align="center"><em>Figura 53</em></p>
 
 <div align="center">
   <img src="./assets/Mockup9.png" alt="relation2" width="1000"/>
 </div>
+<p align="center"><em>Figura 54</em></p>
 
 ### 4.4.3. Web Applications User Flow Diagrams.
 
 <div align="center">
   <img src="./assets/UFD.jpg" alt="relation2" width="1000"/>
 </div>
+<p align="center"><em>Figura 55</em></p>
 
 ## 4.5. Web Applications Prototyping.
 En el desarrollo de nuestra aplicación web, hemos priorizado la creación de una experiencia simple, funcional y académicamente confiable para los usuarios interesados en ampliar sus conocimientos universitarios mediante cursos en línea especializados. A continuación, se describen las principales funcionalidades prototipadas:
@@ -1585,6 +1658,7 @@ Al completar exitosamente los cursos, los estudiantes pueden descargar certifica
 <p align="center">
 <img src="./assets/PrototipoWeb.png" alt="PrototipoWeb"/>
 </p>
+<p align="center"><em>Figura 56</em></p>
 
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u202221436_upc_edu_pe/EZPGSnteMP1Jg-y2LMju5dYBN5JEsNQnkx43cHBEqKQG5Q?e=stK1n5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
@@ -1597,11 +1671,13 @@ El Domain Driven Design (DDD) busca lograr una comprensión común del dominio q
 <p align="center">
   <img src="./assets/SAContextDiagram.png" alt="Context Diagram"/>
 </p>
+<p align="center"><em>Figura 57</em></p>
 
 ### 4.6.2. Software Architecture Container Diagram.
 <p align="center">
   <img src="./assets/SAContainerDiagram.png" alt="Container Diagram"/>
 </p>
+<p align="center"><em>Figura 58</em></p>
 
 ### 4.6.3. Software Architecture Components Diagrams.
 Los componentes del sistema siguen el patrón CQRS, organizados por bounded context: User Management, Course Management, Enrollment & Purchase Management, Notification Management y Live Session Management.
@@ -1611,6 +1687,7 @@ Gestión de estudiantes, instructores, admins.
 <p align="center">
   <img src="./assets/SAComponentsDiagramsUserManagement.png" alt="User Management"/>
 </p>
+<p align="center"><em>Figura 59</em></p>
 
 ---
 
@@ -1620,6 +1697,7 @@ Gestión de cursos, materiales, módulos, sesiones en vivo.
 <p align="center">
   <img src="./assets/SAComponentsDiagramsCourseManagement.png" alt="Course Management"/>
 </p>
+<p align="center"><em>Figura 60</em></p>
 
 ---
 
@@ -1628,6 +1706,7 @@ Gestión de inscripciones, compras, pagos.
 <p align="center">
   <img src="./assets/SAComponentsDiagramsEnrollment&PurchaseManagement.png" alt="Enrollment & Purchase Management"/>
 </p>
+<p align="center"><em>Figura 61</em></p>
 
 ---
 
@@ -1636,6 +1715,7 @@ Gestión de notificaciones internas (recordatorios, promociones).
 <p align="center">
   <img src="./assets/SAComponentsDiagramsNotificationManagement.png" alt="Notification Management"/>
 </p>
+<p align="center"><em>Figura 62</em></p>
 
 ---
 
@@ -1644,6 +1724,7 @@ Gestión de clases en vivo (integración con videoconferencias).
 <p align="center">
   <img src="./assets/SAComponentsDiagramsLiveSessionManagement.png" alt="Live Session Management"/>
 </p>
+<p align="center"><em>Figura 63</em></p>
 
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
@@ -1654,30 +1735,39 @@ Nuestro dominio se divide en 5 Bounded Contexts:
     <p align="center">
       <img src="./assets/CDUserManagement.png" alt="User Management"/>
     </p>
+    <p align="center"><em>Figura 64</em></p>
   </li>
   <li>
     <b>Course Management</b> maneja todo lo relacionado con los cursos: creación, estructura modular (módulos y lecciones), materiales de aprendizaje (documentos, videos) y la gestión de su publicación.
     <p align="center">
       <img src="./assets/CDCourseManagement.png" alt="Course Management"/>
     </p>
+    <p align="center"><em>Figura 65</em></p>
+
   </li>
   <li>
     <b>Enrollment & Purchase Management</b> gestiona la inscripción de estudiantes a los cursos (Enrollment) y el proceso de compra y validación de pagos (Purchase).
     <p align="center">
       <img src="./assets/CDEnrollment&PurchaseManagement.png" alt="Enrollment & Purchase Management"/>
     </p>
+    <p align="center"><em>Figura 66</em></p>
+
   </li>
   <li>
     <b>Notification Management</b> gestiona el envío de notificaciones automáticas o manuales a los usuarios (estudiantes, instructores o administradores) a través de diferentes canales (email, SMS, etc.).
     <p align="center">
       <img src="./assets/CDNotificationManagement.png" alt="Notification Management"/>
     </p>
+    <p align="center"><em>Figura 67</em></p>
+
   </li>
   <li>
     <b>Live Session Management</b> gestiona la programación, actualización y recordatorio de sesiones en vivo de los cursos en Edunova, incluyendo la integración con plataformas externas de videoconferencia.
     <p align="center">
       <img src="./assets/CDLiveSessionManagement.png" alt="Live Session Management"/>
     </p>
+    <p align="center"><em>Figura 68</em></p>
+
   </li>
 </ol>
 
@@ -1687,6 +1777,7 @@ Nuestro dominio se divide en 5 Bounded Contexts:
 <p align="center">
   <img src="./assets/CDCompleto.png" alt="Class diagram complete"/>
 </p>
+<p align="center"><em>Figura 69</em></p>
 
 ### 4.7.2. Class Dictionary.
 <h3>User Management</h3>
@@ -1915,6 +2006,7 @@ En esta sección se presenta el diseño de la base de datos. Se incluye un diagr
 <p align="center">
   <img src="./assets/DatabaseDesign.png" alt="Database Design"/>
 </p>
+<p align="center"><em>Figura 70</em></p>
 
 ### 4.8.1. Database Diagram.
 El diagrama de la base de datos proporciona una representación visual de las tablas, sus atributos y las relaciones entre ellas, facilitando la comprensión de la organización y la integridad de los datos en el sistema.
@@ -1924,6 +2016,7 @@ A continuación, presentaremos el diagrama de base de datos, una herramienta fun
 <p align="center">
   <img src="./assets/DatabaseDiagram.png" alt="Database Diagram"/>
 </p>
+<p align="center"><em>Figura 71</em></p>
 
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management.
@@ -2187,13 +2280,15 @@ A continuación, se describen los pasos necesarios para desplegar nuestro sitio 
 1. **Despliegue con GitHub Pages**: Primero, ingresamos al repositorio de GitHub donde está alojado el proyecto y luego accedemos a la sección de configuración del repositorio.
 
    ![Imagen](./assets/SettingsWeb.png)
+<p align="center"><em>Figura 72</em></p>
 
    &nbsp;
 
 2. Dentro del menú de ajustes, seleccionamos la opción "Pages".
 
    ![Imagen](./assets/PagesWeb.png)
-   
+   <p align="center"><em>Figura 73</em></p>
+
 ---
 
 <h4>Control de Versiones</h4>
@@ -2291,6 +2386,7 @@ Un sprint es un período breve y organizado en el que se ejecutan tareas especí
 En el primer sprint backlog, el equipo estableció como objetivo comenzar y finalizar el desarrollo de la landing page. Para organizar y gestionar al equipo, se utilizó Trello, una herramienta que permitió desglosar las user stories en tareas más pequeñas y asignarlas según las habilidades de cada miembro. El objetivo principal del sprint era desarrollar la landing page en su totalidad, asegurando que fuera atractiva y funcional.
 
 ![Trello](assets/Sprint1.png)
+<p align="center"><em>Figura 74</em></p>
 
 
 <table style="width:100%; height:auto; border-collapse: collapse;">
@@ -2318,7 +2414,7 @@ En el primer sprint backlog, el equipo estableció como objetivo comenzar y fina
    <th> UT01 </th>
    <th> Creación de la barra de navegación. </th>
    <th> Implementar el menú de navegación de la landing page de EDUnova, asegurando que las opciones sean fáciles de usar y claras para los usuarios. </th>
-   <th> 1 </th>
+   <th> 4 </th>
    <th> Diego Acuña </th> 
    <th> Done </th>
     </tr>
@@ -2328,7 +2424,7 @@ En el primer sprint backlog, el equipo estableció como objetivo comenzar y fina
     <th> UT02</th>
     <th> Optimización de la barra de navegación. </th>
     <th> Mejorar la experiencia del usuario en la barra de navegación mediante la inclusión de animaciones y transiciones suaves. </th>
-    <th> 3 </th>
+    <th> 5 </th>
     <th> Diego Acuña </th> 
     <th> Done </th>
     </tr>
@@ -2338,7 +2434,7 @@ En el primer sprint backlog, el equipo estableció como objetivo comenzar y fina
     <th> UT03</th>
     <th> Creación de la sección Hero. </th>
     <th> Diseñar la sección principal de la landing page con una imagen atractiva y un título que capte la atención del visitante. </th>
-    <th> 3 </th>
+    <th> 6 </th>
     <th> Diego Acuña </th> 
     <th> Done </th>
     </tr>
@@ -2348,7 +2444,7 @@ En el primer sprint backlog, el equipo estableció como objetivo comenzar y fina
     <th> UT04 </th>
     <th> Modificaciones en la sección Hero. </th>
     <th> Ajustar la sección Hero para asegurar su correcta visualización en diferentes dispositivos y tamaños de pantalla. </th>
-    <th> 2 </th>
+    <th> 5 </th>
     <th> Diego Acuña </th> 
     <th> Done </th>
     </tr>
@@ -2358,7 +2454,7 @@ En el primer sprint backlog, el equipo estableció como objetivo comenzar y fina
     <th> UT05 </th>
     <th> Creación de la sección de footer. </th>
     <th> Crear la sección de pie de página con enlaces a información sobre el equipo y los términos y condiciones de uso. </th>
-    <th> 1 </th>
+    <th> 4 </th>
     <th> Diego Acuña </th> 
     <th> Done </th>
     </tr>
@@ -2368,7 +2464,7 @@ En el primer sprint backlog, el equipo estableció como objetivo comenzar y fina
     <th> UT06 </th>
     <th> Crear una sección que describa nuestra startup. </th>
     <th> Desarrollar la sección "Sobre nosotros" para proporcionar detalles acerca del equipo y la misión de la empresa. </th>
-    <th> 2 </th>
+    <th> 4 </th>
     <th> Diego Acuña </th> 
     <th> Done </th>
     </tr>
@@ -2378,7 +2474,7 @@ En el primer sprint backlog, el equipo estableció como objetivo comenzar y fina
     <th> UT07 </th>
     <th> Describir nuestra empresa y a los miembros del equipo. </th>
     <th> Incluir información detallada sobre la historia de la empresa y sus miembros en la sección "Sobre nosotros". </th>
-    <th> 2 </th>
+    <th> 4 </th>
     <th> Diego Acuña </th> 
     <th> Done </th>
     </tr>
@@ -2388,7 +2484,7 @@ En el primer sprint backlog, el equipo estableció como objetivo comenzar y fina
     <th> UT08 </th>
     <th> Describir en detalle nuestro producto. </th>
     <th> Crear una sección que explique de manera detallada nuestro producto. </th>
-    <th> 2 </th>
+    <th> 5 </th>
     <th> Diego Acuña </th> 
     <th> Done </th>
     </tr>
@@ -2398,7 +2494,7 @@ En el primer sprint backlog, el equipo estableció como objetivo comenzar y fina
     <th> UT09 </th>
     <th> Modificación de la sección "Information". </th>
     <th> Agregar información complementaria sobre el producto, junto con una frase persuasiva y una imagen representativa. </th>
-    <th> 2 </th>
+    <th> 4 </th>
     <th> Diego Acuña </th> 
     <th> Done </th>
     </tr>
@@ -2408,7 +2504,7 @@ En el primer sprint backlog, el equipo estableció como objetivo comenzar y fina
     <th> UT10 </th>
     <th> Explicar los beneficios de nuestro producto. </th>
     <th> Desarrollar una sección destacada que explique los beneficios de la aplicación en comparación con otras opciones disponibles. </th>
-    <th> 2 </th>
+    <th> 4 </th>
     <th> Diego Acuña </th> 
     <th> Done </th>
     </tr>
@@ -2418,7 +2514,7 @@ En el primer sprint backlog, el equipo estableció como objetivo comenzar y fina
     <th> UT11 </th>
     <th> Modificación de la sección "Benefits". </th>
     <th> Explicar los beneficios de manera atractiva, utilizando imágenes interactivas y textos explicativos para cada beneficio. </th>
-    <th> 2 </th>
+    <th> 4 </th>
     <th> Diego Acuña </th> 
     <th> Done </th>
     </tr>
@@ -2428,7 +2524,7 @@ En el primer sprint backlog, el equipo estableció como objetivo comenzar y fina
     <th> UT12 </th>
     <th> Creación de la sección de contacto. </th>
     <th> Incluir la información de contacto del equipo para facilitar la interacción con los usuarios. </th>
-    <th> 2 </th>
+    <th> 4 </th>
     <th> Diego Acuña </th> 
     <th> Done </th>
     </tr>
@@ -2438,7 +2534,7 @@ En el primer sprint backlog, el equipo estableció como objetivo comenzar y fina
     <th> UT13 </th>
     <th> Desarrollar el formulario de contacto. </th>
     <th> Desarrollar un formulario de contacto funcional en la sección correspondiente de la página. </th>
-    <th> 1 </th>
+    <th> 4 </th>
     <th> Diego Acuña </th> 
     <th> Done </th>
     </tr>
@@ -2458,7 +2554,7 @@ En el primer sprint backlog, el equipo estableció como objetivo comenzar y fina
     <th> UT15 </th>
     <th> Adaptación para dispositivos móviles. </th>
     <th> Optimizar el diseño para ofrecer una experiencia de usuario más fluida en dispositivos móviles. </th>
-    <th> 2 </th>
+    <th> 4 </th>
     <th> Diego Acuña </th> 
     <th> Done </th>
 </tr>
@@ -2498,18 +2594,27 @@ En esta entrega, nuestro equipo logró publicar exitosamente la landing page.
 Enlace de la Landing Page: https://upc-pre-2510-daos-4346-grupo4.github.io/LandingPage/
 
 ![image.png](./assets/LPHero.png)
+<p align="center"><em>Figura 75</em></p>
 Descripción: Imagen del hero y header<br><br>
 
 ![image.png](./assets/LPInformation.png)
+<p align="center"><em>Figura 76</em></p>
+
 Descripción: Imagen de la sección Information<br><br>
 
 ![image.png](./assets/LPBenefits.png)
+<p align="center"><em>Figura 77</em></p>
+
 Descripción: Imagen de la sección Benefits<br><br>
 
 ![image.png](./assets/LPAboutUs.png)
+<p align="center"><em>Figura 78</em></p>
+
 Descripción: Imagen de la sección About Us<br><br>
 
 ![image.png](./assets/LPContactUs.png)
+<p align="center"><em>Figura 79</em></p>
+
 Descripción: Imagen de la sección Contact Us<br><br>
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
@@ -2531,6 +2636,8 @@ En este caso hemos realizado el `deploy` mediante el servicio de **Pages** de Gi
 - Contar con un archivo principal nombrado `index.html`.
 
 ![image.png](./assets/Deploy1.png)
+<p align="center"><em>Figura 80</em></p>
+
 Descripción: Imagen del proceso de creación de un repositorio.<br><br>
 
 <h4>2. Subir tu proyecto al repositorio</h4>
@@ -2540,9 +2647,13 @@ Descripción: Imagen del proceso de creación de un repositorio.<br><br>
 - Elegir los archivos que deseas subir
 
 ![image.png](./assets/Deploy2.png)
+<p align="center"><em>Figura 81</em></p>
+
 Descripción: Visualización de un repositorio, en este ejemplo ya contiene la Landing Page desplegada, aunque normalmente estaría vacío si es un repositorio nuevo.<br><br>
 
 ![image.png](./assets/Deploy3.png)
+<p align="center"><em>Figura 82</em></p>
+
 Descripción: Área destinada a la carga de los archivos requeridos para la Landing Page.<br><br>
 
 <h4>3. Habilitar GitHub Pages</h4>
@@ -2554,6 +2665,8 @@ Descripción: Área destinada a la carga de los archivos requeridos para la Land
 - Presiona Save para guardar los cambios.
   
 ![image.png](./assets/Deploy4.png)
+<p align="center"><em>Figura 83</em></p>
+
 Demostración de que la Landing Page ha sido correctamente desplegada.<br><br>
 
 Link de la Landing Page: https://upc-pre-2510-daos-4346-grupo4.github.io/LandingPage/
@@ -2565,6 +2678,8 @@ Link de la Landing Page: https://upc-pre-2510-daos-4346-grupo4.github.io/Landing
 Durante este sprint, las tareas de diseño, implementación y documentación de la landing page fueron asignadas entre los miembros del equipo. La mayor parte de la implementación y despliegue de la landing page fue realizada por Diego Acuña.
 
 ![image.png](./assets/CollaborationSprint1.png)
+<p align="center"><em>Figura 84</em></p>
+
 
 ### 5.2.2. Sprint 2
 #### 5.2.2.1.Sprint Planning 2.
@@ -2659,6 +2774,8 @@ Esta matriz fue definida en conjunto durante la sesión de Sprint Planning y ha 
 En este segundo sprint, el equipo centró sus esfuerzos en implementar el frontend web de la aplicación EDUnova, abarcando tanto el diseño visual como la funcionalidad básica de interacción con los datos. Se priorizó la experiencia del usuario, integrando componentes de Angular Material, internacionalización (i18n) y navegación fluida. Para la organización de tareas y seguimiento del progreso se utilizó **Trello**, lo que permitió distribuir el trabajo de manera equitativa y colaborativa entre los integrantes del equipo.
 
 ![Trello](assets/trelloSprint2.png)
+<p align="center"><em>Figura 85</em></p>
+
 
 <table style="width:100%; height:auto; border-collapse: collapse;">
    <tr>
@@ -2705,7 +2822,7 @@ En este segundo sprint, el equipo centró sus esfuerzos en implementar el fronte
      <td> UT03 </td>
      <td> Mostrar resumen del curso en cada tarjeta </td>
      <td> Agregar en las tarjetas de cursos el nombre, instructor y una breve descripción accesible. </td>
-     <td> 2 </td>
+     <td> 4 </td>
      <td> Diego Acuña </td>
      <td> Done </td>
    </tr>
@@ -2715,7 +2832,7 @@ En este segundo sprint, el equipo centró sus esfuerzos en implementar el fronte
      <td> UT04 </td>
      <td> Preparar la infraestructura para futuras sugerencias en buscador </td>
      <td> Dejar preparada la estructura para integrar funcionalidades futuras como el buscador predictivo. </td>
-     <td> 2 </td>
+     <td> 4 </td>
      <td> Esteban Alvarez </td>
      <td> To-Do </td>
    </tr>
@@ -2725,7 +2842,7 @@ En este segundo sprint, el equipo centró sus esfuerzos en implementar el fronte
      <td> UT05 </td>
      <td> Configuración inicial de sistema de notificaciones </td>
      <td> Planificación del modelo y mecanismo para envío de notificaciones en futuras vistas. </td>
-     <td> 3 </td>
+     <td> 5 </td>
      <td> Cristian Iparraguirre </td>
      <td> In-Process </td>
    </tr>
@@ -2745,7 +2862,7 @@ En este segundo sprint, el equipo centró sus esfuerzos en implementar el fronte
      <td> UT07 </td>
      <td> Implementar tabs de cursos en progreso y completados </td>
      <td> Añadir navegación por tabs en el cronograma para visualizar el estado del curso. </td>
-     <td> 2 </td>
+     <td> 4 </td>
      <td> Esteban Alvarez </td>
      <td> Done </td>
    </tr>
@@ -2755,7 +2872,7 @@ En este segundo sprint, el equipo centró sus esfuerzos en implementar el fronte
      <td> UT08 </td>
      <td> Implementar menú desplegable de semanas </td>
      <td> Agregar menú con listado de temas por curso, mostrando su título y posición. </td>
-     <td> 3 </td>
+     <td> 6 </td>
      <td> Cristian Iparraguirre </td>
      <td> Done </td>
    </tr>
@@ -2765,7 +2882,7 @@ En este segundo sprint, el equipo centró sus esfuerzos en implementar el fronte
      <td> UT09 </td>
      <td> Mostrar información completa de tema en diálogo </td>
      <td> Diseñar un diálogo para desplegar información detallada del tema seleccionado. </td>
-     <td> 3 </td>
+     <td> 6 </td>
      <td> Tony Torres </td>
      <td> Done </td>
    </tr>
@@ -2775,7 +2892,7 @@ En este segundo sprint, el equipo centró sus esfuerzos en implementar el fronte
      <td> UT10 </td>
      <td> Agregar soporte i18n en vista Studying </td>
      <td> Traducir el contenido visible de la vista Studying utilizando ngx-translate. </td>
-     <td> 2 </td>
+     <td> 4 </td>
      <td> Diego Acuña </td>
      <td> Done </td>
    </tr>
@@ -2785,7 +2902,7 @@ En este segundo sprint, el equipo centró sus esfuerzos en implementar el fronte
      <td> UT11 </td>
      <td> Ajuste de diseño para dispositivos móviles </td>
      <td> Adaptar la vista para asegurar su usabilidad en pantallas pequeñas. </td>
-     <td> 3 </td>
+     <td> 5 </td>
      <td> Tony Torres </td>
      <td> Done </td>
    </tr>
@@ -2795,7 +2912,7 @@ En este segundo sprint, el equipo centró sus esfuerzos en implementar el fronte
      <td> UT12 </td>
      <td> Implementar componente paginator </td>
      <td> Utilizar MatPaginator para manejar la paginación de los cursos mostrados. </td>
-     <td> 2 </td>
+     <td> 4 </td>
      <td> Cristian Iparraguirre </td>
      <td> Done </td>
    </tr>
@@ -2820,9 +2937,16 @@ En esta sección se detallan los commits realizados en la rama `main` del reposi
 Durante el sprint 2, se alcanzó un progreso parcial en el desarrollo e implementación del front-end. Se construyeron varias secciones esenciales que permiten al usuario interactuar con las funciones principales del sistema. A continuación, se muestran algunas evidencias del trabajo realizado:
 
 ![Evidence](assets/sprint2Course1.png)
+<p align="center"><em>Figura 86</em></p>
+
 ![Evidence](assets/sprint2course2.png)
+<p align="center"><em>Figura 87</em></p>
+
 ![Evidence](assets/sprint2Course4.png)
+<p align="center"><em>Figura 88</em></p>
+
 ![Evidence](assets/sprint2Course5.png)
+<p align="center"><em>Figura 89</em></p>
 
 
 #### 5.2.2.6.Services Documentation Evidence for Sprint Review.
@@ -2872,10 +2996,20 @@ En la entrega correspondiente al segundo sprint, se realizaron despliegues indiv
 <h4>Landing Page</h4>
 
 ![Evidence](assets/sprint2L1.png)
+<p align="center"><em>Figura 90</em></p>
+
 ![Evidence](assets/sprint2L2.png)
+<p align="center"><em>Figura 91</em></p>
+
 ![Evidence](assets/sprint2L3.png)
+<p align="center"><em>Figura 92</em></p>
+
 ![Evidence](assets/sprint2L4.png)
+<p align="center"><em>Figura 93</em></p>
+
 ![Evidence](assets/sprint2L5.png)
+<p align="center"><em>Figura 94</em></p>
+
 URL: https://upc-pre-2510-daos-4346-grupo4.github.io/LandingPage/
 
 
@@ -2883,9 +3017,16 @@ URL: https://upc-pre-2510-daos-4346-grupo4.github.io/LandingPage/
 
 Publicación de cursos para su venta
 ![Evidence](assets/sprint2Course1.png)
+<p align="center"><em>Figura 95</em></p>
+
 ![Evidence](assets/sprint2course2.png)
+<p align="center"><em>Figura 96</em></p>
+
 ![Evidence](assets/sprint2Course4.png)
+<p align="center"><em>Figura 97</em></p>
+
 ![Evidence](assets/sprint2Course5.png)
+<p align="center"><em>Figura 98</em></p>
 
 URL: https://edunova-frontend.web.app/publishing/courses
 
@@ -2893,6 +3034,7 @@ URL: https://edunova-frontend.web.app/publishing/courses
 Durante este sprint, las tareas de diseño, implementación y documentación del frontend fueron asignadas entre los miembros del equipo.
 
 ![image.png](./assets/CollaborationSprint2.png)
+<p align="center"><em>Figura 99</em></p>
 
 
 ### 5.2.3. Sprint 3
@@ -2999,6 +3141,7 @@ Entre los avances clave, se destacan la mejora visual de la **landing page**, la
 Para el seguimiento y gestión de tareas se utilizó **Trello**, lo que facilitó una planificación colaborativa y organizada.
 
 ![Trello](assets/trelloSprint3.png)
+<p align="center"><em>Figura 100</em></p>
 
 <table style="width:100%; border-collapse: collapse;">
    <tr>
@@ -3065,7 +3208,7 @@ Para el seguimiento y gestión de tareas se utilizó **Trello**, lo que facilit�
      <td> UT17 </td>
      <td> Configuración de endpoints </td>
      <td> Usar MockAPI como fuente de datos para simular comportamiento real. </td>
-     <td> 3 </td>
+     <td> 4 </td>
      <td> Diego Acuña </td>
      <td> Done </td>
    </tr>
@@ -3075,7 +3218,7 @@ Para el seguimiento y gestión de tareas se utilizó **Trello**, lo que facilit�
      <td> UT18 </td>
      <td> Adaptación lógica de frontend </td>
      <td> Conectar vistas a estructuras reales modeladas en DDD para futura integración backend. </td>
-     <td> 3 </td>
+     <td> 4 </td>
      <td> Diego Acuña </td>
      <td> Done </td>
    </tr>
@@ -3095,7 +3238,7 @@ Para el seguimiento y gestión de tareas se utilizó **Trello**, lo que facilit�
      <td> UT20 </td>
      <td> CRUD datos personales </td>
      <td> Permitir al usuario actualizar su nombre, correo, contraseña y descripción. </td>
-     <td> 3 </td>
+     <td>5 </td>
      <td> Tony Torres </td>
      <td> Done </td>
    </tr>
@@ -3115,7 +3258,7 @@ Para el seguimiento y gestión de tareas se utilizó **Trello**, lo que facilit�
      <td> UT22 </td>
      <td> Mensaje de bienvenida y objetivos </td>
      <td> Explicar brevemente el propósito de EDUnova y qué problemática busca solucionar. </td>
-     <td> 2 </td>
+     <td> 4 </td>
      <td> Cristian Iparraguirre </td>
      <td> Done </td>
    </tr>
@@ -3125,7 +3268,7 @@ Para el seguimiento y gestión de tareas se utilizó **Trello**, lo que facilit�
      <td> UT23 </td>
      <td> Visión, misión y equipo </td>
      <td> Describir la startup SofTeam, su propósito, visión, misión y valores. </td>
-     <td> 2 </td>
+     <td> 4 </td>
      <td> Diego Acuña </td>
      <td> Done </td>
    </tr>
@@ -3135,7 +3278,7 @@ Para el seguimiento y gestión de tareas se utilizó **Trello**, lo que facilit�
      <td> UT24 </td>
      <td> Página de error 404 </td>
      <td> Implementar `page-not-found` y redirigir automáticamente al Home. </td>
-     <td> 2 </td>
+     <td> 4 </td>
      <td> Diego Acuña </td>
      <td> Done </td>
    </tr>
@@ -3145,7 +3288,7 @@ Para el seguimiento y gestión de tareas se utilizó **Trello**, lo que facilit�
   <td> UT25 </td>
   <td> Tabla de certificados con acciones </td>
   <td> Implementar tabla que liste los certificados del usuario con opciones para editar y eliminar. </td>
-  <td> 3 </td>
+  <td> 5 </td>
   <td> Tony Torres </td>
   <td> Done </td>
 </tr>
@@ -3155,7 +3298,7 @@ Para el seguimiento y gestión de tareas se utilizó **Trello**, lo que facilit�
   <td> UT26 </td>
   <td> Formulario en card visual </td>
   <td> Encapsular el formulario de edición del perfil en una card con buen espaciado y presentación. </td>
-  <td> 2 </td>
+  <td> 4 </td>
   <td> Esteban Alvarez </td>
   <td> Done </td>
 </tr>
@@ -3165,7 +3308,7 @@ Para el seguimiento y gestión de tareas se utilizó **Trello**, lo que facilit�
   <td> UT27 </td>
   <td> Hacer mat-accordion responsive </td>
   <td> Ajustar estilos internos de los contenidos del `mat-accordion` para asegurar visualización en pantallas pequeñas. </td>
-  <td> 3 </td>
+  <td> 5 </td>
   <td> Diego Acuña </td>
   <td> Done </td>
 </tr>
@@ -3208,27 +3351,44 @@ Durante el sprint 3, se corrigieron los bounded context y se agregaron nuevos en
 
 Home:
 ![Evidence](assets/Home.png)
+<p align="center"><em>Figura 101</em></p>
 
 About:
 ![Evidence](assets/About.png)
+<p align="center"><em>Figura 102</em></p>
 
 Publishing:
 ![Evidence](assets/Publishing1.png)
+<p align="center"><em>Figura 103</em></p>
+
 ![Evidence](assets/Publishing2.png)
+<p align="center"><em>Figura 104</em></p>
+
 ![Evidence](assets/Publishing3.png)
+<p align="center"><em>Figura 105</em></p>
+
 ![Evidence](assets/Publishing4.png)
+<p align="center"><em>Figura 106</em></p>
+
 ![Evidence](assets/Publishing5.png)
+<p align="center"><em>Figura 107</em></p>
+
 ![Evidence](assets/Publishing6.png)
+<p align="center"><em>Figura 108</em></p>
 
 Profile:
 ![Evidence](assets/profile1.png)
+<p align="center"><em>Figura 109</em></p>
+
 ![Evidence](assets/profile2.png)
+<p align="center"><em>Figura 110</em></p>
 
 Studying:
 ![Evidence](assets/Studying.png)
+<p align="center"><em>Figura 110</em></p>
 
 
-##### 5.2.2.6. Services Documentation Evidence for Sprint Review
+##### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
 Durante este sprint se documentaron completamente los **Web Services** correspondientes a los siguientes **bounded contexts** del sistema:
 
@@ -3373,6 +3533,681 @@ http://edunova-frontend.web.app
 Durante este sprint, las tareas de diseño, implementación y documentación del frontend fueron asignadas entre los miembros del equipo.
 
 ![image.png](./assets/CollaborationSprint2.png)
+<p align="center"><em>Figura 111</em></p>
+
+
+### 5.2.4. Sprint 4
+#### 5.2.4.1.Sprint Planning 4.
+
+El Sprint #4, iniciado el 02/07/2025, tiene como objetivo la creacion de las siguientes bounded context en el backend:
+
+- Implementar el bounded **Publishing** y sus endpoints
+- Implementar el bounded **Presenting** y sus endpoints
+- Implementar el bounded **Studying** y sus endpoints
+
+
+<table>
+  <tr>
+    <th> Sprint # </th>
+    <th> Sprint 4 </th>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;" colspan="7"> Sprint Planing Background</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Date </td>
+    <td> 02/07/2025 </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Time </td>
+    <td> 15:00 horas (GMT-5) </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Location </td>
+    <td> Modalidad remota a través de Discord </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Prepared By </td>
+    <td> Acuña Tomas, Diego Rolin </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Attendees (to planning meeting) </td>
+    <td> 
+        <br> Acuña Tomas, Diego Rolin
+        <br> Alvarez Falen, Esteban Valentino
+        <br> Iparraguirre Rueda, Cristian Luis
+        <br> Torres Cortez, Tony Do Santos <br>
+    </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 1 Review Summary </td>
+    <td> Se completó exitosamente la landing page con todas las secciones planificadas. </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 1 Retrospective Summary </td>
+    <td> Se identificaron mejoras en la comunicación y coordinación entre los miembros del equipo. </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 2 Review Summary </td>
+    <td> Se completó parcialmente el front-end incluyendo todas las secciones planificadas. </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 2 Retrospective Summary </td>
+    <td> Se identificó mejor agilidad para presentar entregables diarios entre los miembros del equipo. </td>
+  </tr>
+   <tr>
+    <td style="font-weight: bold;"> Sprint 3 Review Summary </td>
+    <td> Se completó totalmente el front-end incluyendo todas las secciones planificadas. Se inició la planificacion y desarrollo de un endpoint del back-end</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 3 Retrospective Summary </td>
+    <td> Se identificaron debilidades entre los entregables de los miembros del equipo. Asimisimo mejoras de legibilidad en reportes enviados con anterioridad. </td>
+  </tr>
+  <tr> 
+    <td style="font-weight: bold;" colspan="7"> Sprint Goal & User Stories</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 4 Goal</td>
+    <td> Mejorar y completar las funcionalidades implementadas en el front-end, desarrollar los servicios de back-end para que haya una comunicación bilateral, así como con la base de datos y deployaer todos los servicios del proyecto.</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 4 Velocity </td>
+    <td> 124</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sum of Story Points </td>
+    <td> 44 </td>
+  </tr>
+</table>
+
+#### 5.2.4.2. Aspect Leaders and Collaborators.
+
+| Miembro del equipo (Apellido, Nombre)      | Nombre de usuario en GitHub  | Gestión de Home | Gestion manejo de cursos  | Gestión de Perfil |Refinamiento UI/UX  | Full Backend Deployment | Documentación del Sprint |
+|--------------------------------------------|------------------------------|-------------------|--------------------|--------------------|-------------------|------------------------|--------------------------|
+| Acuña Tomas, Diego Rolin                   | ComidaRapida007              | L                 | L                  | L                  | L                 | L                      | L                        |
+| Alvarez Falen, Esteban Valentino         | EstebanAlvarez1402              | C                 | C                  | C                  | C                 | C                      | C                        |
+|Iparraguirre Rueda, Cristian Luis         | cristianipa7                 | C                 | C                  | C                  | C                 | C                     | C                        |
+| Torres Cortez, Tony Do Santos            |TonyTorresC          | C                 | C                  | C                  | C                 | C                      | C                        |
+
+#### 5.2.4.3. Sprint Backlog 4
+
+Tabla con el backlog definido para el Sprint 4. Incluye ID de User Story, tareas asociadas, estimación en horas, responsable y estado actual (To-do, In Progress, Done).
+
+[Imagen]  <!-- ![Nombre de la imagen](ruta dela imagen) nota: aqui va el trello-->
+
+<table style="width:100%; border-collapse: collapse;">
+  <tr>
+    <th colspan="4"> Sprint # </th>
+    <th colspan="7"> Sprint 4 </th>
+  </tr>
+  <tr>
+    <th colspan="4"> User Story </th>
+    <th colspan="7"> Work-Item / Task </th>
+  </tr>
+   <tr>
+    <th> US55 </th>
+    <th colspan="3"> Mejorar landing page </th>
+    <th> UT28 </th>
+    <th> Rediseño y actualización de link  </th>
+    <th>  Hicimos correciones y mejoras referido a lo que es la información y videos mostrados en el landing page</th>
+    <th> 3</th>
+    <th> Tony Torres </th>
+    <th> Done</th>
+  </tr>
+  <tr>
+    <th> US56 </th>
+    <th colspan="3"> Adaptabilidad a móviles </th>
+    <th> UT29 </th>
+    <th> Adaptable a móviles </th>
+    <th> Ajustar ciertas secciones y diseños que no se veían con claridad </th>
+    <th> 4</th>
+    <th>Diego Acuña</th>
+    <th> Done </th>
+  </tr>
+    <tr>
+    <th> US57  </th>
+    <th colspan="3"> Gestionar certificados </th>
+    <th> UT30 </th>
+    <th> Errores en operaciones crud </th>
+    <th> Habían pequeños errores al hacer crud para la base de datos </th>
+    <th> 5 </th>
+    <th> Cristian </th>
+    <th> In Proccess </th>
+  </tr>
+  </tr>
+   <tr>
+    <th>US58 </th>
+    <th colspan="3"> Conectar Frontend a Backend </th>
+    <th> UT31 </th>
+    <th> Conexion backend a frontend  </th>
+    <th>  Conectar back y fron-end para un buen funcionamiento en la pagina</th>
+    <th> 8</th>
+    <th> Valentino </th>
+    <th> In Proccess</th>
+  </tr>
+    <tr>
+    <th>US59 </th>
+    <th colspan="3"> Reediseño del frontend </th>
+    <th> UT32 </th>
+    <th> Reediseño del frontend  </th>
+    <th>  reediseñar el front y actualizar</th>
+    <th> 8</th>
+    <th> Valentino </th>
+    <th> Done</th>
+  </tr>
+    </tr>
+   </tr>
+   <tr>
+    <th>US60 </th>
+    <th colspan="3"> Organizar estructura de carpetas </th>
+    <th> UT33 </th>
+    <th> Organizar estructura de carpetas  </th>
+    <th>  Reestructurar las carpetas de uso</th>
+    <th> 8</th>
+    <th> Valentino </th>
+    <th> Done</th>
+  </tr>
+  </tr>
+    <tr>
+    <th>US60 </th>
+    <th colspan="3"> Backend apartado perfil </th>
+    <th> UT34 </th>
+    <th> Endpoints y funciones </th>
+    <th> Creacion de endpoints y prueba de funciones</th>
+    <th> 8</th>
+    <th> Tony Torres </th>
+    <th> Done</th>
+  </tr>
+    </tr>
+    <tr>
+    <th>US61 </th>
+    <th colspan="3"> Backend Gestion de cursos </th>
+    <th> UT35 </th>
+    <th> Backend y endpoints </th>
+    <th> Creacion de endpoints y prueba de funciones</th>
+    <th> 8</th>
+    <th> Diego Acuña </th>
+    <th> Done</th>
+  </tr>
+    </tr>
+    <tr>
+    <th>US62 </th>
+    <th colspan="3"> AIM </th>
+    <th> UT36 </th>
+    <th> Creacion y configuracion del AIM </th>
+    <th> Implementacion de AIM para asegurar SIGN IN / SIGN UP</th>
+    <th> 6</th>
+    <th> Diego Acuña </th>
+    <th> Done</th>
+  </tr>
+ 
+  </table>
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+Capturas, fragmentos de código y commits realizados durante el desarrollo de funcionalidades correspondientes al Sprint 4. Se incluyen enlaces a pull requests o repositorios si aplica.
+
+BACKEND
+
+| Repository | Branch | Commit Id | Commit Message | Description | Committed on (Date) |
+|---|---|---|---|---|---|
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Backend-EDUnova | develop | e7f4c12 | feat: endpoints perfil | Creación de endpoints y pruebas para el apartado perfil | 06/07/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Backend-EDUnova | develop | 4a9d6b8 | feat: gestión cursos | Creación de endpoints y pruebas para la gestión de cursos | 07/07/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Backend-EDUnova | develop | f1b3e9c | feat: implementación AIM | Configuración de AIM para asegurar el SIGN IN / SIGN UP | 08/07/2025 |
+
+
+FRONTEND
+| Repository | Branch | Commit Id | Commit Message | Description | Committed on (Date) |
+|---|---|---|---|---|---|
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | 3a4d5c2 | feat: mejora landing page | Mejoras en información y videos mostrados en la landing page | 06/07/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | 8f9b1a7 | feat: adaptación móvil | Ajustes de diseño y secciones para correcta visualización en móviles | 07/07/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | c2f3d8e | fix: errores CRUD certificados | Corrección de errores menores en operaciones CRUD en certificados | 08/07/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | 5e7c1b9 | feat: conexión backend frontend | Conexión entre backend y frontend para correcto funcionamiento | 09/07/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | 7b6d4e1 | feat: rediseño frontend | Rediseño completo y actualización de estilos en el frontend | 09/07/2025 |
+| https://github.com/upc-pre-2510-daos-4346-grupo4/Frontend-EDUnova | develop | d4c8e23 | chore: reorganización de carpetas | Reorganización y estructura de carpetas de uso | 10/07/2025 |
+
+
+#### 5.2.4.5.Execution Evidence for Sprint Review.
+
+Evidencia de ejecución funcional del software: gifs, capturas de pantalla, flujos grabados de navegación en la plataforma desarrollada durante este Sprint.
+
+##### Publishing: <!--Gestion de cursos -->
+
+Esta imagen muestra lo que uno ve al entrar a Course Management:
+
+![image.png](./assets/publishing/CourseManagement.png)
+<p align="center"><em>Figura 112</em></p>
+
+Esta imagen tiene la pantalla de crear curso, completando todo el formulario:
+
+![image.png](./assets/publishing/creaarCurso.png)
+<p align="center"><em>Figura 113</em></p>
+
+Esta imagen muestra la opcion de editar curso, pudiendo modificar lo que contenia dentro de ello:
+
+![image.png](./assets/publishing/EditarCurso.png)
+<p align="center"><em>Figura 114</em></p>
+
+Esta Imagen te da la opcion de eliminar curso, con opcion a cancelar en caso que de que el usuario se arrepienta.
+
+![image.png](./assets/publishing/eliminarcurso.png)
+<p align="center"><em>Figura 115</em></p>
+
+Esta Imagen te da opcion a mostrar mas detalles del curso mostrado:
+
+![image.png](./assets/publishing/Masinformacion.png)
+<p align="center"><em>Figura 116</em></p>
+
+##### Studying:  <!--todo referido al apartado Studying-->
+
+En esta imagen muestra todo de Studying:
+
+![image.png](./assets/Studying/Studying.png)
+<p align="center"><em>Figura 117</em></p>
+
+En esta imagen se muestra solo las review por un plan seleccionado:
+
+![image.png](./assets/Studying/Studyingcompleted.png)
+<p align="center"><em>Figura 118</em></p>
+
+En esta imagen se muestra el formulario para poder crear una nueva review:
+
+![image.png](./assets/Studying/editcourse.png)
+<p align="center"><em>Figura 119</em></p>
+
+Al apretar el boton de comentarios se muestran los comentarios por reviews, donde se puede escribir un comentario y seleccionar una review para poder asignarle el comentario:
+
+![image.png](./assets/Studying/addtopiccourse.png)
+<p align="center"><em>Figura 120</em></p>
+
+Luego para cada review tambien hay un boton donde se puede reportar en caso se requiera, esto se almacena en la base de datos:
+
+![image.png](./assets/Studying/listweekcourse.png)
+<p align="center"><em>Figura 121</em></p>
+
+##### Profile y About Us: 
+En esta imagen se muestra el perfil del usuario completo y con opcion a editar y actualizar informacion.:
+
+![image.png](./assets/Profile11.png)
+<p align="center"><em>Figura 122</em></p>
+
+En esta imagen continua el perfil del usuario y de sus certificaciones que obtuvo usando la app:
+
+![image.png](./assets/Profile22.png)
+<p align="center"><em>Figura 123</em></p>
+
+En esta imagen se muestra el About Us del equipo y la barra lateral de herramientas para ayudar al usuario:
+
+![image.png](./assets/aboutuus.png)
+<p align="center"><em>Figura 124</em></p>
+
+ Endpoints - Courses
+
+| Método | Endpoint                           | Descripción            |
+|--------|------------------------------------|------------------------|
+| GET    | `/api/v1/courses/{courseId}`       | Obtener un curso por ID |
+| PUT    | `/api/v1/courses/{courseId}`       | Actualizar un curso     |
+| DELETE | `/api/v1/courses/{courseId}`       | Eliminar un curso       |
+| GET    | `/api/v1/courses`                  | Obtener todos los cursos|
+| POST   | `/api/v1/courses`                  | Crear un nuevo curso    |
+
+---
+
+ Endpoints - Objectives
+
+| Método | Endpoint                              | Descripción              |
+|--------|---------------------------------------|--------------------------|
+| GET    | `/api/v1/objectives/{objectiveId}`    | Obtener un objetivo por ID|
+| PUT    | `/api/v1/objectives/{objectiveId}`    | Actualizar un objetivo    |
+| DELETE | `/api/v1/objectives/{objectiveId}`    | Eliminar un objetivo      |
+| GET    | `/api/v1/objectives`                  | Obtener todos los objetivos|
+| POST   | `/api/v1/objectives`                  | Crear un nuevo objetivo   |
+
+---
+
+Endpoints - Certificates
+
+| Método | Endpoint                                    | Descripción                                       |
+|--------|---------------------------------------------|---------------------------------------------------|
+| POST   | `/api/v1/certificates`                     | Crea un nuevo certificado                         |
+| GET    | `/api/v1/certificates/profile/{profileId}` | Lista todos los certificados de un perfil        |
+| PUT    | `/api/v1/certificates/{id}`                | Actualiza un certificado existente               |
+| DELETE | `/api/v1/certificates/{id}`                | Elimina un certificado por su ID                 |
+
+---
+---
+
+Endpoints - Profile 
+
+| Método | Endpoint                     | Descripción                                       |
+|--------|------------------------------|---------------------------------------------------|
+| POST   | `/api/v1/profiles`           | Crea un nuevo perfil (solo backend/Swagger)      |
+| GET    | `/api/v1/profiles`           | Lista todos los perfiles                         |
+| GET    | `/api/v1/profiles/{id}`      | Recupera la información de un perfil por ID      |
+| PUT    | `/api/v1/profiles/{id}`      | Actualiza un perfil existente por ID             |
+| DELETE | `/api/v1/profiles/{id}`      | Elimina un perfil por su ID (solo backend/Swagger) |
+
+---
+
+ Endpoints - Resources
+
+| Método | Endpoint                                     | Descripción                    |
+|--------|----------------------------------------------|--------------------------------|
+| GET    | `/api/v1/resources/{resourceId}`             | Obtener un recurso por ID      |
+| PUT    | `/api/v1/resources/{resourceId}`             | Actualizar un recurso          |
+| DELETE | `/api/v1/resources/{resourceId}`             | Eliminar un recurso            |
+| GET    | `/api/v1/resources`                          | Obtener todos los recursos     |
+| POST   | `/api/v1/resources`                          | Crear un nuevo recurso         |
+
+---
+
+ Endpoints - Topics
+
+| Método | Endpoint                                     | Descripción                    |
+|--------|----------------------------------------------|--------------------------------|
+| GET    | `/api/v1/topics/{topicId}`                   | Obtener un tema por ID         |
+| PUT    | `/api/v1/topics/{topicId}`                   | Actualizar un tema             |
+| DELETE | `/api/v1/topics/{topicId}`                   | Eliminar un tema               |
+| GET    | `/api/v1/topics`                             | Obtener todos los temas        |
+| POST   | `/api/v1/topics`                             | Crear un nuevo tema            |
+
+---
+
+ Endpoints - Learning Progress
+
+| Método | Endpoint                                     | Descripción                    |
+|--------|----------------------------------------------|--------------------------------|
+| PUT    | `/api/v1/learning-progress/{id}`             | Actualizar progreso            |
+| GET    | `/api/v1/learning-progress`                  | Obtener progreso por userId    |
+
+---
+
+ Endpoints - Users
+
+| Método | Endpoint                                     | Descripción                    |
+|--------|----------------------------------------------|--------------------------------|
+| GET    | `/api/v1/users`                              | Obtener todos los usuarios     |
+| GET    | `/api/v1/users/{userId}`                     | Obtener usuario por ID         |
+
+---
+
+ Endpoints - Authentication
+
+| Método | Endpoint                                     | Descripción                    |
+|--------|----------------------------------------------|--------------------------------|
+| POST   | `/api/v1/authentication/sign-up`             | Sign-up                        |
+| POST   | `/api/v1/authentication/sign-in`             | Sign-in                        |
+
+![Endpoint1](assets/backend/Endpoint1.png)  <!-- ![Nombre de la imagen](ruta dela imagen) nota: imagen del swagger--> 
+
+![Endpoint2](assets/backend/Endpoint2.png)
+
+![Endpoint3](assets/backend/Endpoint3.png)
+
+
+##### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+Documentación técnica de los servicios desarrollados: endpoints, contratos de API, flujos de datos, modelos utilizados, y ejemplos de respuestas esperadas.
+
+Endpoints - Resources
+
+| Recurso  | Acción                | Verbo HTTP | Endpoint                                    | Parámetros                   |
+|----------|-----------------------|------------|---------------------------------------------|------------------------------|
+| Resources | Obtener recurso por ID | GET        | `/api/v1/resources/{resourceId}`             | `resourceId` (path)          |
+| Resources | Actualizar recurso    | PUT        | `/api/v1/resources/{resourceId}`             | `resourceId` (path), body    |
+| Resources | Eliminar recurso      | DELETE     | `/api/v1/resources/{resourceId}`             | `resourceId` (path)          |
+| Resources | Listar todos los recursos | GET    | `/api/v1/resources`                          | Ninguno                      |
+| Resources | Crear recurso         | POST       | `/api/v1/resources`                          | body                         |
+
+Endpoints - Topics
+
+| Recurso  | Acción                | Verbo HTTP | Endpoint                                    | Parámetros                   |
+|----------|-----------------------|------------|---------------------------------------------|------------------------------|
+| Topics   | Obtener tema por ID    | GET        | `/api/v1/topics/{topicId}`                   | `topicId` (path)             |
+| Topics   | Actualizar tema        | PUT        | `/api/v1/topics/{topicId}`                   | `topicId` (path), body       |
+| Topics   | Eliminar tema          | DELETE     | `/api/v1/topics/{topicId}`                   | `topicId` (path)             |
+| Topics   | Listar todos los temas | GET        | `/api/v1/topics`                             | Ninguno                      |
+| Topics   | Crear tema             | POST       | `/api/v1/topics`                             | body                         |
+
+Endpoints - Learning Progress
+
+| Recurso         | Acción                | Verbo HTTP | Endpoint                                    | Parámetros                   |
+|-----------------|-----------------------|------------|---------------------------------------------|------------------------------|
+| Learning Progress | Actualizar progreso  | PUT        | `/api/v1/learning-progress/{id}`             | `id` (path), body            |
+| Learning Progress | Obtener progreso     | GET        | `/api/v1/learning-progress`                  | `userId` (query)             |
+
+Endpoints - Users
+
+| Recurso  | Acción                | Verbo HTTP | Endpoint                                    | Parámetros                   |
+|----------|-----------------------|------------|---------------------------------------------|------------------------------|
+| Users    | Listar todos los usuarios | GET    | `/api/v1/users`                              | Ninguno                      |
+| Users    | Obtener usuario por ID | GET        | `/api/v1/users/{userId}`                     | `userId` (path)              |
+
+Endpoints - Authentication
+
+| Recurso       | Acción  | Verbo HTTP | Endpoint                                     | Parámetros                   |
+|---------------|---------|------------|----------------------------------------------|------------------------------|
+| Authentication | Registro (Sign-up) | POST       | `/api/v1/authentication/sign-up`             | body                         |
+| Authentication | Inicio de sesión (Sign-in) | POST       | `/api/v1/authentication/sign-in`             | body                         |
+
+Endpoints - Courses
+
+| Recurso  | Acción                | Verbo HTTP | Endpoint                                    | Parámetros                   |
+|----------|-----------------------|------------|---------------------------------------------|------------------------------|
+| Courses  | Obtener curso por ID   | GET        | `/api/v1/courses/{courseId}`                 | `courseId` (path)            |
+| Courses  | Actualizar curso       | PUT        | `/api/v1/courses/{courseId}`                 | `courseId` (path), body      |
+| Courses  | Eliminar curso         | DELETE     | `/api/v1/courses/{courseId}`                 | `courseId` (path)            |
+| Courses  | Listar todos los cursos| GET        | `/api/v1/courses`                            | Ninguno                      |
+| Courses  | Crear un nuevo curso   | POST       | `/api/v1/courses`                            | body                         |
+
+Endpoints - Objectives
+
+| Recurso   | Acción                | Verbo HTTP | Endpoint                                    | Parámetros                   |
+|-----------|-----------------------|------------|---------------------------------------------|------------------------------|
+| Objectives | Obtener objetivo por ID | GET       | `/api/v1/objectives/{objectiveId}`           | `objectiveId` (path)         |
+| Objectives | Actualizar objetivo   | PUT        | `/api/v1/objectives/{objectiveId}`           | `objectiveId` (path), body   |
+| Objectives | Eliminar objetivo     | DELETE     | `/api/v1/objectives/{objectiveId}`           | `objectiveId` (path)         |
+| Objectives | Listar todos los objetivos | GET   | `/api/v1/objectives`                         | Ninguno                      |
+| Objectives | Crear un nuevo objetivo | POST     | `/api/v1/objectives`                         | body                         |
+
+Endpoints - Certificates
+
+| Recurso     | Acción                        | Verbo HTTP | Endpoint                                    | Parámetros                       |
+|-------------|-------------------------------|------------|---------------------------------------------|----------------------------------|
+| Certificates| Crear certificado             | POST       | `/api/v1/certificates`                      | body                             |
+| Certificates| Listar certificados de perfil | GET        | `/api/v1/certificates/profile/{profileId}`  | `profileId` (path)               |
+| Certificates| Actualizar certificado        | PUT        | `/api/v1/certificates/{id}`                 | `id` (path), body                |
+| Certificates| Eliminar certificado          | DELETE     | `/api/v1/certificates/{id}`                 | `id` (path)                      |
+
+Endpoints - Profile
+
+| Recurso | Acción                        | Verbo HTTP | Endpoint                     | Parámetros                   |
+|---------|-------------------------------|------------|------------------------------|------------------------------|
+| Profile | Crear perfil                  | POST       | `/api/v1/profiles`           | body                         |
+| Profile | Listar todos los perfiles     | GET        | `/api/v1/profiles`           | Ninguno                      |
+| Profile | Obtener perfil por ID         | GET        | `/api/v1/profiles/{id}`      | `id` (path)                  |
+| Profile | Actualizar perfil             | PUT        | `/api/v1/profiles/{id}`      | `id` (path), body            |
+| Profile | Eliminar perfil               | DELETE     | `/api/v1/profiles/{id}`      | `id` (path)                  |
+
+
+
+#### 5.2.4.7.Software Deployment Evidence for Sprint Review.
+
+# Despliegue del Frontend en Firebase
+
+El frontend del proyecto **EDUnova** fue desplegado en la plataforma **Firebase Hosting**, permitiendo una publicación rápida y segura de la aplicación web. A continuación, se detallan los pasos seguidos durante el proceso de implementación.
+
+```
+ng build
+```
+Luego accedí al sitio web de Firebase: [https://firebase.google.com/](https://firebase.google.com/)  
+Inicié sesión haciendo clic en `sign in` (ubicado en la parte superior derecha) e ingresé con mi cuenta de Google.
+
+Para crear un nuevo proyecto en Firebase seguí estos pasos:
+
+- Ingresé a la consola con `Go to console`.
+- Seleccioné `Add project`.
+- Le asigné el nombre `daos-codigo-learning-center`.
+- Desactivé la opción `Enable Google Analytics for this project`.
+- Presioné `Create project` y esperé hasta que Firebase mostrara el mensaje `Your Firebase project is ready`.
+- Finalmente, hice clic en `Continue`.
+
+Después configuré el servicio de Hosting con los siguientes pasos:
+
+- En el menú lateral, seleccioné `Build` y luego `Hosting`.
+- Hice clic en `Get started`, donde se mostraron las etapas: instalación del CLI, inicialización del proyecto y despliegue.
+- Seguí las instrucciones en el orden indicado.
+
+Desde el terminal, instalé las herramientas necesarias ejecutando:
+```
+npm install -g firebase-tools
+```
+
+A continuación, inicié sesión con:
+```
+firebase login
+```
+
+Cuando el sistema preguntó si quería compartir estadísticas de uso, respondí `n`.  
+Luego, en el navegador, seleccioné mi cuenta de Google, autoricé los permisos y confirmé el mensaje `Firebase CLI Login Successful`.
+
+Después ejecuté la inicialización del proyecto con:
+```
+firebase init
+```
+
+A la pregunta `Allow Firebase to collect CLI and Emulator Suite usage and error reporting information? (Y/n)`, respondi: `n`.
+
+Cargo el Navegador Web con las siguientes indicaciones: 
+- `Choose an account to continue to Firebase CLI`, seleccione la cuenta donde creo el proyecto.
+- `Sign in to Firebase CLI`, haga click en `Continue`.
+- `Firebase CLI wants to access your Google Account`, haga click en `Allow`.
+- Le aparecerá el mensaje: `Firebase CLI Login Successful`.
+- En el Terminal del IDE debe de aparecerle el siguiente mensaje: `Success! Logged in as ....`
+
+En el `Terminal` del IDE ejecute la siguiente instrucción: 
+```
+firebase init
+```
+
+Durante el proceso de configuración, respondí lo siguiente:
+
+- `Are you ready to proceed?` → `Y`
+- Seleccioné: `Hosting: Configure files for Firebase Hosting...` con `space` y confirmé con `enter`.
+- Elegí: `Use an existing project`.
+- Seleccioné el proyecto: `daos-codigo-learning-center`.
+- Como carpeta pública ingresé: `dist/daos-ws53-learning-center/browser`
+- Confirmé que es una SPA con: `Y`
+- Rechacé la configuración automática con GitHub: `N`
+- Y cuando se me preguntó si deseaba sobrescribir el archivo `index.html`, respondí: `n`
+
+Para finalizar el proceso, ejecuté el despliegue con:
+
+
+```
+firebase deploy
+```
+La aplicación quedó publicada correctamente en:
+```
+http://edunova-frontend.web.app
+```
+
+# Despliegue del Backend en Azure App Service
+
+El backend del proyecto **EDUnova** fue desplegado en la plataforma **Azure App Service**, aprovechando los recursos disponibles en la suscripción **Azure for Students**. A continuación, se detallan los pasos seguidos durante el proceso de implementación.
+
+---
+
+## 1. Creación del grupo de recursos
+
+Se creó el grupo de recursos `EDUnova`, que sirve como contenedor lógico para los recursos del proyecto. Este agrupamiento permite una mejor organización, monitoreo y control de costos desde el portal de Azure.
+
+---
+
+## 2. Configuración del App Service
+
+En la sección *App Services* del portal de Azure, se configuró una nueva aplicación web con las siguientes características:
+
+- **Nombre de la aplicación**: `EDUnova` (con sufijo automático para generar un dominio único)
+- **Sistema operativo**: Linux
+- **Plan de App Service**: `ASP-EDUnovab-89ce`
+- **SKU**: Básico (B1) — 1.75 GB de memoria, 1 vCPU
+- **Región**: East US 2
+- **Publicación**: Código
+
+---
+
+## 3. Integración con GitHub
+
+Se habilitó la integración continua a través de **GitHub Actions**, conectando el App Service al repositorio:
+
+
+Esta integración generó un *workflow* automático que permite desplegar la aplicación cada vez que se realiza un *push* al repositorio. La última implementación registrada se completó con éxito, según los registros disponibles en el portal de Azure.
+
+---
+
+## 4. Conexión a base de datos MySQL Flexible
+
+El backend se conecta a una base de datos tipo **Azure Database for MySQL - Flexible Server**, con el identificador `EDUnova-server`. La conexión fue configurada mediante variables de entorno dentro del App Service:
+
+- Se añadió la cadena de conexión en:  
+  `Configuración > Configuración de la aplicación`
+- Se siguió el formato requerido por Entity Framework Core para su correcto reconocimiento desde el backend.
+
+---
+
+## Verificación de funcionamiento
+
+La validación del despliegue se realizó accediendo a la interfaz Swagger de la API, confirmando que los endpoints estaban operativos. Algunos de los endpoints disponibles son:
+
+- `GET /api/v1/certificate`
+- `POST /api/v1/profiles`   
+- `DELETE /api/v1/courses/{courseId}` 
+. . .
+Esto evidenció que la aplicación fue desplegada correctamente y se encuentra funcionando con éxito.
+
+---
+
+#### 5.2.4.8.Team Collaboration Insights during Sprint
+
+BACKEND
+
+![image.png](./assets/backend/backendpro.png)
+<p align="center"><em>Figura 125</em></p>
+
+
+![image.png](./assets/backend/backendpro1.png)
+<p align="center"><em>Figura 126</em></p>
+
+
+FRONTEND
+
+![image.png](./assets/Frontend/frontpro1.png)
+<p align="center"><em>Figura 127</em></p>
+
+
+![image.png](./assets/Frontend/frontpro2.png)
+<p align="center"><em>Figura 128</em></p>
+
+
+LANDING PAGE
+
+![image.png](./assets/Landingpage/landinpro.png)
+<p align="center"><em>Figura 129</em></p>
+
+![image.png](./assets/Landingpage/landinpro1.png)
+<p align="center"><em>Figura 130</em></p>
+
+REPORT
+
+![image.png](./assets/Report/reportpro.png)
+<p align="center"><em>Figura 131</em></p>
+
+
+![image.png](./assets/Report/reportpro1.png)
+<p align="center"><em>Figura 132</em></p>
+
+
 
 ### 5.3. Validation Interviews
 En esta sección se presentan los detalles de las entrevistas de validación realizadas.
@@ -3470,7 +4305,7 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 | Profesión                                                | Estudiante de Ingeniería de Software                                                                                            |
 | Departamento                                             | Lima, Perú                                                                                                                      |
 | Minuto de inicio                                         | 00:00 min                                                                                                                       |
-| Captura de la entrevista                                 |     <img src="assets/segmento 1-1.jpg">                                                                                                                            |
+| Captura de la entrevista                                 |     <img src="assets/segmento 1-1.jpg"><p align="center"><em>Figura 112</em></p>                                                                                                                            |
 | Búsqueda de curso                                        | Es una pagina bastante fácil de entender, muestra imagenes e informacion precisas y optimas para el cliente.                    |
 | Visualización de información del curso                   | Opina que la pagina esta bien redactada respecto a la descripcion de los distintas funciones que tiene la pagina.               |
 | Personalización y adaptación a tus necesidades educativas| Le parece que tomamos un enfoque básico que ayuda al usuario a realizar sus actividades sin muchas complicaciones               |
@@ -3486,7 +4321,7 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 | Profesión                                                | Estudiante de Economia                                                                                            |
 | Departamento                                             | Lima, Perú                                                                                                                      |
 | Minuto de inicio                                         | 08:15 min                                                                                                                       |
-| Captura de la entrevista                                 |     <img src="assets/segmento 1-2.jpg">                                                                                                                            |
+| Captura de la entrevista                                 |     <img src="assets/segmento 1-2.jpg"><p align="center"><em>Figura 113</em></p>                                                                                                                            |
 | Búsqueda de curso                                        | La página es sencilla y fácil de navegar; la información está bien organizada.                    |
 | Visualización de información del curso                   | Opina que la pagina esta perfectamente estruturada y facil de entender la informacion que presenta.               |
 | Personalización y adaptación a tus necesidades educativas| Ve que es una herramienta facil que facilita al estudiante a encontrar mas informacion respecto a cursos que se le complican.               |
@@ -3501,7 +4336,7 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 | Profesión                                               | Estudiante de ingenieria civil                                                                                                                           |
 | Departamento                                            | Lima, Perú                                                                                                                                           |
 | Minuto de inicio                                        | 6:38 min                                                                                                                                            |
-| Captura de la entrevista                                | <img src="assets/entrevistaRenzo.png">                                                                                                   |
+| Captura de la entrevista                                | <img src="assets/entrevistaRenzo.png"><p align="center"><em>Figura 113</em></p>                                                                                                   |
 | Búsqueda de curso                                    | Comenta que le gusto navegar y se le hizo facil entender y encontrar un curso de su agrado.                                              |
 | Visualización de información del curso               | Opina que es intuitiva el uso de la aplicacion, por lo que puede ver la informacion del curso rapidamente.                                                                       |
 | Personalización y adaptación a tus necesidades educativas	                                   | Considera que la aplicacion tiene las herramientas necesarias para que muchas personas puedan publicar sus cursos, en otras palabras tendra mas opciones para comprar.                                    |
@@ -3518,7 +4353,7 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 | **Profesión**                      | Coordinadora                                                                                          |
 | **Departamento**                   | Lima, Perú                                                                                                             |
 | **Minuto de inicio**               | 29:11 min                                                                                                              |
-| Captura de la entrevista           |      <img src="assets/segmento 2-1.jpg">                                                                                                                      |
+| Captura de la entrevista           |      <img src="assets/segmento 2-1.jpg"><p align="center"><em>Figura 114</em></p>                                                                                                                   |
 | **Interacción con la landing page**   | A primera vista, una pagina bien lograda que me da informacion rápida y justa. |
 | **Interfaz y flujo de trabajo:**      | Me gusta la manera en que se muestran las secciones de la pagina, es bastante fácil de entender y manipular. |
 | **Creación de contenido educativo**   | Encuentra primordial el que la creación de su contenido sea tan flexible como se le permita. |
@@ -3534,7 +4369,7 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 | **Profesión**                      | Ingeniero de Software                                                                                                   |
 | **Departamento**                   | Lima, Perú                                                                                                              |
 | **Minuto de inicio**               | 30:56 min                                                                                                               |
-| Captura de la entrevista           | <img src="assets/entrevistaSebastian.png">                                                                                     |
+| Captura de la entrevista           | <img src="assets/entrevistaSebastian.png"><p align="center"><em>Figura 115</em></p>                                                                                     |
 | **Impresión general**              | Considera que la página tiene un diseño profesional y bien estructurado.                                               |
 | **Confianza y disposición de pago**| Le gustó la experiencia y mencionó que estaría dispuesto a pagar por publicar sus propios cursos en la plataforma.     |
 | **Interfaz y navegación**          | La navegación le pareció clara, rápida y sin fricciones. Le agradó la forma en que se organizan los módulos.           |
@@ -3550,7 +4385,7 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 | **Profesión**                       | Dueño de centro de belleza independiente                                                                                              |
 | **Departamento**                    | Lima, Perú                                                                                                         |
 | **Minuto de incio**                     | 31:41 min                                                                                                              |
-| Captura de la entrevista            |      <img src="assets/segmento 2-3.png">                                                                                                                      |
+| Captura de la entrevista            |      <img src="assets/segmento 2-3.png"><p align="center"><em>Figura 116</em></p>                                                                                                                      |
 | **Visualización de Perfil**         | Considera que el perfil es claro y fácil de leer, aunque cree que añadir una breve descripción o imagen destacada junto a cada servicio lo haría más atractivo. |
 | **Manejo de servicios**             | Encuentra sencillo el proceso de crear servicios, pero preferiría poder hacer cambios rápidos desde la lista general, sin necesidad de editar cada servicio por separado. |
 | **Gestión de reservas**             | Comenta que la gestión de reservas es práctica, aunque le gustaría tener un tablero de control que muestre un resumen de las reservas activas. |
@@ -3635,7 +4470,7 @@ La tabla de resumen muestra los problemas identificados, su nivel de severidad y
 |--------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Resumen del Video**                | Se muestra una descripción general del modelo de negocio y las principales características del mismo, por otro lado, se muestra un recorrido por la aplicación y las acciones que se pueden realizar en la misma.                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | **Pauta de Secuencias de Contenido** | **00:00:00**: Introducción <br> **00:00:05**: Landing Page <br> **00:00:15**: Perfil del usuario <br> **00:00:25**: Crear cursos <br> **00:00:34**: Bandeja de cursos comprados o creados <br> **00:00:42**: About <br> **00:00:47**: Testimonios                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| **Cuadro de Video Representativo**   | <img src="assets/About-the-Product.png" alt="Descripción de la imagen" width="300" height="200">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Cuadro de Video Representativo**   | <img src="assets/About-the-Product.png" alt="Descripción de la imagen" width="300" height="200"> <p align="center"><em>Figura 117</em></p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | **URL del Video**                    | **Microsoft Stream**: [Link de acceso](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113111_upc_edu_pe/EfIjq39RJD1BqIGqNZfovpQBEOfBnZk-HSxZZ3LGXQYULQ?e=Yv26fu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) <br/> **Youtube**:[Link de acceso](https://youtu.be/ScQnf9z0pm0) |
 
 ## Conclusiones
