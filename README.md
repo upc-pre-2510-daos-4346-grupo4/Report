@@ -4149,6 +4149,9 @@ El backend se conecta a una base de datos tipo **Azure Database for MySQL - Flex
 
 La validación del despliegue se realizó accediendo a la interfaz Swagger de la API, confirmando que los endpoints estaban operativos. Algunos de los endpoints disponibles son:
 
+- `GET /api/v1/certificate`
+- `POST /api/v1/profiles`   
+- `DELETE /api/v1/courses/{courseId}` 
 . . .
 Esto evidenció que la aplicación fue desplegada correctamente y se encuentra funcionando con éxito.
 
